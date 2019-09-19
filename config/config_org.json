@@ -3,17 +3,17 @@
    "webSite": "",
    "logoUrl": "",
 
-   "dataUrl": "../data/VercelliBook.xml",
+   "dataUrl": "../evt-demo/data/VercelliBook.xml",
    "sourcesUrl"       : "",
    "analoguesUrl"     : "",
    "sourcesTextsUrl" : "",
 
-   "singleImagesUrl": "../data/immagini/singole/",
+   "singleImagesUrl": "../evt-demo/data/immagini/singole/",
    "visCollTextUrl": "",
    "visCollStyleUrl": "",
-   "visCollSvg": "../data/visColl/SVG/",
-   "visCollImageList": "../data/visColl/VBImageList.xml",
-   "visCollDataModel": "../data/visColl/dataModel2VBComplete.xml",
+   "visCollSvg": "../evt-demo/data/visColl/SVG/",
+   "visCollImageList": "../evt-demo/data/visColl/VBImageList.xml",
+   "visCollDataModel": "../evt-demo/data/visColl/dataModel2VBComplete.xml",
 
    "defaultViewMode": "readingTxt",
    "availableViewModes": [{
