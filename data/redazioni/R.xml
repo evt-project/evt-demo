@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>R</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name xml:id="eugenio">Eugenio Burgio</name>
+               <name xml:id="samuela">Samuela Simion</name>
+            </respStmt>
+            <respStmt>
+               <resp>Text Encoding by</resp>
+               <name xml:id="chiara">Chiara Martignano</name>
+               <name xml:id="elisa">Elisa Cugliana</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="v_R_body" xml:lang="it">
+         <div type="volume" n="2" xml:id="R2" corresp="#c105_tr105">
+
+            <!-- IMPORTANTE: In P e in R c'è un ulteriore livello, ovvero il 
+            volume: per il momento ho usato sempre un <div> generico specificando il @type. Ma credo se ne 
+            debba tenere presente a livello di XPath per es. (elisa) -->
+
+            <div type="chapter" n="28" xml:id="c105_R2.28">
+               <head>Delle conditioni della città di <placeName>Gouza</placeName>. Cap. 28.</head>
+               <p n="1" xml:id="c105_R2.28_par1"><seg n="1" xml:id="c105_R2.28_p1">Partendosi da
+                     questo ponte et andando per trenta <term ref="#mil">miglia</term> alla banda di
+                        <term>ponente</term>, trovando di continuo palazzi, vigne et campi
+                     fertilissimi, si trova una città nominata <placeName ref="#giugiu"
+                        >Gouza</placeName>, molto bella et molto grande, nella qual sono molte
+                     abbacie di <term ref="#ydres">idoli</term>, le cui genti vivono di mercantie et
+                     arti.</seg>
+                  <seg n="2" xml:id="c105_R2.28_p2">Ivi si lavorano <term>panni</term>
+                        d’<term>oro</term> et di <term>seda</term> et belli veli sottilissimi, et
+                     sonvi molti alloggiamenti per i viandanti.</seg>
+                  <seg n="3" xml:id="c105_R2.28_p3">Partendosi da questa città et andando per un
+                        <term ref="#mil">miglio</term> si trovano due vie, una delle quali va verso
+                        <term>ponente</term>, l’altra verso <term>sirocco</term>: per la via di
+                        <term>ponente</term> si va per la provincia del
+                        <placeName>Cataio</placeName>, per la via di <placeName>sirocco</placeName>
+                     alla provincia di <placeName>Mangi</placeName>.</seg>
+                  <seg n="4" xml:id="c105_R2.28_p4">Et sappiate che dalla città di <placeName
+                        ref="#giugiu">Gouza</placeName> fino al regno di <placeName ref="#taianfu"
+                        >Tainfu</placeName> si cavalca per la provincia del
+                        <placeName>Cataio</placeName> dieci giornate, sempre trovando molte belle
+                     città et castella, fornite di grandi arti et mercantie, et trovando vigne et
+                     campi lavorati: et de qui si porta il nella provincia del
+                        <placeName>Cataio</placeName>, perché in quella non vi nasce
+                        <term>vino</term>; vi sono ancho molti alberi <term>mori</term>, che con la
+                     foglia sua gli habitanti fanno di gran <term>seda</term>.</seg>
+                  <seg n="5" xml:id="c105_R2.28_p5">Tutte quelle genti sono domestiche, per la
+                     moltitudine delle città poco discoste l’una dall’altra et frequentatione che
+                     fanno gli habitanti di quelle, perché sempre vi si trovano genti che passano,
+                     per le molte mercantie che si portano continuamente d’una città all’altra; et
+                     in cadauna di quelle si fanno le ferie.</seg>
+                  <seg n="6" xml:id="c105_R2.28_p6">Et in capo di cinque giornate delle predette
+                     dieci, dicono esservi una città piú bella et maggior dell’altre chiamata
+                        <placeName ref="#achbaluch">Achbaluch</placeName>, fino alla quale verso
+                     quella parte confina il termine della cacciagione del signore, dove niuno
+                     ardisce di andar alla <term>caccia</term>, eccetto il signore con la sua
+                     famiglia et chi è scritto sotto il capitano de’ falconieri; ma da quel termine
+                     innanzi può andarvi, pur che sia nobile.</seg>
+                  <seg n="7" xml:id="c105_R2.28_p7">Nondimeno quasi mai il <persName ref="#cublai"
+                        >Gran Can</persName> non andava alla <term>caccia</term> per quella banda,
+                     per la qual cosa gli animali salvatichi erano tanto accresciuti et
+                     moltiplicati, et specialmente le <term>lepori</term>, che guastavano le biade
+                     di tutta la detta provincia; la qual cosa fatta intendere al <persName
+                        ref="#cublai">Gran Can</persName>, v’andò con tutta la corte, et furon presi
+                     animali senza numero.</seg>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

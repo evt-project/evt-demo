@@ -1,0 +1,183 @@
+{
+
+    "indexTitle": "Marco Polo Digitale",
+    "webSite": "",
+    "logoUrl": "",
+    "defaultLanguage": "en",
+
+	"dataUrl": "data/main1.xml",
+    "sourcesUrl"       : "",
+    "analoguesUrl"     : "",
+    "sourcesTextsUrl" : "",
+
+    "defaultViewMode": "readingTxt",
+	"availableViewModes": [{
+                                "label"    : "READING_TEXT",
+                                "icon"     : "reading-txt",
+                                "viewMode" : "readingTxt",
+                                "visible"  : true
+                            },
+                            {
+                                "label"    : "MULTIPLE_RECENSIONS",
+                                "icon"     : "mode-versions",
+                                "viewMode" : "versions",
+                                "visible"  : false
+                            },
+                            {
+                                "label"    : "IMAGE_TEXT",
+                                "icon"     : "mode-imgTxt",
+                                "viewMode" : "imgTxt",
+                                "visible"  : false
+                            },
+                            {
+                                "label"    : "TEXT_TEXT",
+                                "icon"     : "mode-txtTxt",
+                                "viewMode" : "txtTxt",
+                                "visible"  : false
+                            },
+                            {
+                                "label"    : "COLLATION",
+                                "icon"     : "mode-collation",
+                                "viewMode" : "collation",
+                                "visible"  : true
+                            },
+                            {
+                                "label"    : "SOURCE_TEXT",
+                                "icon"     : "mode-srcTxt",
+                                "viewMode" : "srcTxt",
+                                "visible"  : false
+                            }],
+    "defaultEdition": "critical",
+    "showEditionLevelSelector": false,
+
+    "availableEditionLevel": [{
+        "value": "critical",
+        "label": "Critical",
+        "title": "Critical edition",
+        "visible": true
+    }, {
+        "value": "diplomatic",
+        "label": "Diplomatic",
+        "title": "Diplomatic edition",
+        "visible": false
+    }, {
+        "value": "interpretative",
+        "label": "Interpretative",
+        "title": "Interpretative edition",
+        "visible": false
+    }],
+
+    "mainDocId": "tr",
+
+    "enableXMLdownload" : true,
+    "downloadableFiles": [
+		{
+			"title": "Translated Critical Text",
+			"formats": {
+				"pdf": "data/download/Edizione_critica.pdf",
+                "xml": "data/trad.xml",
+                "txt": "data/download/Edizione_critica.txt"
+			}
+		},
+		{
+			"title": "Version F",
+			"formats": {
+				"pdf": "data/download/Redazione_F.pdf",
+                "xml": "data/redazioni/F.xml",
+                "txt": "data/download/Redazione_F.txt"
+			}
+		}
+	],
+
+    "toolPinAppEntries": true,
+    "toolImageTextLinking": true,
+    "namedEntitiesSelector": true,
+
+    "namedEntitiesToHandle": [{
+        "tagName": "persName",
+        "label": "Persons",
+        "available": true
+    },{
+        "tagName": "placeName",
+        "label": "Places",
+        "available": true
+    },{
+        "tagName": "term",
+        "label": "Realia",
+        "available": true
+    }],
+
+    "otherEntitiesToHandle": [],
+
+    "listsMainContentDef": "<back>",
+
+    "toolHeatMap": true,
+    "preferredWitness": "",
+    "skipWitnesses": "",
+
+	"listDef": "<listWit>, <listChange>",
+	"versionDef": "<witness>, <change>",
+	"fragmentMilestone": "<witStart>, <witEnd>",
+	"lacunaMilestone": "<lacunaStart>, <lacunaEnd>",
+	"possibleVariantFilters": "",
+	"possibleLemmaFilters": "resp",
+	"notSignificantVariant": "<orig>, <sic>, [type=orthographic]",
+
+	"maxWitsLoadTogether": 5,
+
+    "showDocumentSelector": true,
+
+	"variantColors": {
+		"type": {
+			"lessicographic": "rgb(108, 145, 207)",
+			"orthographic": "rgb(91, 204, 203)",
+			"punctuation": "rgb(248, 253, 136)",
+			"spelling": "rgb(255, 117, 118)",
+			"grammatical": "rgb(229, 103, 175)",
+			"lexical": "rgb(171, 104, 206)",
+			"repetition": "rgb(132, 113, 209)",
+			"transposition": "rgb(255, 192, 126)",
+			"other": "rgb(100, 230, 121)"
+		},
+		"cause": {
+			"unknown": "rgb(125, 125, 125)"
+		}
+	},
+
+	"variantColorLight": "",
+	"variantColorDark": "",
+	"heatmapColor": "",
+
+    "versions" : [],
+    "witnessesGroups": [ ],
+
+    "quoteDef"              : "",
+    "analogueDef"           : "",
+
+    "showReadingExponent": true,
+
+    "showInlineCriticalApparatus": false,
+    "showInlineSources": false,
+    "showInlineAnalogues": false,
+
+    "defaultBibliographicStyle": "Chicago",
+	"allowedBibliographicStyles": {
+		"Chicago": {
+			"label": "Chicago",
+			"enabled": true
+		},
+		"APA": {
+			"label": "APA",
+			"enabled": true
+		},
+		"MLA": {
+			"label": "MLA",
+			"enabled": true
+		}
+    },
+    "biblRefDef": "<ref[type=biblio]>",
+
+   "virtualKeyboardKeys": [],
+
+    "languages": ["en", "it"]
+}

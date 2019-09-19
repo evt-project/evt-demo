@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital Marco Polo: critical translation</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name xml:id="eugenio">Eugenio Burgio</name>
+               <name xml:id="samuela">Samuela Simion</name>
+            </respStmt>
+            <respStmt>
+               <resp>Text Encoding by</resp>
+               <name xml:id="elisa">Elisa Cugliana</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F"></witness>
+               <witness xml:id="Fr"></witness>
+               <witness xml:id="K"></witness>
+               <witness xml:id="Kc"></witness>
+               <witness xml:id="L"></witness>
+               <witness xml:id="P"></witness>
+               <witness xml:id="R"></witness>
+               <witness xml:id="TA"></witness>
+               <witness xml:id="TB"></witness>
+               <witness xml:id="V"></witness>
+               <witness xml:id="VA"></witness>
+               <witness xml:id="VB"></witness>
+               <witness xml:id="Z"></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <variantEncoding method="double-end-point" location="internal"/>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text xml:id="tr" type="Translated_critical_text">
+            <body>
+               <div type="chapter" n="105" xml:id="c105_tr105">
+                  <p n="1" xml:id="c105_tr105_par1">
+                     <seg n="1" xml:id="c105_tr105_p1">Here is told of the great city of <placeName
+                        ref="#giugiu">Juju</placeName>.
+                     <app from="#c105_tr105_p1">
+                        <rdg wit="#F">VARIANTE DI F</rdg>
+                        <rdg wit="#K">VARIANTE DI K</rdg>
+                        <note>
+                           <ref type="witlink" target="#c105_F105">F 105</ref> (<quote>Ci devise de la
+                              grant cité de <placeName ref="#giugiu">Giugiu</placeName></quote>); <ref
+                                 type="witlink"><!-- manca il target -->Fr 105</ref> (<quote>Ci devise de
+                                    la grant cité de <placeName ref="#giugiu">Gingui</placeName></quote>);
+                           <ref type="witlink" target="#MP_listAppc105_K35">K 35</ref>; <ref
+                              type="witlink">L 85</ref> (<quote>De civitate <placeName ref="#giugiu"
+                                 >Giogiu</placeName></quote>); <ref type="witlink"
+                                    target="#c105_R2.28">R II 28</ref> (<quote>Delle condizioni della città
+                                       di <placeName ref="#giugiu">Gouza</placeName></quote>);
+                           <!-- come creare collegamento ad un intervallo di pericopi? Va bene così o c'è un metodo più veloce? --><ref
+                              type="witlink"
+                              target="#c105_V50_p6 #c105_V50_p7 #c105_V50_p8 #c105_V50_p9 #c105_V50_p10"
+                              >V 50 6-10</ref> (<quote>Qui chomenza dela gran provinzia del
+                                 <placeName>Chataio</placeName>, e primieramente del flume
+                                 <placeName>Palisangin</placeName></quote>); <ref type="witlink"
+                                    target="#c105_VA84">VA 84</ref> (<quote>Della zità de <placeName
+                                       ref="#giugiu">Grongi</placeName> e della provinzia de
+                                       <placeName>Catai</placeName></quote>); <ref type="witlink"
+                                          target="#c105_P2.28">P II 28</ref> (<quote>Brevis quedam descriptio
+                                             partis unius provincie <placeName>Cathay</placeName>. Capitulum
+                                             XXVIII</quote>); <ref type="witlink"
+                                                target="#c105_TB47_p1 #c105_TB47_p2 #c105_TB47_p3 #c105_TB47_p4 #c105_TB47_p5"
+                                                >TB 47 1-5</ref>; <ref type="witlink" target="#c105_VB74">VB 74</ref>;
+                           <ref type="witlink" target="#c105_TA105">TA 105</ref> (<quote>De la
+                              grande città del <placeName ref="#giugiu">Giogui</placeName></quote>);
+                           <ref type="witlink" target="#c105_Z47">Z 47</ref>. The description of
+                           the territories between the <placeName>Pulisanghin</placeName> bridge and
+                           the kingdom of <placeName ref="#taianfu">Taianfu</placeName> has a rather
+                           similar content in all the witnesses up to <ref type="witlink"
+                              target="#MP_listAppc105_tr105_p6">DM 105 6</ref>
+                           <quote>«and beautiful vineyards»</quote> (= <ref type="witlink"
+                              target="#c105_tr105_p6">F 105 6</ref>
+                           <quote>«bielle vingnes»</quote>); from this <hi rend="italic">locus</hi> on,
+                           the witnesses are clearly divided, as to to their content, into two groups:
+                           the α branch retains a text which substantially coincides with F; the branch
+                           β provides (a) a more detailed explanation of the friendly character of the
+                           people (see <ref type="witlink" target="#c105_R2.28_p5">R II 28 5</ref>, and
+                           partly – because the Toledo copy is abbreviated – <ref type="witlink"
+                              target="#c105_Z47_p7 #c105_Z47_p8">Z 47 7-8</ref>) and (b) the
+                           description of the city «<placeName ref="#achbaluch">Achbaluch</placeName>»
+                           and of <persName ref="#cublai">Khublai Khan</persName>’s <term>hunting
+                              estate</term>. (b) is a section testified in detail only by <ref
+                                 type="witlink" target="#c105_R2.28_p6 #c105_R2.28_p7">R II 28 6-7</ref>;
+                           its quality as witness of the original DM text is confirmed by the presence
+                           of the name «<placeName ref="#achbaluch">Hachbaluch</placeName>» in Fra’
+                           Mauro’s Mappamundi (1550ca.): both Ramusio the Camaldolese monk could use,
+                           in this case, a complete (or at least, less abbreviated than Z<hi
+                              rend="superscript">to</hi>) copy of the Latin Z redaction. See <ref
+                                 type="bibl">Burgio (2014)</ref>, whose discussion is used in the
+                           commentary to this chapter. The text of the ch. 105 is thus reconstructed
+                           thanks to the junction on the F text – witness of α – of R paragraphs 5-7.
+                        </note>
+                     </app>
+                    </seg>
+                  </p>
+                  <p n="2" xml:id="c105_tr105_par2">
+                     <seg n="2" xml:id="c105_tr105_p2">When one leaves this bridge and has gone thirty
+                        <term ref="#mil">miles</term> to the west, always finding fine hostelries and
+                        vineyards and fields, then one finds a great and beautiful city which is called
+                        <placeName ref="#giugiu">Juju</placeName>.</seg>
+                     <seg n="3" xml:id="c105_tr105_p3">There are many abbeys of <term ref="#ydres">idolaters</term>.
+                        The people live by trade and manufactures. They make
+                        <term>cloths</term> of <term>silk</term> and <term>gold</term>, and very fine
+                        <term>"sendals"</term>. And there are many hostelries <anchor xml:id="anchor3"/> that offer accommodation
+                        to the travellers.                     
+                     <app from="#anchor3">
+                        <lem>LEMMA</lem>
+                        <rdg wit="F">VARIANTE DI F</rdg>
+                     </app>
+                     </seg>
+                     <seg n="4" xml:id="c105_tr105_p4">And when one has left this city and gone one
+                        <term>mile</term>, then one finds <anchor xml:id="anchor1"/> two roads: one of which goes to the
+                        <term>west</term>, and the other to <term>south-east</term>.</seg>
+                     <seg n="5" xml:id="c105_tr105_p5">The westerly one is that of
+                        <placeName>Cathay</placeName> and <anchor xml:id="anchor2"/> the <term>south east</term> one goes towards
+                        the great province of <placeName>Mangi</placeName>.</seg>
+                     <seg n="6" xml:id="c105_tr105_p6">And you must know that, from the city of
+                        <placeName ref="#giugiu">Juju</placeName> to the realm of
+                        <placeName ref="#taianfu">Taianfu</placeName>, one rides through the province of
+                        <placeName>Cathay</placeName> for ten days, and one always finds many beautiful
+                        cities and boroughs, with much trade and industry, vineyards and fields. And from
+                        here the wine is carried into the province of <placeName>Cathay</placeName>,
+                        because wine is not produced there. And there are also many <term>mulberry
+                           trees</term>, from the leaves of which the inhabitants make much
+                        <term>silk</term>.</seg>
+                     <seg n="7" xml:id="c105_tr105_p7">All these people are friendly, because of the great
+                        number of cities, which are not very far from one another: they are highly
+                        frequented because of the many merchandises which are continually carried from one
+                        city to the other; and in each of them fairs are held.</seg>
+                     <seg n="8" xml:id="c105_tr105_p8">And at the end of a five-day journey of the
+                        foresaid ten, they say that there is a finer and larger city than the others,
+                        called <placeName ref="#achbaluch">Achbaluch</placeName>, where end, in this side,
+                        the <term>hunting preserves</term> of the Lord. Here no one dares go hunting
+                        except the <persName ref="#cublai" type="appellation">Lord</persName> with his
+                        family, and those who are in the roll of the Captain of the Falconers; but, beyond
+                        this limit everyone may go <term>hunting</term>, on condition that he is a
+                        nobleman.
+                     <app from="#c105_tr105_p8">
+                        <lem>LEMMA</lem>
+                        <rdg wit="#F">VARIANTE DI F</rdg>
+                        <rdg wit="#K">VARIANTE DI K</rdg>
+                        <note> Paragraphs 8-9 are based on <ref type="witlink"
+                           target="#c105_R2.28_p6 #c105_R2.28_p7">R II 28 6-7</ref>
+                           <quote>«Et in capo di cinque giornate delle predette dieci, dicono esservi
+                              una città piú bella et maggior dell’altre chiamata <placeName
+                                 ref="#achbaluch">Achbaluch</placeName>, fino alla quale verso quella
+                              parte confina il termine della cacciagione del signore, dove niuno
+                              ardisce di andar alla <term>caccia</term>, eccetto il signore con la sua
+                              famiglia et chi è scritto sotto il capitano de’ falconieri; ma da quel
+                              termine innanzi può andarvi, pur che sia nobile. Nondimeno quasi mai il
+                              <persName ref="#cublai">Gran Can</persName> non andava alla
+                              <term>caccia</term> per quella banda, per la qual cosa gli animali
+                              salvatichi erano tanto accresciuti et moltiplicati, et specialmente le
+                              <term>lepori</term>, che guastavano le biade di tutta la detta
+                              provincia; la qual cosa fatta intendere al <persName ref="#cublai">Gran
+                                 Can</persName>, v’andò con tutta la corte, et furon presi animali
+                              senza numero».</quote> Ramusio’s testimony represents a double <hi
+                                 rend="italic">hapax</hi> in the history of Western voyage literature
+                           concerning Asia between the XIIth and XVth centuries. In fact, no other DM
+                           witness and no other travel report mention the existence of «<placeName
+                              ref="#achbaluch">Achbaluch</placeName>» and of the hunting preserves of
+                           <persName ref="#cublai">Khublai</persName> (see the bibliography in <ref
+                              type="bibl">Burgio 2014, 360 n. 3</ref>). The description, though, is
+                           authentic and original (<ref type="bibl">Pelliot 1959-1973, 9 nm. 5</ref>),
+                           because the name – «<placeName ref="#achbaluch">Hachbaluch</placeName>» –
+                           also appears in the great <hi rend="italic">Mappamundi</hi> of the Venetian
+                           monk Fra’ Mauro (1550ca.), exactly in the area described by DM. It is highly
+                           likely that, for this detail, the monk could use a copy of Z which was more
+                           complete than Z<hi rend="superscript">to</hi>, and was perhaps the same copy
+                           used by Ramusio in the drafting of the chapter. See <ref type="bibl"
+                              >Falchetta (2006, FM *2306)</ref>, <ref type="bibl">Gasparrini Leporace
+                                 (1954, pl. XXXII)</ref> and <ref type="bibl">Burgio (2014,
+                                    370-373)</ref>. </note>
+                     </app>
+                     </seg>
+                     <seg n="9" xml:id="c105_tr105_p9">The <persName ref="#cublai" type="appellation">Great Kaan</persName>,
+                        however hardly ever went <term>hunting</term> in those
+                        parts: and for this reason the wild animals increased and multiplied to such an
+                        extent, and especially the <term>hares</term>, that they destroyed the crops of
+                        the whole of the foresaid province. When the
+                        <persName ref="#cublai" type="appellation">Great Kaan</persName>
+                        was informed of this, he went there
+                        with all his court, and an incalculable number of animals were caught.</seg>
+                     <seg n="10" xml:id="c105_tr105_p10">There is nothing else worth mentioning: so, we
+                        shall tell you nothing more, we shall leave this matter and tell you of a kingdom
+                        which is called <placeName ref="#taianfu">Taianfu</placeName>.
+                     <app from="#c105_tr105_p10">
+                        <rdg wit="#F">VARIANTE DI F</rdg>
+                        <rdg wit="#K">VARIANTE DI K</rdg>
+                        <note> It seems very likely that the chapter could end with this <hi
+                           rend="italic">transitio</hi>, for two reasons: (a) the use of a sentence
+                           that indicates the end of the information about the object of the chapter
+                           (<quote>«There is nothing else worth mentioning: so, we shall tell you
+                              nothing more»</quote>) and announces the new topic (<quote>«we shall
+                                 leave this matter and tell you of a kingdom which is called <placeName
+                                    ref="#taianfu">Taianfu</placeName>»</quote>) is current in DM; (b)
+                           the sentence is attested by important witnesses of α: <ref type="witlink"
+                              target="#c105_V50_p10">V 50 10</ref> (partially) <quote>«Or in questo
+                                 luogo non sono chosse da dir, et inperzò non diremo, ma diremo de altre
+                                 chosse»</quote>, and, in δ group, <ref type="witlink"
+                                    target="#c105_F105_p7 #c105_F105_p8">F 105 7-8</ref>
+                           <quote>«N’i a chouses qe a mentovoir face: por ce ne voç en diron rien. Et
+                              adonc laiseron de ceste maitiere et voç conteron de un roiame que
+                              <placeName ref="#taianfu">Taianfu</placeName> est appellés»</quote>,
+                           <ref type="witlink" target="#c105_Fr105_p7">Fr 105 7</ref>
+                           <quote>«Mais, pour ce qu’il n’y a chose qui a conter face, ne vous en diray
+                              ore riens. Si vous conteray d’un royaume qui <placeName ref="#taianfu"
+                                 >Taianfu</placeName> est appellés»</quote>, <ref type="witlink"
+                                    target="#c105_TA105_p8">TA 105 8</ref>
+                           <quote>«Quivi nonn-à altro a ricordare; però ci partiremo di quie, ed
+                              anderemo ad uno reame chiamato <placeName ref="#taianfu"
+                                 >Taiamfu</placeName>»</quote>; and even if Z and <ref type="witlink"
+                                    target="#c105_R2.28_p7">R II 28 7</ref> do not keep any sign of it, the
+                           most important information in the sentence – the quotation of «<placeName
+                              ref="#taianfu">Taianfu</placeName>» – was present in Z, since it is
+                           anticipated in <ref type="witlink" target="#c105_Z47_p6">Z 47 6</ref>
+                           <quote>«Et noveritis quod <hi rend="italic">a civitate
+                              <placeName>Çonçu</placeName> usque ad regnum <placeName
+                                 ref="#taianfu">Tayanfu</placeName></hi> equitatur per provinciam
+                              <placeName>Cathay</placeName> .X. dietis […]»</quote> (<hi
+                                 rend="italic">vs</hi> the other witnesses, which do not say anything
+                           other than <ref type="witlink" target="#c105_F105_p6">F 105 6</ref>
+                           <quote>«Et sachiés tout voiremant qe l’en chevauche por <term>ponent</term>
+                              por la provence dou <placeName>Catai</placeName> bien .X. jornee
+                              […]»</quote>: see <ref type="bibl">Burgio 2014, 363-364</ref>) – and
+                           hence the name «<placeName>Taianfu</placeName>» had to be attested in this
+                           chapter in the original DM. Finally, it should be noticed that the <hi
+                              rend="italic">transitio</hi> is broken into two parts in <hi
+                                 rend="italic">Livre</hi> 123 4 and 5: the first one (<quote>«Il n’y a
+                                    rien d’autre qui mérite d’être rapporté»</quote>) introduces the
+                           description of «<placeName ref="#achbaluch">Acbaluc</placeName>»; the second
+                           one closes the chapter (<quote>«Et maintenant nous laisserons ce sujet et
+                              nous vous parleron d’un royaume appelé <placeName ref="#taianfu"
+                                 >Taiyuanfou</placeName>»</quote>); the same choice is found in <ref
+                                    type="bibl">Benedetto (1931, 169)</ref> &lt; <ref type="bibl">Benedetto
+                                       (1932, 174)</ref>. </note>
+                     </app>
+                     </seg>
+                  </p>
+               </div>
+            </body>      
+         </text>
+         <text xml:id="v_F" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/F.xml" xpointer="v_F_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione F
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+         <text xml:id="v_K" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/K.xml" xpointer="v_K_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione K
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+         <text xml:id="v_Kc" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/Kc.xml" xpointer="v_Kc_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione Kc
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+         <text xml:id="v_L" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/L.xml" xpointer="v_L_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione L
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+         <text xml:id="v_P" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/P.xml" xpointer="v_P_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione P
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+         <text xml:id="v_R" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/R.xml" xpointer="v_R_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione R
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+         <text xml:id="v_TA" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/TA.xml" xpointer="v_TA_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione TA
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+         <text xml:id="v_TB" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/TB.xml" xpointer="v_TB_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione TB
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+         <text xml:id="v_V" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/V.xml" xpointer="v_V_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione V
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+         <text xml:id="v_VA" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/VA.xml" xpointer="v_VA_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione VA
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+         <text xml:id="v_VB" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/VB.xml" xpointer="v_VB_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione VB
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+         <text xml:id="v_Z" type="witness">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="redazioni/Z.xml" xpointer="v_Z_body">
+               <xi:fallback>
+                  <body>
+                     <p>
+                        <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        Redazione Z
+                     </p>
+                  </body>
+               </xi:fallback>
+            </xi:include>
+         </text>
+      </group>
+      <back>
+         <!-- Realia -->
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="realia.xml" xpointer="lists">
+            <xi:fallback>
+               <body>
+                  <p>
+                     <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                     Realia
+                  </p>
+               </body>
+            </xi:fallback>
+         </xi:include>
+         <!-- Bibliografia -->
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="bibliografia.xml" xpointer="MP_listBibl">
+            <xi:fallback>
+               <body>
+                  <p>
+                     <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                     Bibliografia
+                  </p>
+               </body>
+            </xi:fallback>
+         </xi:include>
+      </back>
+   </text>
+</TEI>

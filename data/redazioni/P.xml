@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name xml:id="eugenio">Eugenio Burgio</name>
+               <name xml:id="samuela">Samuela Simion</name>
+            </respStmt>
+            <respStmt>
+               <resp>Text Encoding by</resp>
+               <name xml:id="chiara">Chiara Martignano</name>
+               <name xml:id="elisa">Elisa Cugliana</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="v_P_body" xml:lang="la">
+         <div type="volume" n="2" xml:id="P2" corresp="#c105_tr105">
+
+            <!-- In P e in R c'è un ulteriore livello, ovvero il 
+            volume: per il momento ho usato sempre un <div> generico specificando il @type. Ma credo se ne 
+            debba tenere presente a livello di XPath per es. (elisa) -->
+
+            <div type="chapter" n="28" xml:id="c105_P2.28">
+               <head>Brevis quedam descriptio partis unius provincie <placeName>Cathay</placeName>.
+                  Capitulum XXVIII</head>
+               <p n="1" xml:id="c105_P2.28_par1"><seg n="1" xml:id="c105_P2.28_p1">Cum vero ultra
+                     pontem proceditur per <term ref="#mil">miliaria</term> .XXX., inveniuntur
+                     continue palatia multa et alie domus pulchre, vinee pulcre et agri
+                     fertiles.</seg>
+                  <seg n="2" xml:id="c105_P2.28_p2">Terminatis .XXX. <term ref="#mil"
+                        >miliaribus</term> invenitur civitas <placeName ref="#giugiu"
+                        >Gyn</placeName>, magna et pulcra, ubi multa sunt monasteria <term
+                        ref="#ydres">ydolorum</term>, ubi etiam fiunt <term>panni</term> aurei
+                     optimi et sericei et <term>sindones</term> optimi.</seg>
+                  <seg n="3" xml:id="c105_P2.28_p3"> Sunt etiam ibi pro viatoribus hospitia communia
+                     multa.</seg>
+                  <seg n="4" xml:id="c105_P2.28_p4">Cives communiter artifices et mercatores
+                     sunt.</seg>
+                  <seg n="5" xml:id="c105_P2.28_p5">Ultra civitatem hanc, ad <term ref="#mil"
+                        >miliare</term> unum, vie due sunt, quarum una transit per provinciam
+                        <placeName>Cathay</placeName>, altera vero, ad <term>circium</term> sita,
+                     ducit ad mare versus regiones <placeName>Mangy</placeName>.</seg>
+                  <seg n="6" xml:id="c105_P2.28_p6">Per provinciam autem
+                        <placeName>Cathay</placeName> itur per plagam illam per dietas decem,
+                     continueque reperiuntur civitates et castra ubi agri multi optimi sunt et
+                     viridaria pulcra valde.</seg>
+                  <seg n="7" xml:id="c105_P2.28_p7">Multique negotiatores ibi sunt et
+                     artifices.</seg>
+                  <seg n="8" xml:id="c105_P2.28_p8">Homines autem regionis illius domestici valde
+                     sunt et affabiles.</seg></p>
+            </div>
+            <div type="chapter" n="29" xml:id="c106_P29" corresp="#c106_tr106">
+               <p>CAPITOLO 29</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

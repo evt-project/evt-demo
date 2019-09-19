@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<imageList>
+    <imageRV>
+        <image val="x" url="../../../input_data/images/images-viscoll/x.jpg">x</image>
+        <image val="x" url="../../../input_data/images/images-viscoll/x.jpg">x</image>       
+    </imageRV>
+    <imageRV>
+        <image val="214r" url="../../../input_data/images/images-viscoll/214r.jpg">214r</image>
+        <image val="214v" url="../../../input_data/images/single/fol_214v.jpg">214v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="215r" url="../../../input_data/images/single/fol_215r.jpg">215r</image>
+        <image val="215v" url="../../../input_data/images/single/fol_215v.jpg">215v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="216r" url="../../../input_data/images/single/fol_216r.jpg">216r</image>
+        <image val="216v" url="../../../input_data/images/images-viscoll/216v.jpg">216v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="217r" url="../../../input_data/images/images-viscoll/217r.jpg">217r</image>
+        <image val="217v" url="../../../input_data/images/images-viscoll/217v.jpg">217v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="218r" url="../../../input_data/images/images-viscoll/218r.jpg">218r</image>
+        <image val="218v" url="../../../input_data/images/images-viscoll/218v.jpg">218v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="219r" url="../../../input_data/images/images-viscoll/219r.jpg">219r</image>
+        <image val="219v" url="../../../input_data/images/images-viscoll/219v.jpg">219v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="220r" url="../../../input_data/images/images-viscoll/220r.jpg">220r</image>
+        <image val="220v" url="../../../input_data/images/images-viscoll/220v.jpg">220v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="221r" url="../../../input_data/images/images-viscoll/221r.jpg">221r</image>
+        <image val="221v" url="../../../input_data/images/images-viscoll/221v.jpg">221v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="222r" url="../../../input_data/images/images-viscoll/222r.jpg">222r</image>
+        <image val="222v" url="../../../input_data/images/images-viscoll/222v.jpg">222v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="223r" url="../../../input_data/images/images-viscoll/223r.jpg">223r</image>
+        <image val="223v" url="../../../input_data/images/images-viscoll/223v.jpg">223v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="224r" url="../../../input_data/images/images-viscoll/224r.jpg">224r</image>
+        <image val="224v" url="../../../input_data/images/images-viscoll/224v.jpg">224v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="225r" url="../../../input_data/images/images-viscoll/225r.jpg">225r</image>
+        <image val="225v" url="../../../input_data/images/images-viscoll/225v.jpg">225v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="226r" url="../../../input_data/images/images-viscoll/226r.jpg">226r</image>
+        <image val="226v" url="../../../input_data/images/images-viscoll/226v.jpg">226v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="227r" url="../../../input_data/images/images-viscoll/227r.jpg">227r</image>
+        <image val="227v" url="../../../input_data/images/images-viscoll/227v.jpg">227v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="228r" url="../../../input_data/images/images-viscoll/228r.jpg">228r</image>
+        <image val="228v" url="../../../input_data/images/images-viscoll/228v.jpg">228v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="229r" url="../../../input_data/images/images-viscoll/229r.jpg">229r</image>
+        <image val="229v" url="../../../input_data/images/images-viscoll/229v.jpg">229v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="230r" url="../../../input_data/images/images-viscoll/230r.jpg">230r</image>
+        <image val="230v" url="../../../input_data/images/images-viscoll/230v.jpg">230v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="231r" url="../../../input_data/images/images-viscoll/231r.jpg">231r</image>
+        <image val="231v" url="../../../input_data/images/images-viscoll/231v.jpg">231v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="232r" url="../../../input_data/images/images-viscoll/232r.jpg">232r</image>
+        <image val="232v" url="../../../input_data/images/images-viscoll/232v.jpg">232v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="233r" url="../../../input_data/images/images-viscoll/233r.jpg">233r</image>
+        <image val="233v" url="../../../input_data/images/images-viscoll/233v.jpg">233v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="234r" url="../../../input_data/images/images-viscoll/234r.jpg">234r</image>
+        <image val="234v" url="../../../input_data/images/images-viscoll/234v.jpg">234v</image>       
+    </imageRV>
+    <imageRV>
+        <image val="235r" url="../../../input_data/images/images-viscoll/235r.jpg">235r</image>
+        <image val="235v" url="../../../input_data/images/images-viscoll/235v.jpg">235v</image>       
+    </imageRV>
+    <!--<imageRV>
+        <image val="236r" url="../../../input_data/images/images-viscoll/236r.jpg">236r</image>
+        <image val="236v" url="../../../input_data/images/images-viscoll/236v.jpg">236v</image>       
+    </imageRV>-->
+    <imageRV>
+        <image val="237r" url="../../../input_data/images/images-viscoll/237r.jpg">237r</image>
+        <image val="237v" url="../../../input_data/images/images-viscoll/237v.jpg">237v</image>       
+    </imageRV>   
+    <imageRV>
+        <image val="238r" url="../../../input_data/images/images-viscoll/238r.jpg">238r</image>
+        <image val="238v" url="../../../input_data/images/images-viscoll/238v.jpg">238v</image>       
+    </imageRV>   
+    <imageRV>
+        <image val="239r" url="../../../input_data/images/images-viscoll/239r.jpg">239r</image>
+        <image val="239v" url="../../../input_data/images/images-viscoll/239v.jpg">239v</image>       
+    </imageRV>   
+    <imageRV>
+        <image val="240r" url="../../../input_data/images/images-viscoll/240r.jpg">240r</image>
+        <image val="240v" url="../../../input_data/images/images-viscoll/240v.jpg">240v</image>       
+    </imageRV>   
+    <imageRV>
+        <image val="241r" url="../../../input_data/images/images-viscoll/241r.jpg">241r</image>
+        <image val="241v" url="../../../input_data/images/images-viscoll/241v.jpg">241v</image>       
+    </imageRV>   
+    <imageRV>
+        <image val="242r" url="../../../input_data/images/images-viscoll/242r.jpg">242r</image>
+        <image val="242v" url="../../../input_data/images/images-viscoll/242v.jpg">242v</image>       
+    </imageRV>   
+    <imageRV>
+        <image val="243r" url="../../../input_data/images/images-viscoll/243r.jpg">243r</image>
+        <image val="243v" url="../../../input_data/images/images-viscoll/243v.jpg">243v</image>       
+    </imageRV>   
+    <imageRV>
+        <image val="244r" url="../../../input_data/images/images-viscoll/244r.jpg">244r</image>
+        <image val="244v" url="../../../input_data/images/images-viscoll/244v.jpg">244v</image>       
+    </imageRV>   
+    <imageRV>
+        <image val="245r" url="../../../input_data/images/images-viscoll/245r.jpg">245r</image>
+        <image val="245v" url="../../../input_data/images/images-viscoll/245v.jpg">245v</image>       
+    </imageRV>  
+    <imageRV>
+        <image val="246r" url="../../../input_data/images/images-viscoll/246r.jpg">246r</image>
+        <image val="246v" url="../../../input_data/images/images-viscoll/246v.jpg">246v</image>       
+    </imageRV> 
+    <imageRV>
+        <image val="247r" url="../../../input_data/images/images-viscoll/247r.jpg">247r</image>
+        <image val="247v" url="../../../input_data/images/images-viscoll/247v.jpg">247v</image>       
+    </imageRV> 
+    <imageRV>
+        <image val="248r" url="../../../input_data/images/images-viscoll/248r.jpg">248r</image>
+        <image val="248v" url="../../../input_data/images/images-viscoll/248v.jpg">248v</image>       
+    </imageRV> 
+</imageList>

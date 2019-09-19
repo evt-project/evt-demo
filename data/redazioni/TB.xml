@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TB</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name xml:id="eugenio">Eugenio Burgio</name>
+               <name xml:id="samuela">Samuela Simion</name>
+            </respStmt>
+            <respStmt>
+               <resp>Text Encoding by</resp>
+               <name xml:id="chiara">Chiara Martignano</name>
+               <name xml:id="elisa">Elisa Cugliana</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="v_TB_body" xml:lang="it">
+         <div type="chapter" n="47" xml:id="c105_TB47" corresp="#c105_tr105">
+            <p n="1" xml:id="c105_TB47_par1">
+               <seg n="1" xml:id="c105_TB47_p1">Quando l’uomo si parte da questo ponte, egli va xxx
+                     <term ref="#mil">miglia</term> trovando tuttavia belle case e belle abitazioni,
+                  e poi trova una cità ch’à nome <placeName ref="#giugiu">Giogim</placeName>, grande
+                  e bella.</seg>
+               <seg n="2" xml:id="c105_TB47_p2">Là v’à molte badie d’<term ref="#ydres"
+                  >idole</term>; le genti vivon d’arti e di mercatantia, e ivi si lavora
+                     <term>drapi</term> d’<term>oro</term> e de <term>seta</term> assai; ed àvi
+                  molte albergherie per albergare i forestieri che vi pasono.</seg>
+               <seg n="3" xml:id="c105_TB47_p3">E quando l’uomo si parte da questa citàe e vàe uno
+                     <term ref="#mil">miglio</term>, egli trova due vie, l’una va verso
+                     <term>ponente</term> e l’altra verso <term>sirocco</term>.</seg>
+               <seg n="4" xml:id="c105_TB47_p4">Quella da <term>ponente</term> va nella provincia
+                  del <placeName>Catai</placeName>, quella di <term>sirocco</term> vàe verso mare, a
+                  la grande provincia del <placeName>Mangi</placeName>.</seg>
+               <seg n="5" xml:id="c105_TB47_p5">E quando l’uomo cavalca nel <term>ponente</term> per
+                  la provincia del <placeName>Catai</placeName>, va bene x giornate trovando citadi
+                  e castella assai e di grande mercatantie; ed èvi dimestica gente.</seg></p>
+            <p n="2" xml:id="c105_TB47_par2">
+               <seg n="6" xml:id="c105_TB47_p6">Quando l’uomo è cavalcato x giornate egli trova uno
+                  reame c’à nome <placeName ref="#taianfu">Tamfu</placeName>, ed è un bello reame e
+                  grande.</seg>
+               <seg n="7" xml:id="c105_TB47_p7">Ed èvi grande mercatantie ed arti, e fannovisi
+                  grande quantità d’arme per lo <persName ref="#cublai">Gran Can</persName>.</seg>
+               <seg n="8" xml:id="c105_TB47_p8">Ed èvi <term>vino</term> assai; in tutta la
+                  provincia di <placeName>Catai</placeName> non nasce <term>vino</term> se no in
+                  questa contrada.</seg>
+               <seg n="9" xml:id="c105_TB47_p9">Quando l’uomo si parte di
+                     <placeName>Catai</placeName> verso <term>ponente</term> sette giornate, trova
+                  belle contrade e cità e castella di gran mercatantie.</seg>
+               <seg n="10" xml:id="c105_TB47_p10">Quando l’uomo è ito sette giornate, trova l’uomo
+                  una cità ch’à nome <placeName>Pamfu</placeName>.</seg></p>
+            <p n="3" xml:id="c105_TB47_par3">
+               <seg n="11" xml:id="c105_TB47_p11">Quando l’uomo si parte da
+                     <placeName>Pamfu</placeName> e va verso <term>ponente</term> due giornate, e’
+                  trova uno castello ch’à nome <placeName>Cachicui</placeName>, lo quale fe’ fare
+                  uno re ch’ebe nome <persName>Dar</persName>, che dicono le genti che quello re Dar
+                  ebe guerra collo <persName>pre’ Gianni</persName>.</seg>
+               <seg n="12" xml:id="c105_TB47_p12">Ed era in sì forte luogo che lo <persName>pre’
+                     Gianni</persName> no·lli potea nuocere, onde lo <persName>pre’Gianni</persName>
+                  n’avea grande ira.</seg>
+               <seg n="13" xml:id="c105_TB47_p13">Nella corte del <persName>pre’ Gianni</persName>
+                  si trovarono sette giovani che dissero al <persName>pre’ Gianni</persName> che
+                  s’egli volesse eglino li menerebbeno quello re a prigione dinansi da·llui.</seg>
+               <seg n="14" xml:id="c105_TB47_p14">E lo <persName>pre’ Gianni</persName> disse che
+                  bene li piacea.</seg>
+               <seg n="15" xml:id="c105_TB47_p15">Quegli sette giovani andarono nella corte del re
+                     <persName>Dar</persName> a modo di donzelli, e dissero allo re ch’egli erano di
+                  strane contrade, e ch’eli voleano esser al suo servigio, s’a lui piacea.</seg>
+               <seg n="16" xml:id="c105_TB47_p16">E·llo re <persName>Dar</persName> gli ricevette
+                  nella sua corte per suoi donzelli, ed essi cominciarono a servire sì bene che
+                  piaceano più allo re che niuno altro famigliare ch’egli avesse.</seg>
+               <seg n="17" xml:id="c105_TB47_p17">Stettero nella sua corte più di cinque anni.</seg>
+               <seg n="18" xml:id="c105_TB47_p18">Uno dì lo re cavalcava a solazzo de lungi dal
+                  castello un <term ref="#mil">miglio</term>, e avea con seco quelli sette donzelli
+                  e tre altri.</seg>
+               <seg n="19" xml:id="c105_TB47_p19">Quando quegli sette vidoro ch’egli poteano far
+                  quello perch’eglino erano venuti, misero mano alle spade e preseno lo re e sì·llo
+                  menarono al <persName>pre’ Gianni</persName>.</seg>
+               <seg n="20" xml:id="c105_TB47_p20">Quando lo <persName>pre’ Gianni</persName> l’ebe
+                  ‹veduto› fue molto allegro e comandò ch’egli fusse menato a la campagna a guardare
+                  le sue bestie, e sempre lo facea bene guardare.</seg>
+               <seg n="21" xml:id="c105_TB47_p21">E fecelo stare in cotal modo due anni, e poi lo
+                     <persName>pre’ Gianni</persName> lo fece venire dinanzi da sé, e fello vestire
+                  a modo di re, e sì·lli disse: «Re <persName>Dar</persName>, tu puoi ben veder che
+                  tu non ài potenzia contro a mme, poi che tu se’ guardiano delle mie bestie; e sai
+                  ch’io ti potrei far uccider s’io volessi».</seg>
+               <seg n="22" xml:id="c105_TB47_p22">E·llo re <persName>Dar</persName> disse ch’egli
+                  dicea bene la verità; e lo <persName>pre’ Gianni</persName> disse: «Da che tu
+                  medeximo confessi la verità, io non ti domando altro, e da qui innansi ti voglio
+                  far onor e servigio».</seg>
+               <seg n="23" xml:id="c105_TB47_p23">E incontanente li fe’ dar <term>cavalli</term> e
+                  armi e bella compagnia, ed egli si partì, e da indi innansi fu suo
+                  servidore.</seg></p>
+         </div>
+      </body>
+   </text>
+</TEI>

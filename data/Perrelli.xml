@@ -1,0 +1,2795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+ xml:lang="en" n="testms">
+ <teiHeader>
+  
+  <fileDesc>
+   
+   <titleStmt>
+    <title>Commedia: versione elettronica</title>
+    <respStmt>
+     <resp>Conversione TEI P5 a cura di</resp><name>Ilaria Perrelli</name>
+    </respStmt>
+   </titleStmt>
+  
+   <publicationStmt>
+    <publisher>TEI Consortium</publisher>
+    <availability status="free">
+     <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a Creative
+      Commons Attribution-ShareAlike 3.0 Unported License </licence>
+     <licence target="http://www.opensource.org/licenses/BSD-2-Clause"><p>Copyright 2013 TEI
+       Consortium.</p><p>All rights reserved.</p><p>Redistribution and use in source and binary
+       forms, with or without modification, are permitted provided that the following conditions are
+       met:</p><list>
+       <item>Redistributions of source code must retain the above copyright notice, this list of
+        conditions and the following disclaimer.</item>
+       <item>Redistributions in binary form must reproduce the above copyright notice, this list of
+        conditions and the following disclaimer in the documentation and/or other materials provided
+        with the distribution.</item>
+      </list><p>This software is provided by the copyright holders and contributors "as is" and any
+       express or implied warranties, including, but not limited to, the implied warranties of
+       merchantability and fitness for a particular purpose are disclaimed. In no event shall the
+       copyright holder or contributors be liable for any direct, indirect, incidental, special,
+       exemplary, or consequential damages (including, but not limited to, procurement of substitute
+       goods or services; loss of use, data, or profits; or business interruption) however caused
+       and on any theory of liability, whether in contract, strict liability, or tort (including
+       negligence or otherwise) arising in any way out of the use of this software, even if advised
+       of the possibility of such damage.</p></licence>
+     <p>TEI material can be licensed differently depending on the use you intend to make of it.
+      Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
+      generally appropriate for usages which treat TEI content as data or documentation. The BSD-2
+      licence is generally appropriate for usage of TEI content in a software environment. For
+      further information or clarification, please contact the <ref target="mailto:info@tei-c.org"
+       >TEI Consortium</ref>. </p>
+    </availability>
+   </publicationStmt>
+   
+   <notesStmt>
+    <note type="ns">http://www.example.org/ns/nonTEI</note>
+   </notesStmt>
+   
+   <sourceDesc>
+    
+     <msDesc>
+     
+     <msIdentifier>
+      <country>Svizzera</country>
+      <settlement>Cologny</settlement>
+      <repository>Fondation Martin Bodmer</repository> 
+      <idno>Bodmer 56</idno>
+      <msName>Dante Alighieri: Commedia </msName>
+      <msName>(Codice Ricasoli Firidolfi)</msName>
+     </msIdentifier>
+    
+     <msContents>
+      <summary>
+       Il «Codice Ricasoli Firidolfi», trascritto su carta alla fine del XIV secolo, 
+       è una testimonianza importante per lo stabilimento del testo della Divina commedia di Dante Alighieri.
+      </summary>
+      <textLang>
+       Il copista rivela una patina linguistica settentrionale, forse veneta, innestata su un antigrafo toscano.
+      </textLang>
+     </msContents>
+     
+     <physDesc>
+     
+      <objectDesc>
+        <supportDesc>
+       <p>Cartaceo. Si riconoscono varie filigrane; almeno cinque, le più presenti, 
+        sono ravvicinabili ai tipi Briquet 795 'arbalèste', Briquet 7376 'fruit'.</p> 
+         <p> Legatura in cuoio marrone. sec. XIV-XV, restaurata, 
+          con riquadrature ed ornamenti a secco sui due piatti. 
+          Sul piatto superiore rimangono i segni di quattro borchie angolari 
+          ed i chiodi stellati dei fermagli non più presenti; 
+          sul dorso cinque doppie costole.</p>
+        </supportDesc>
+       <layoutDesc>
+        <layout>
+        Il testo è disposto su colonna centrale, un verso per riga. 
+        </layout>
+       </layoutDesc>
+      </objectDesc>
+      
+      
+      <handDesc>
+       <handNote>
+        Copiato da una sola mano.
+       </handNote>
+      </handDesc>
+     
+      
+      <decoDesc>
+       <decoNote>
+        La lettera incipitaria di c. 1r è su sei righe, con decorazione a tutta pagina con fiori rossi, 
+        volute marroni e vignetta col mezzo busto del poeta, di tecnica icastica e compendiaria. 
+        Ogni canto è introdotto da una rubrica a inchiostro rosso, aperta da un segno di paragrafo.
+       </decoNote>
+      </decoDesc>
+      
+     </physDesc>
+     
+     <history>
+      <provenance>
+       Prima di entrare a far parte della Biblioteca Bodmeriana, 
+       nel 1962, il codice si trovava presso il libraio Laurence Witten di New Haven 
+       e prima ancora nella biblioteca dei baroni Ricasoli Firidolfi a Firenze. 
+      </provenance>
+     </history>
+    </msDesc>
+    
+    <listPerson>
+     
+     <person xml:id="dantealighieri">
+     <persName>
+      <forename>Dante</forename>
+      <surname>Alighieri</surname>
+     </persName>
+      <occupation>poeta italiano</occupation>
+     <sex>M</sex>
+     </person>
+    
+     <person xml:id="augusto">
+      <persName>
+       <forename>Gaio Giulio Cesare Ottaviano</forename>
+       <surname>Augusto</surname>
+      </persName>
+      <occupation>sovrano romano</occupation>
+      <sex>M</sex>
+     </person>
+     
+     <person xml:id="virgilio">
+      <persName>
+       <forename>Publio Virgilio</forename>
+       <surname>Marone</surname>
+      </persName>
+      <occupation>poeta romano</occupation>
+      <birth>15 ottobre 70 a.C. Virgilio</birth>
+      <death>21 settembre 19 a.C. Brindisi</death>
+      <sex>M</sex>
+     </person>
+     
+     <person xml:id="anchise">
+      <persName>
+       <forename>Anchise</forename>
+      </persName>
+      <occupation>personaggio dell'Eneide</occupation>
+      <sex>M</sex>
+     </person>
+     
+     <person xml:id="camilla">
+      <persName>
+       <forename>Camilla</forename>
+      </persName>
+      <occupation>personaggio dell'Eneide</occupation>
+      <sex>F</sex>
+     </person>
+     
+     <person xml:id="eurialo">
+      <persName>
+       <forename>Eurialo</forename>
+      </persName>
+      <occupation>personaggio dell'Eneide</occupation>
+      <sex>M</sex>
+     </person>
+      
+     <person xml:id="turno">
+      <persName>
+       <forename>Turno</forename>
+      </persName>
+      <occupation>personaggio dell'Eneide</occupation>
+      <sex>M</sex>
+     </person>
+     
+     <person xml:id="niso">
+      <persName>
+       <forename>Niso</forename>
+      </persName>
+      <occupation>personaggio dell'Eneide</occupation>
+      <sex>M</sex>
+     </person>
+     
+     <person xml:id="pietro">
+      <persName>
+       <forename>Pietro</forename>
+      </persName>
+      <sex>M</sex>
+      <occupation>apostolo</occupation>
+     </person>
+     
+    </listPerson>
+    
+    <listPlace>
+     <place xml:id="firenze">
+      <settlement type="località">Firenze</settlement>
+     </place>
+     
+      <place xml:id="roma">
+       <settlement type="località">Roma</settlement>
+      </place>
+     
+     
+     <place xml:id="troia">
+      <settlement type="località">Troia</settlement>
+     </place>
+     
+     <place xml:id="italia">
+      <settlement type="nazione">Italia</settlement>
+     </place>
+     
+     </listPlace>
+   
+    </sourceDesc>
+  </fileDesc>
+  
+  <encodingDesc>
+   
+   <charDecl>
+    <char xml:id="et">
+     <charName>LATIN ABBREVIATION SIGN SMALL ET</charName>
+     <mapping type="codepoint">U+204A</mapping>
+     <mapping type="diplomatic">⁊</mapping>
+    </char>
+    </charDecl>
+   
+   <charDecl>
+    <char xml:id="per">
+     <charName>LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER</charName>
+     <mapping type="codepoint">	U+A751</mapping>
+     <mapping type="diplomatic">ꝑ</mapping>
+    </char>
+   </charDecl>
+  
+  </encodingDesc>
+ 
+ </teiHeader>
+ 
+ <facsimile xml:id="fac_CB56">
+  
+  <surface corresp="#CB56_fol_001r" xml:id="CB56_surf_001r">
+   <graphic url="..\mats\CB56_fol_001r_big.jpg" width="1664px" height="2496px"/>
+   <zone xml:id="CB56_initial" rendition="HotSpot" ulx="71" uly="710" lrx="714" lry="1267" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_1" rendition="Line" ulx="532" uly="166" lrx="910" lry="272" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_2" rendition="Line" ulx="294" uly="426" lrx="1044" lry="490" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_3" rendition="Line" ulx="342" uly="487" lrx="1032" lry="532" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_4" rendition="Line" ulx="346" uly="524" lrx="1032" lry="574" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_5" rendition="Line" ulx="345" uly="571" lrx="466" lry="608" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_6" rendition="Line" ulx="334" uly="598" lrx="1052" lry="648" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_7" rendition="Line" ulx="346" uly="640" lrx="1048" lry="684" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_8" rendition="Line" ulx="346" uly="683" lrx="558" lry="726" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_9" rendition="Line" ulx="700" uly="910" lrx="1028" lry="978" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_10" rendition="Line" ulx="740" uly="973" lrx="1022" lry="1008" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_11" rendition="Line" ulx="708" uly="1010" lrx="1026" lry="1058" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_12" rendition="Line" ulx="748" uly="1052" lrx="1020" lry="1100" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_13" rendition="Line" ulx="721" uly="1102" lrx="1028" lry="1156" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_14" rendition="Line" ulx="755" uly="1152" lrx="1006" lry="1194" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_15" rendition="Line" ulx="298" uly="1240" lrx="854" lry="1300" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_16" rendition="Line" ulx="333" uly="1294" lrx="896" lry="1342" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_17" rendition="Line" ulx="351" uly="1336" lrx="920" lry="1388" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_18" rendition="Line" ulx="278" uly="1386" lrx="922" lry="1434" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_19" rendition="Line" ulx="343" uly="1434" lrx="987" lry="1482" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_20" rendition="Line" ulx="334" uly="1480" lrx="908" lry="1524" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_21" rendition="Line" ulx="294" uly="1520" lrx="927" lry="1582" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_22" rendition="Line" ulx="336" uly="1577" lrx="966" lry="1624" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_23" rendition="Line" ulx="352" uly="1619" lrx="938" lry="1668" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_24" rendition="Line" ulx="303" uly="1661" lrx="964" lry="1712" rend="visible"/>
+   <zone xml:id="CB56_fol_001r_line_25" rendition="Line" ulx="325" uly="1704" lrx="962" lry="1754" rend="visible"/>
+  </surface>
+  
+  <surface corresp="#CB56_fol_001v" xml:id="CB56_surf_001v">
+   <graphic url="..\mats\CB56_fol_001v_big.jpg" width="1664px" height="2496px"/>
+   <zone xml:id="CB56_fol_001v_line_1" rendition="Line" ulx="622" uly="450" lrx="1128" lry="500" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_2" rendition="Line" ulx="581" uly="497" lrx="1112" lry="542" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_3" rendition="Line" ulx="622" uly="536" lrx="1118" lry="580" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_4" rendition="Line" ulx="633" uly="575" lrx="1194" lry="616" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_5" rendition="Line" ulx="590" uly="600" lrx="1148" lry="652" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_6" rendition="Line" ulx="630" uly="647" lrx="1132" lry="688" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_7" rendition="Line" ulx="626" uly="683" lrx="1168" lry="730" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_8" rendition="Line" ulx="592" uly="721" lrx="1164" lry="770" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_9" rendition="Line" ulx="622" uly="765" lrx="1104" lry="806" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_10" rendition="Line" ulx="626" uly="803" lrx="1218" lry="850" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_11" rendition="Line" ulx="570" uly="842" lrx="1088" lry="888" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_12" rendition="Line" ulx="624" uly="880" lrx="1170" lry="926" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_13" rendition="Line" ulx="632" uly="923" lrx="1208" lry="966" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_14" rendition="Line" ulx="588" uly="956" lrx="1214" lry="1008" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_15" rendition="Line" ulx="625" uly="997" lrx="1180" lry="1050" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_16" rendition="Line" ulx="630" uly="1040" lrx="1272" lry="1090" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_17" rendition="Line" ulx="584" uly="1061" lrx="1128" lry="1120" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_18" rendition="Line" ulx="622" uly="1115" lrx="1152" lry="1156" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_19" rendition="Line" ulx="628" uly="1153" lrx="1132" lry="1192" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_20" rendition="Line" ulx="582" uly="1178" lrx="1184" lry="1234" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_21" rendition="Line" ulx="620" uly="1224" lrx="1168" lry="1270" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_22" rendition="Line" ulx="616" uly="1263" lrx="1236" lry="1318" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_23" rendition="Line" ulx="548" uly="1297" lrx="1164" lry="1358" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_24" rendition="Line" ulx="611" uly="1345" lrx="1182" lry="1396" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_25" rendition="Line" ulx="628" uly="1384" lrx="1208" lry="1442" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_26" rendition="Line" ulx="574" uly="1424" lrx="1122" lry="1480" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_27" rendition="Line" ulx="625" uly="1465" lrx="1150" lry="1520" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_28" rendition="Line" ulx="622" uly="1507" lrx="1098" lry="1562" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_29" rendition="Line" ulx="575" uly="1533" lrx="1166" lry="1604" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_30" rendition="Line" ulx="622" uly="1595" lrx="1132" lry="1636" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_31" rendition="Line" ulx="616" uly="1629" lrx="1148" lry="1674" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_32" rendition="Line" ulx="575" uly="1664" lrx="1188" lry="1714" rend="visible"/>
+   <zone xml:id="CB56_fol_001v_line_33" rendition="Line" ulx="623" uly="1709" lrx="1254" lry="1754" rend="visible"/>
+  </surface>
+  
+  <surface corresp="#CB56_fol_002r" xml:id="CB56_surf_002r">
+   <graphic url="..\mats\CB56_fol_002r_big.jpg" width="1664px" height="2496px"/>
+   <zone xml:id="CB56_fol_002r_line_1" rendition="Line" ulx="358" uly="460" lrx="920" lry="510" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_2" rendition="Line" ulx="318" uly="494" lrx="872" lry="546" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_3" rendition="Line" ulx="354" uly="536" lrx="982" lry="584" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_4" rendition="Line" ulx="358" uly="576" lrx="962" lry="624" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_5" rendition="Line" ulx="318" uly="614" lrx="956" lry="664" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_6" rendition="Line" ulx="360" uly="654" lrx="970" lry="698" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_7" rendition="Line" ulx="364" uly="694" lrx="982" lry="740" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_8" rendition="Line" ulx="314" uly="731" lrx="964" lry="784" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_9" rendition="Line" ulx="360" uly="782" lrx="994" lry="824" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_10" rendition="Line" ulx="334" uly="822" lrx="994" lry="868" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_11" rendition="Line" ulx="296" uly="860" lrx="858" lry="910" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_12" rendition="Line" ulx="360" uly="904" lrx="1030" lry="956" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_13" rendition="Line" ulx="362" uly="946" lrx="894" lry="990" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_14" rendition="Line" ulx="306" uly="988" lrx="926" lry="1036" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_15" rendition="Line" ulx="356" uly="1028" lrx="906" lry="1078" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_16" rendition="Line" ulx="350" uly="1066" lrx="960" lry="1116" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_17" rendition="Line" ulx="304" uly="1108" lrx="948" lry="1156" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_18" rendition="Line" ulx="352" uly="1154" lrx="856" lry="1200" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_19" rendition="Line" ulx="352" uly="1184" lrx="970" lry="1246" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_20" rendition="Line" ulx="306" uly="1228" lrx="918" lry="1286" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_21" rendition="Line" ulx="354" uly="1276" lrx="916" lry="1324" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_22" rendition="Line" ulx="346" uly="1314" lrx="926" lry="1368" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_23" rendition="Line" ulx="292" uly="1346" lrx="976" lry="1406" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_24" rendition="Line" ulx="348" uly="1396" lrx="980" lry="1448" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_25" rendition="Line" ulx="346" uly="1434" lrx="914" lry="1490" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_26" rendition="Line" ulx="298" uly="1470" lrx="876" lry="1528" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_27" rendition="Line" ulx="346" uly="1510" lrx="974" lry="1570" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_28" rendition="Line" ulx="348" uly="1558" lrx="926" lry="1610" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_29" rendition="Line" ulx="302" uly="1604" lrx="878" lry="1652" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_30" rendition="Line" ulx="346" uly="1642" lrx="876" lry="1694" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_31" rendition="Line" ulx="354" uly="1684" lrx="978" lry="1736" rend="visible"/>
+   <zone xml:id="CB56_fol_002r_line_32" rendition="Line" ulx="306" uly="1722" lrx="1018" lry="1772" rend="visible"/>
+  </surface>
+  
+  <surface corresp="#CB56_fol_002v" xml:id="CB56_surf_002v">
+   <graphic url="..\mats\CB56_fol_002v_big.jpg" width="1664px" height="2496px"/>
+   <zone xml:id="CB56_fol_002v_line_1" rendition="Line" ulx="626" uly="450" lrx="1168" lry="498" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_2" rendition="Line" ulx="632" uly="494" lrx="1212" lry="542" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_3" rendition="Line" ulx="592" uly="530" lrx="1126" lry="570" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_4" rendition="Line" ulx="630" uly="564" lrx="1318" lry="608" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_5" rendition="Line" ulx="628" uly="600" lrx="1262" lry="646" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_6" rendition="Line" ulx="570" uly="638" lrx="1180" lry="682" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_7" rendition="Line" ulx="632" uly="676" lrx="1076" lry="718" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_8" rendition="Line" ulx="622" uly="710" lrx="1178" lry="756" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_9" rendition="Line" ulx="576" uly="748" lrx="1134" lry="796" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_10" rendition="Line" ulx="640" uly="784" lrx="1128" lry="832" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_11" rendition="Line" ulx="632" uly="822" lrx="1210" lry="870" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_12" rendition="Line" ulx="582" uly="850" lrx="1144" lry="912" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_13" rendition="Line" ulx="634" uly="900" lrx="1210" lry="946" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_14" rendition="Line" ulx="634" uly="936" lrx="1304" lry="990" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_15" rendition="Line" ulx="588" uly="968" lrx="1260" lry="1024" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_16" rendition="Line" ulx="622" uly="1018" lrx="1290" lry="1062" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_17" rendition="Line" ulx="628" uly="1052" lrx="1152" lry="1100" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_18" rendition="Line" ulx="584" uly="1084" lrx="1096" lry="1138" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_19" rendition="Line" ulx="630" uly="1124" lrx="1248" lry="1176" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_20" rendition="Line" ulx="628" uly="1162" lrx="1190" lry="1210" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_21" rendition="Line" ulx="584" uly="1204" lrx="1154" lry="1252" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_22" rendition="Line" ulx="622" uly="1240" lrx="1260" lry="1288" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_23" rendition="Line" ulx="610" uly="1280" lrx="1228" lry="1332" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_24" rendition="Line" ulx="590" uly="1304" lrx="1146" lry="1368" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_25" rendition="Line" ulx="616" uly="1360" lrx="1110" lry="1402" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_26" rendition="Line" ulx="620" uly="1392" lrx="1224" lry="1444" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_27" rendition="Line" ulx="584" uly="1414" lrx="1122" lry="1476" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_28" rendition="Line" ulx="624" uly="1472" lrx="1202" lry="1518" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_29" rendition="Line" ulx="622" uly="1506" lrx="1154" lry="1560" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_30" rendition="Line" ulx="572" uly="1546" lrx="1112" lry="1598" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_31" rendition="Line" ulx="600" uly="1586" lrx="1200" lry="1638" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_32" rendition="Line" ulx="608" uly="1626" lrx="1172" lry="1676" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_33" rendition="Line" ulx="574" uly="1664" lrx="1182" lry="1714" rend="visible"/>
+   <zone xml:id="CB56_fol_002v_line_34" rendition="Line" ulx="616" uly="1704" lrx="1274" lry="1754" rend="visible"/>
+  </surface>
+  
+  <surface corresp="#CB56_fol_003r" xml:id="CB56_surf_003r">
+   <graphic url="..\mats\CB56_fol_003r_big.jpg" width="1664px" height="2496px"/>
+   <zone xml:id="CB56_fol_003r_line_1" rendition="Line" ulx="342" uly="464" lrx="848" lry="512" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_2" rendition="Line" ulx="284" uly="488" lrx="828" lry="552" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_3" rendition="Line" ulx="352" uly="546" lrx="792" lry="590" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_4" rendition="Line" ulx="348" uly="584" lrx="898" lry="628" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_5" rendition="Line" ulx="312" uly="616" lrx="804" lry="666" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_6" rendition="Line" ulx="348" uly="662" lrx="900" lry="708" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_7" rendition="Line" ulx="344" uly="706" lrx="882" lry="752" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_8" rendition="Line" ulx="302" uly="726" lrx="862" lry="784" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_9" rendition="Line" ulx="346" uly="777" lrx="863" lry="830" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_10" rendition="Line" ulx="356" uly="824" lrx="889" lry="872" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_11" rendition="Line" ulx="317" uly="861" lrx="865" lry="911" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_12" rendition="Line" ulx="352" uly="908" lrx="931" lry="954" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_13" rendition="Line" ulx="348" uly="949" lrx="1007" lry="1000" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_14" rendition="Line" ulx="302" uly="974" lrx="875" lry="1038" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_15" rendition="Line" ulx="357" uly="1029" lrx="920" lry="1077" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_16" rendition="Line" ulx="355" uly="1065" lrx="825" lry="1114" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_17" rendition="Line" ulx="311" uly="1094" lrx="814" lry="1153" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_18" rendition="Line" ulx="355" uly="1138" lrx="867" lry="1192" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_19" rendition="Line" ulx="352" uly="1178" lrx="923" lry="1230" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_20" rendition="Line" ulx="315" uly="1208" lrx="815" lry="1259" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_21" rendition="Line" ulx="354" uly="1251" lrx="877" lry="1302" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_22" rendition="Line" ulx="351" uly="1291" lrx="792" lry="1343" rend="visible"/>
+   <zone xml:id="CB56_fol_003r_line_23" rendition="Line" ulx="308" uly="1314" lrx="822" lry="1376" rend="visible"/>
+   <zone xml:id="CB56_page3" rendition="HotSpot" ulx="572" uly="210" lrx="716" lry="278" rend="visible"/>
+  </surface>
+ 
+  
+  
+ </facsimile>
+ <text>
+  
+  
+  <front>
+   
+   <titlePage>
+   <titlePart>La Divina Commedia:</titlePart>
+    <titlePart>Inferno,</titlePart>
+    <titlePart>Canto I</titlePart>
+   </titlePage>
+
+   
+   <div type="paratext" subtype="riferimenti">
+   <lb/>
+     <biblStruct>
+      <monogr>
+       <author>Alighieri, Dante,</author>
+       <title>La Divina Commedia,</title>
+       <title>Inferno,</title>
+       <editor>a cura di Vittorio Sermonti,</editor>
+       <imprint>
+        <publisher>Edizioni Scolastiche Bruno Mondadori,</publisher>
+        <date>2000.</date>
+       </imprint>
+      </monogr>
+     </biblStruct>
+    
+     
+     <bibl>
+      <ref target="https://www.e-codices.unifr.ch/it">Biblioteca virtuale dei manoscritti conservati in Svizzera</ref>
+     </bibl>
+     <bibl>
+      <ref target="https://www.danteonline.it/italiano/home_ita.asp">Dante Online</ref>
+     </bibl>
+     
+    
+   </div>
+   
+  </front>
+  
+  <body>
+
+   <div n="Canto I" type="verse" subtype="edition_text" xml:id="CB56_C1" >
+    
+    <!-- #######################################  folio 1r  ####################################### -->
+    
+    <pb facs="#CB56_surf_001r" xml:id="CB56_fol_001r" n="1r"/>
+    
+    <lb facs="#CB56_fol_001r_line_1"/>
+    <head><persName ref="#dantealighieri">DANTE</persName></head>
+    
+    <lb facs="#space1" n="Intro" xml:id="space1"/>
+    
+    <argument>    
+     
+     <lb facs="#CB56_fol_001r_line_2" n="1" xml:id="lb_001r_line_2"/>
+     <p>
+      Comincia la 
+      <choice>
+       <orig><title>comedia</title> 
+       </orig><reg><title>Commedia</title></reg>
+      </choice> 
+      di 
+      <choice>
+       <orig><persName>dante alleghieri</persName></orig>
+       <reg><persName ref="#dantealighieri">Dante Alighieri</persName></reg>
+      </choice> 
+      di
+      <lb facs="#CB56_fol_001r_line_3" n="2" xml:id="lb_001r_line_3"/>
+      <choice>
+       <orig><placeName>firenze</placeName></orig>
+       <reg><placeName ref="#firenze">Firenze</placeName></reg>
+      </choice>
+      nella quale tratta delle pene 
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr>delli</orig>
+       <reg><expan>e</expan> dei </reg>
+      </choice> 
+      <lb facs="#CB56_fol_001r_line_4" n="3" xml:id="lb_001r_line_4"/> 
+      punimenti  
+      <choice>
+       <orig>de</orig>
+       <reg>dei</reg>
+      </choice> 
+      <choice>
+       <orig><w>vi<unclear reason="faded">cii</unclear></w></orig> 
+      <reg>vizi</reg>
+      </choice>
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+      <choice>
+       <orig>demeriti</orig>
+       <reg>dei meriti</reg>
+      </choice>  
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+      <choice>
+       <orig>premii</orig>
+       <reg>premi</reg>
+      </choice> 
+      delle 
+      <lb facs="#CB56_fol_001r_line_5" n="4" xml:id="lb_001r_line_5"/> 
+      <choice>
+       <orig>virtu</orig>
+       <reg>virtù</reg>
+      </choice><reg>.</reg>
+     </p>
+     
+     <lb facs="#CB56_fol_001r_line_6" n="5" xml:id="lb_001r_line_6"/>
+     <p>
+      Canto primo della prima parte 
+      <choice>
+       <orig>laqual</orig>
+       <reg>la qual</reg>
+      </choice>
+      si 
+      <w>chi
+      <lb facs="#CB56_fol_001r_line_7" n="6" xml:id="lb_001r_line_7"/>
+       ama</w>
+      <title>Inferno</title> 
+      <choice>
+       <orig>nellaquale</orig>
+       <reg>nella quale</reg>
+      </choice>
+      <choice>
+       <orig>lautore</orig>
+       <reg>l'autore</reg>
+      </choice> 
+      fa 
+      <choice>
+       <orig>prohemio</orig>
+       <reg>proemio</reg>
+      </choice> 
+      <lb facs="#CB56_fol_001r_line_8" n="7" xml:id="lb_001r_line_8"/>
+      <choice>
+       <orig>atutta</orig>
+       <reg>a tutta</reg>
+      </choice> 
+      <choice>
+       <orig>lopera</orig>
+       <reg>l'opera</reg>
+      </choice><reg>.</reg>
+       </p>
+    
+    </argument>
+     
+    <lb facs="#space2" n="Canto I" xml:id="space2"/>
+    
+    
+    <lg type="terzina" n="1" xml:id="ter1">
+     <l rhyme="A" n="1">
+       <lb facs="#CB56_fol_001r_line_9" n="1" xml:id="lb_001r_line_9"/>
+      <w><hi rend="decorated" facs="#CB56_hotspot">N</hi><space/>El</w>
+      <choice>
+       <orig>mezo</orig>
+       <reg>mezzo</reg>
+      </choice>
+      <choice> 
+       <orig>delcamin</orig> 
+       <reg>del cammin</reg> 
+      </choice>
+      <lb facs="#CB56_fol_001r_line_10" xml:id="lb_001r_line_10"/> 
+      di nostra vita
+     </l>
+     <l rhyme="B" n="2">
+      <lb facs="#CB56_fol_001r_line_11" n="2" xml:id="lb_001r_line_11"/>
+      Mi 
+      <choice>
+       <orig><w>ritro<c corresp="#v">u</c>a<add place="above" rend="smaller" hand="author">i</add></w></orig>
+       <reg>ritrovai</reg> 
+      </choice>
+      per 
+      <w><choice>
+       <orig><c corresp="#u">v</c></orig>
+       <reg>u</reg>
+      </choice>
+       <lb facs="#CB56_fol_001r_line_12" xml:id="lb_001r_line_12_sic"/>
+       na</w>
+       <choice>
+       <orig>Sel<c corresp="#v">u</c>a</orig>
+       <reg>Selva</reg>
+      </choice>
+      oscura
+     </l>
+     <l rhyme="A" n="3">
+      <lb facs="#CB56_fol_001r_line_13" n="3" xml:id="lb_001r_line_13"/>
+      <choice>
+       <orig>Chella</orig>
+       <reg>Ché la</reg>
+      </choice> 
+      diritta via
+      <lb facs="#CB56_fol_001r_line_14" xml:id="lb_001r_line_14"/> 
+      era
+      <choice>
+       <orig>Smarita</orig>
+       <reg>smarrita</reg>
+      </choice>.
+     </l>
+    </lg>
+      
+    <lg type="terzina" n="2" xml:id="ter2">
+     <l rhyme="B" n="4">
+      <lb facs="#CB56_fol_001r_line_15" n="4" xml:id="lb_001r_line_15"/>
+      E quanto 
+      <choice>
+       <orig>adire</orig>
+       <reg>a dire</reg>
+      </choice> 
+      qual 
+      <add place="above" rend="smaller" hand="scribe1">era</add>
+      <choice>
+       <orig>e</orig>
+       <reg>è</reg>
+      </choice> 
+      cosa dura
+     </l>
+     <l rhyme="C" n="5"> 
+      <lb facs="#CB56_fol_001r_line_16" n="5" xml:id="lb_001r_line_16"/>
+      <w><add place="inline" hand="scribe1">E</add>Sta</w> 
+      <choice>
+       <orig><w>Sel<c corresp="#v">u</c>a</w></orig>
+       <reg>Selva</reg>
+      </choice>
+      <choice>
+       <orig>sal<c corresp="#v">u</c>agia</orig>
+       <reg>selvaggia</reg>
+      </choice>
+      <add place="above" rend="smaller" hand="scribe1">
+       <choice>
+        <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+        <reg><expan>e</expan></reg>
+       </choice>  
+      </add> 
+      Aspra 
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+      forte
+     </l>
+     <l rhyme="B" n="6">
+      <lb facs="#CB56_fol_001r_line_17" n="6" xml:id="lb_001r_line_17"/>
+      <choice>
+       <orig>Chenel</orig>
+       <reg>Che nel</reg>
+      </choice> 
+      pensier 
+      <choice>
+       <orig><w>rino<c corresp="#v">u</c>a</w></orig> 
+       <reg>rinova</reg></choice>
+      la paura<reg>!</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="3" xml:id="ter3">
+     <l rhyme="C" n="7">
+      <lb facs="#CB56_fol_001r_line_18" n="7" xml:id="lb_001r_line_18"/>
+      <choice>
+       <orig><w>T<space extent="1"/>ante</w></orig>
+       <reg>Tant'è</reg>
+      </choice> 
+      amara che 
+      <choice>
+       <orig>pocho</orig>
+       <reg>poco</reg>
+      </choice> 
+      <choice>
+       <orig>e</orig>
+       <reg>è</reg>
+      </choice> 
+      <choice>
+       <orig>piu</orig>
+       <reg>più</reg>
+      </choice> 
+      morte<reg>;</reg>
+     </l>
+     <l rhyme="D" n="8">
+      <lb facs="#CB56_fol_001r_line_19" n="8" xml:id="lb_001r_line_19"/>
+      Ma 
+      <choice>
+       <orig>pertrattar</orig>
+       <reg>per trattar</reg>
+      </choice>
+     del ben 
+      <choice>
+       <orig>chi</orig>
+       <reg>ch'io</reg>
+      </choice> 
+      vi 
+      <choice>
+       <orig><w>tro<c corresp="#v">u</c>ai</w></orig> 
+       <reg>trovai</reg> 
+      </choice>
+     </l>
+     <l rhyme="C" n="9">
+      <lb facs="#CB56_fol_001r_line_20" n="9" xml:id="lb_001r_line_20"/>
+      <choice>
+       <orig>Dirro</orig>
+       <reg>Dirò</reg>
+      </choice> 
+      <choice>
+      <orig>delaltre</orig>
+      <reg>de l'altre</reg>
+      </choice>
+      cose 
+      <choice>
+       <orig>chi <c corresp="#v">u</c>o</orig> 
+       <reg>ch'io v'ho</reg>
+      </choice>
+      scorte<reg>.</reg>
+        </l>
+     </lg>
+    
+    <lg type="terzina" n="4" xml:id="ter4">
+     <l rhyme="D" n="10">
+      <lb facs="#CB56_fol_001r_line_21" n="10" xml:id="lb_001r_line_21"/>
+      <w>I<space extent="2"/>o</w> 
+      non so ben 
+      <w><add place="above" rend="smaller" hand="scribe1">ri</add>dire</w>
+      <choice>
+       <orig><w>com<subst hand="scribe1">
+        <del rend="overwrite">e</del>
+        <add>io</add>
+       </subst></w></orig>
+       <reg>com'io</reg>
+      </choice>
+      <choice>
+       <orig>ventrai</orig>
+       <reg>v'entrai</reg>
+      </choice>
+      </l>
+     <l rhyme="E" n="11">
+      <lb facs="#CB56_fol_001r_line_22" n="11" xml:id="lb_001r_line_22"/>
+      <choice>
+       <orig>Tantera</orig>
+       <reg>Tant'era</reg>
+      </choice>
+      pien di sonno
+      <choice>
+       <orig>aquel</orig>
+       <reg>a quel</reg>
+      </choice>
+      punto
+       </l>
+     <l rhyme="D" n="12">
+      <lb facs="#CB56_fol_001r_line_23" n="12" xml:id="lb_001r_line_23"/>
+      <choice>
+       <orig>Chella</orig>
+       <reg>Che la</reg>
+      </choice>
+      <choice>
+       <orig>veracie</orig>
+       <reg>verace</reg>
+      </choice>
+      via
+      <choice>
+       <orig>abandonai</orig>
+       <reg>abbandonai</reg>
+      </choice><reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="5" xml:id="ter5">
+     <l rhyme="E" n="13">
+      <lb facs="#CB56_fol_001r_line_24" n="13" xml:id="lb_001r_line_24"/>
+      <w>M<space extent="1"/>a</w> 
+        poi 
+        <choice>
+         <orig>chi</orig>
+         <reg>ch'io</reg>
+        </choice>
+        fui 
+        <choice>
+       <orig><w>a<add place="above" rend="smaller" hand="scribe1">l</add></w>pie</orig>
+       <reg>al piè</reg>
+      </choice>
+        <choice>
+         <orig><unclear reason="ink blot">dun</unclear></orig>
+         <reg>d'un</reg>
+        </choice>
+         colle giunto
+       </l>
+     <l rhyme="F" n="14">
+      <lb facs="#CB56_fol_001r_line_25" n="14" xml:id="lb_001r_line_25"/>
+      <choice>
+       <orig>La</orig>
+       <reg>Là</reg>
+      </choice>
+      <choice>
+       <orig><w>do<c corresp="#v">u</c>e</w></orig>
+       <reg>dove</reg>
+      </choice>
+       <choice>
+       <orig><w>termina<c corresp="#v">u</c>a</w></orig>
+       <reg>terminava</reg>
+      </choice>
+       quella valle
+     </l>
+
+
+     <!-- #######################################  folio 1v  ####################################### -->
+     
+     <pb facs="#CB56_surf_001v" xml:id="CB56_fol_001v" n="1v"/>
+
+     <l rhyme="E" n="15">
+      <lb facs="#CB56_fol_001v_line_1" n="15" xml:id="lb_001v_line_1"/>
+      Che 
+      <choice>
+       <orig><w>ma<c corresp="#v">u</c>ea</w></orig>
+       <reg>m'avea</reg>
+      </choice> 
+      <subst hand="scribe1">
+       <del rend="overwrite"/>
+       <add>di paura</add>
+       </subst> 
+      il cor 
+      <choice>
+       <orig>conpunto</orig>
+       <reg>compunto</reg>
+      </choice><reg>,</reg>
+     </l>
+      </lg>
+    
+    <lg type="terzina" n="6" xml:id="ter6" >
+     <l rhyme="F" n="16">
+      <lb facs="#CB56_fol_001v_line_2" n="16" xml:id="lb_001v_line_2"/> 
+      <w>G<space extent="1"/>uardai</w>
+      <choice>
+       <orig>Inalto</orig>
+       <reg>in alto</reg>
+      </choice>
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+      vidi le sue spalle
+     </l>
+     <l rhyme="G" n="17"> 
+      <lb facs="#CB56_fol_001v_line_3" n="17" xml:id="lb_001v_line_3"/>
+      Vestite 
+      <choice>
+       <orig>gia</orig>
+       <reg>già</reg>
+      </choice> 
+       <choice>
+       <orig>de</orig>
+       <reg>dei</reg>
+      </choice> 
+      raggi del pianeta
+     </l>
+     <l rhyme="F" n="18">
+      <lb facs="#CB56_fol_001v_line_4" n="18" xml:id="lb_001v_line_4"/>
+      Che mena diritto Altrui 
+      <choice>
+       <orig><abbr><g ref="#per"/></abbr></orig>
+       <reg><expan>per</expan></reg>
+      </choice> 
+      ogni calle<reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="7" xml:id="ter7">
+     <l rhyme="G" n="19">
+      <lb facs="#CB56_fol_001v_line_5" n="19" xml:id="lb_001v_line_5"/>
+      <w>A<space extent="1"/>llor</w> 
+      fu la 
+      <choice>
+       <orig>pauura</orig>
+       <reg>paura</reg>
+      </choice>
+      <choice>
+       <orig><w><c corresp="#u">v</c>n</w></orig>
+       <reg>un</reg>
+      </choice> 
+       <choice>
+       <orig>pocho</orig>
+       <reg>poco</reg>
+      </choice> 
+      queta
+     </l>
+     <l rhyme="H" n="20">
+      <lb facs="#CB56_fol_001v_line_6" n="20" xml:id="lb_001v_line_6"/>
+      Che nel lago del cor 
+      <choice>
+       <orig>mera</orig>
+       <reg>m'era</reg>
+      </choice> 
+      durata
+     </l>
+     <l rhyme="G" n="21">
+      <lb facs="#CB56_fol_001v_line_7" n="21" xml:id="lb_001v_line_7"/>
+      <choice>
+       <orig>la</orig>
+       <reg>La</reg>
+      </choice> 
+      notte 
+      <choice>
+       <orig>chio</orig>
+       <reg>ch'io</reg>
+      </choice> 
+      passai con tanta pieta<reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="8" xml:id="ter8">
+     <l rhyme="H" n="22">
+      <lb facs="#CB56_fol_001v_line_8" n="22" xml:id="lb_001v_line_8"/>
+      E come 
+      <choice>
+       <orig>e</orig>
+       <reg>è</reg>
+      </choice> 
+      <choice>
+       <orig>que</orig>
+       <reg>quei</reg>
+      </choice> 
+      <subst hand="author">
+       <del rend="overwrite">con</del>
+       <add>che</add>
+       </subst>
+      con lena 
+      <choice>
+       <orig>affanata</orig>
+       <reg>affannata</reg>
+      </choice>
+     </l>
+     <l rhyme="I" n="23">
+      <lb facs="#CB56_fol_001v_line_9" n="23" xml:id="lb_001v_line_9"/>
+      <choice>
+       <orig><w><c corresp="#U">V</c>scito</w></orig>
+       <reg>Uscito</reg> 
+      </choice>
+       fuori del 
+      <choice>
+       <orig>pellago</orig>
+       <reg>pelago</reg>
+      </choice> 
+      alla 
+      <choice>
+       <orig><w>ri<c corresp="#v">u</c>a</w></orig>
+       <reg>riva</reg>
+      </choice>
+     </l>
+     <l rhyme="H" n="24">
+      <lb facs="#CB56_fol_001v_line_10" n="24" xml:id="lb_001v_line_10"/>
+      Si 
+      <choice>
+       <orig><w><c corresp="#v">u</c>olgie</w></orig>
+       <reg>volge</reg>
+      </choice>
+      <choice>
+       <orig>allacqua</orig>
+       <reg>all'acqua</reg>
+      </choice> 
+      perigliosa 
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+      guata<reg>,</reg>
+     </l>
+     </lg>
+    
+    <lg type="terzina" n="9" xml:id="ter9">
+     <l rhyme="I" n="25">
+      <lb facs="#CB56_fol_001v_line_11" n="25" xml:id="lb_001v_line_11"/>
+      <choice>
+       <orig><w>C<space extent="2"/>osi</w></orig>
+       <reg>Così</reg>
+      </choice> 
+      <choice>
+       <orig>lanimo</orig>
+       <reg>l'animo</reg>
+      </choice> 
+        mio 
+      <choice>
+       <orig><w>c<unclear reason="faded">h<add place="above" rend="smaller" hand="authoy">i</add>an</unclear>cor</w></orig>
+       <reg>ch'ancor</reg>
+      </choice> 
+       <choice>
+        <orig><w>fugi<c corresp="#v">u</c>a</w></orig>
+        <reg>fuggiva</reg>
+       </choice>
+        </l>
+     <l rhyme="L" n="26">
+      <lb facs="#CB56_fol_001v_line_12" n="26" xml:id="lb_001v_line_12"/>
+      Si 
+      <choice>
+       <orig><w><c corresp="#v">u</c>olse</w></orig>
+       <reg>volse</reg> 
+      </choice>
+      Indietro 
+      <choice>
+       <orig>arimirar</orig>
+       <reg>a rimirar</reg>
+      </choice> 
+      lo passo
+     </l>
+     <l rhyme="I" n="27">
+      <lb facs="#CB56_fol_001v_line_13" n="27" xml:id="lb_001v_line_13"/>
+      <choice>
+       <orig>Chenon</orig>
+       <reg>Che non</reg>
+      </choice>
+      <choice>
+       <orig><w>las<subst hand="scribe1">
+        <del rend="overwrite"/>
+        <add>cio</add>
+       </subst></w></orig>
+       <reg>lasciò</reg>
+      </choice>
+      <choice>
+       <orig>giamai</orig>
+       <reg>già mai</reg>
+      </choice> 
+      persona 
+      <choice>
+       <orig><w>vi<c corresp="#v">u</c>a</w></orig>
+       <reg>viva</reg>
+      </choice><reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="10" xml:id="ter10" >
+     <l rhyme="L" n="28">
+      <lb facs="#CB56_fol_001v_line_14" n="28" xml:id="lb_001v_line_14"/>
+      <choice>
+       <orig><subst hand="scribe1">
+        <del rend="overwrite">Poi che</del>
+        <add><w>C<space extent="1"/>omio</w></add>
+        </subst></orig> 
+       <reg>Com'io</reg>
+      </choice>
+      <choice>
+       <orig>possato</orig>
+       <reg>posato</reg>
+      </choice>
+      <choice>
+       <orig><w><c corresp="#u">v</c>n</w></orig>
+       <reg>un</reg>
+      </choice> 
+      <choice>
+       <orig>pocho</orig>
+       <reg>poco</reg>
+      </choice>
+        il corpo lasso
+     </l>
+     <l rhyme="M" n="29">
+      <lb facs="#CB56_fol_001v_line_15" n="29" xml:id="lb_001v_line_15"/>
+      Ripresi via 
+      <choice>
+       <orig>perla</orig>
+       <reg>per la </reg>
+      </choice> 
+      piaggia diserta
+     </l>
+     <l rhyme="L" n="30">
+      <lb facs="#CB56_fol_001v_line_16" n="30" xml:id="lb_001v_line_16"/>
+      <choice>
+       <orig>Siche</orig>
+       <reg>Sì che </reg>
+      </choice> 
+      il
+      <choice>
+       <orig><w>p<subst hand="author">
+        <del rend="overwrite">e</del>
+        <add>i</add>
+       </subst>e</w></orig>
+       <reg>piè</reg>
+      </choice>
+      fermo sempre era il
+      <choice>
+       <orig>piu</orig>
+       <reg>più</reg>
+      </choice>
+      basso<reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="11" xml:id="ter11">
+     <l rhyme="M" n="31">
+      <lb facs="#CB56_fol_001v_line_17" n="31" xml:id="lb_001v_line_17"/>
+      <choice>
+       <orig><w>E<space extent="1"/>t</w></orig>
+       <reg>Ed</reg>
+      </choice> 
+      <choice>
+       <orig>echo</orig>
+       <reg>ecco</reg>
+      </choice> 
+      quasi al cominciar
+      <choice>
+       <orig>dellerta</orig>
+       <reg>dell'erta</reg>
+      </choice>
+     </l>
+     <l rhyme="N" n="32">
+      <lb facs="#CB56_fol_001v_line_18" n="32" xml:id="lb_001v_line_18"/>
+      <choice>
+       <orig><w><c corresp="#u">v</c>na</w></orig> 
+       <reg>Una</reg>
+      </choice>
+      lonza
+       <choice>
+        <orig>legiera</orig>
+       <reg>leggiera</reg></choice>
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+         presta molto
+     </l>
+     <l rhyme="M" n="33">
+      <lb facs="#CB56_fol_001v_line_19" n="33" xml:id="lb_001v_line_19"/>
+      Che di pel maculato era 
+      <choice>
+       <orig><w>co<c corresp="#v">u</c>erta</w></orig>
+       <reg>coverta</reg>
+      </choice><reg>;</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="12" xml:id="ter12">
+     <l rhyme="N" n="34">
+      <lb facs="#CB56_fol_001v_line_20" n="34" xml:id="lb_001v_line_20"/>
+      <choice>
+       <orig><w>E<space extent="1"/>t</w></orig> 
+       <reg>E</reg>
+      </choice>
+      non
+      <choice>
+       <orig>missi</orig>
+       <reg>mi si</reg>
+      </choice>
+        partia dinanzi al 
+      <choice>
+       <orig><w><c corresp="#v">u</c>olto</w></orig>
+       <reg>volto</reg>
+      </choice>
+     </l>
+     <l rhyme="O" n="35">
+      <lb facs="#CB56_fol_001v_line_21" n="35" xml:id="lb_001v_line_21"/>
+      Anzi 
+      <choice>
+       <orig>Impedia</orig>
+       <reg>impediva</reg>
+      </choice>
+      tanto il mio
+      <choice>
+       <orig>camino</orig>
+       <reg>cammino</reg>
+      </choice>
+     </l>
+     <l rhyme="N" n="36">
+      <lb facs="#CB56_fol_001v_line_22" n="36" xml:id="lb_001v_line_22"/>
+      <choice>
+       <orig>Chio</orig>
+       <reg>Ch'io</reg>
+      </choice>
+      fui per ritornar più
+      <choice>
+       <orig><w><c corresp="#v">u</c>olte</w></orig>
+       <reg>volte</reg>
+      </choice>
+      <choice>
+       <orig><w><c corresp="#v">u</c>olto</w></orig>
+       <reg>volto</reg>
+      </choice><reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="13" xml:id="ter13">
+     <l rhyme="O" n="37">
+      <lb facs="#CB56_fol_001v_line_23" n="37" xml:id="lb_001v_line_23"/>
+      <w>T<space extent="1"/>empo</w> 
+      era
+      <w>d<subst hand="scribe1"><del rend="overwrite">e</del><add>a</add></subst>l</w>
+      principio del 
+      <choice>
+       <orig>maitino</orig>
+       <reg>mattino</reg>
+      </choice>
+     </l>
+     <l rhyme="P" n="38">
+      <lb facs="#CB56_fol_001v_line_24" n="38" xml:id="lb_001v_line_24"/>
+      <choice>
+       <orig>El</orig>
+       <reg>E il</reg>
+      </choice>
+      sol
+      <choice><orig><w>monta<c corresp="#v">u</c>a</w></orig>
+       <reg>montava</reg>
+      </choice>
+      <supplied resp="rrdt">'n</supplied>
+      su con quelle stelle
+     </l>
+     <l rhyme="O" n="39">
+      <lb facs="#CB56_fol_001v_line_25" n="39" xml:id="lb_001v_line_25"/>
+      <choice>
+       <orig>Cheran</orig>
+       <reg>Ch'eran</reg>
+      </choice>
+      <choice>
+       <orig>collui</orig>
+       <reg>con lui</reg>
+      </choice>
+      quando
+      <choice>
+       <orig>lamor</orig>
+       <reg>l'amor</reg>
+      </choice>
+      <choice>
+       <orig><w>di<c corresp="#v">u</c>ino</w></orig>
+       <reg>divino</reg>
+      </choice>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="14" xml:id="ter14">
+     <l rhyme="P" n="40">
+      <lb facs="#CB56_fol_001v_line_26" n="40" xml:id="lb_001v_line_26"/>
+      <w>M<space extent="1"/>osse</w> 
+      di prima quelle cose belle<reg>;</reg>
+     </l>
+     <l rhyme="Q" n="41">
+      <lb facs="#CB56_fol_001v_line_27" n="41" xml:id="lb_001v_line_27"/>
+      <choice>
+       <orig><subst hand="scribe1">
+        <del rend="overwrite">Poi</del>
+        <add>Si</add>
+        </subst></orig>
+       <reg>Sì</reg>
+      </choice>
+      <choice>
+       <orig>chaben</orig>
+       <reg>ch'a ben</reg>
+      </choice>
+      sperar
+      <choice>
+       <orig>mera</orig>
+       <reg>m'era</reg>
+      </choice>
+      cagione
+     </l>
+     <l rhyme="P" n="42">
+      <lb facs="#CB56_fol_001v_line_28" n="42" xml:id="lb_001v_line_28"/>
+      <choice>
+       <orig>di</orig>
+       <reg>Di</reg>
+      </choice>
+      quella
+      <w>f<del rend="expunction" hand="scribe1">i</del>era</w> 
+      <supplied resp="rrdt">a</supplied>
+       <choice>
+       <orig><w>lag<space extent="1"/>aetta</w></orig>
+       <reg>la gaetta</reg>
+      </choice>
+      pelle
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="15" xml:id="ter15">
+     <l rhyme="Q" n="43">
+      <lb facs="#CB56_fol_001v_line_29" n="43" xml:id="lb_001v_line_29"/>
+      <choice>
+       <orig><w>L<space extent="1"/>ora</w></orig>
+       <reg>L'ora</reg>
+      </choice>
+      del tempo
+      <choice>
+       <orig>ella</orig>
+       <reg>e la</reg>
+      </choice>
+      <choice>
+       <orig>dolcie</orig>
+       <reg>dolce</reg>
+      </choice>
+      stagione<reg>;</reg>
+     </l>
+     <l rhyme="R" n="44">
+      <lb facs="#CB56_fol_001v_line_30" n="44" xml:id="lb_001v_line_30"/>
+      <choice>
+       <orig>Manon</orig>
+       <reg>Ma non</reg>
+      </choice>
+      <choice>
+       <orig>si</orig>
+       <reg>sì</reg>
+      </choice>
+      che paura non 
+      <choice>
+       <orig>midesse</orig>
+       <reg>mi desse</reg>
+      </choice>
+     </l>
+     <l rhyme="Q" n="45">
+      <lb facs="#CB56_fol_001v_line_31" n="45" xml:id="lb_001v_line_31"/>
+      <choice>
+       <orig>la<w><c corresp="#v">u</c>ista</w></orig>
+       <reg>La vista</reg> 
+      </choice>
+      che 
+      <choice>
+       <orig><w>mapar<c corresp="#v">u</c>e</w></orig>
+       <reg>m'apparve</reg>
+      </choice>
+      <choice>
+       <orig>dun</orig>
+       <reg>d'un</reg>
+      </choice>
+      leone<reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="16" xml:id="ter16">
+     <l rhyme="R" n="46">
+      <lb facs="#CB56_fol_001v_line_32" n="46" xml:id="lb_001v_line_32"/>
+      <w>Q<space extent="1"/>uesti</w> 
+      parea che contro 
+      <choice>
+       <orig>ame</orig>
+       <reg>a me</reg>
+      </choice> 
+      <choice>
+       <orig><c corresp="#v">u</c>enisse</orig>
+      <reg>venisse</reg>
+      </choice>
+     </l>
+     <l rhyme="S" n="47">
+      <lb facs="#CB56_fol_001v_line_33" n="47" xml:id="lb_001v_line_33"/>
+      <choice>
+       <orig>Cholla</orig>
+       <reg>Con la</reg>
+      </choice> 
+      testa alta 
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+      con rabbiosa fame
+     </l>
+    </lg>
+    
+    <!-- #######################################  folio 2r  ####################################### -->
+    
+    <pb facs="#CB56_surf_002r" xml:id="CB56_fol_002r" n="2r"/>
+    
+     
+     <l rhyme="R" n="48">
+      <lb facs="#CB56_fol_002r_line_1" n="48" xml:id="lb_002r_line_1"/>
+      <choice>
+       <orig>Si</orig>
+       <reg>Sì</reg>
+      </choice> 
+      che parea che 
+      <choice>
+       <orig>layre</orig>
+       <reg>l'aere</reg>
+      </choice>
+      ne
+      <choice>
+      <sic>temesse</sic>
+       <corr resp="rrdt">tremesse</corr>
+      </choice><reg>.</reg>
+     </l>
+  
+    <lg type="terzina" n="17" xml:id="ter17">
+     <l rhyme="S" n="49"> 
+      <lb facs="#CB56_fol_002r_line_2" n="49" xml:id="lb_002r_line_2"/>
+      <choice>
+       <orig><w>E<space extent="1"/>t</w></orig>
+       <reg>Ed</reg>
+      </choice> 
+      <choice>
+       <orig><w><c corresp="#u">v</c>na</w></orig>
+       <reg>una</reg>
+      </choice>
+  lupa che di tutte brame
+     </l>
+    <l rhyme="T" n="50">
+     <lb facs="#CB56_fol_002r_line_3" n="50" xml:id="lb_002r_line_3"/>
+     <choice>
+      <orig><w>Sembra<c corresp="#v">u</c>a</w></orig>
+      <reg>Sembiava</reg>
+     </choice>
+    carca nella sua 
+     <w><subst hand="scribe1">
+      <del rend="overwrite">grau</del>
+      <add>magr</add>
+     </subst>ezza</w>
+    </l>
+     <l rhyme="S" n="51">
+      <lb facs="#CB56_fol_002r_line_4" n="51" xml:id="lb_002r_line_4"/>
+      <choice>
+       <orig>Et</orig>
+       <reg>E</reg>
+      </choice> 
+      <choice>
+       <orig>molti</orig>
+       <reg>molte</reg>
+      </choice>
+      genti
+      <choice>
+       <orig>fe</orig>
+       <reg>fé</reg>
+      </choice>
+      <choice>
+       <orig>gia</orig>
+       <reg>già</reg>
+      </choice>
+      <choice>
+       <orig><w>vi<c corresp="#v">u</c>er</w></orig>
+       <reg>viver</reg>
+      </choice>
+       grame<reg>,</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="18" xml:id="ter18">
+     <l rhyme="T" n="52">
+      <lb facs="#CB56_fol_002r_line_5" n="52" xml:id="lb_002r_line_5"/>
+      <w>Q<space extent="1"/>uesta</w> 
+      mi porse tanto
+      <choice>
+       <orig>di<w>gra<c corresp="#v">u</c>ezza</w></orig>
+       <reg>di gravezza</reg>
+      </choice>
+     </l>
+   <l rhyme="U" n="53">
+    <lb facs="#CB56_fol_002r_line_6" n="53" xml:id="lb_002r_line_6"/>
+    <choice>
+     <orig>Colla</orig>
+     <reg>Con la</reg>
+    </choice>
+    <choice>
+     <orig>pauura</orig>
+     <reg>paura</reg>
+    </choice>  
+       che 
+    <choice>
+     <orig><w><c corresp="#u">v</c>scia</w></orig>
+     <reg>uscia</reg>
+    </choice> 
+    <choice>
+     <orig>disua</orig>
+     <reg>di sua</reg>
+    </choice> 
+       vista
+      </l>
+    <l rhyme="T" n="54">
+     <lb facs="#CB56_fol_002r_line_7" n="54" xml:id="lb_002r_line_7"/>
+     <choice>
+      <orig>Chio</orig>
+      <reg>Ch'io</reg>
+     </choice>
+      perdei la 
+     <choice>
+      <orig>sperancia</orig>
+      <reg>speranza</reg>
+     </choice>
+     <choice>
+      <orig>dellaltezza</orig>
+      <reg>dell'altezza</reg>
+     </choice><reg>.</reg>
+    </l>
+    </lg>
+      
+    <lg type="terzina" n="19" xml:id="ter19">
+     <l rhyme="U" n="55">
+      <lb facs="#CB56_fol_002r_line_8" n="55" xml:id="lb_002r_line_8"/>
+      E 
+      <choice>
+       <orig>qualle</orig>
+       <reg>qual è</reg>
+      </choice>
+      <choice>
+       <orig>que</orig>
+       <reg>quei</reg>
+      </choice>
+      che volontieri acquista
+     </l>
+    <l rhyme="V" n="56">
+     <lb facs="#CB56_fol_002r_line_9" n="56" xml:id="lb_002r_line_9"/>
+     E 
+     <choice>
+      <orig>giungie</orig>
+      <reg>giugne</reg>
+     </choice>
+     il tempo che perder lo face
+    </l>
+    <l rhyme="U" n="57">
+     <lb facs="#CB56_fol_002r_line_10" n="57" xml:id="lb_002r_line_10"/>
+     <choice>
+      <orig><w><add place="inline" hand="author">ch</add>Entutti</w></orig>
+      <reg>Che 'n tutti</reg>
+     </choice>
+     suoi pensier piagne
+     <choice>
+      <orig><abbr type="brev"><g ref="#et"/></abbr>satrista</orig>
+      <reg>e s'attrista</reg><reg>;</reg>
+     </choice>
+    </l> 
+    </lg>
+      
+    <lg type="terzina" n="20" xml:id="ter20">
+     <l rhyme="V" n="58">
+      <lb facs="#CB56_fol_002r_line_11" n="58" xml:id="lb_002r_line_11"/>
+      <w>T<space extent="1"/>al</w> 
+      mi fece la bestia senza 
+      <choice>
+       <orig>pacie</orig>
+       <reg>pace</reg>
+      </choice>
+     </l>
+    <l rhyme="Z" n="59"> 
+     <lb facs="#CB56_fol_002r_line_12" n="59" xml:id="lb_002r_line_12"/>
+     Che venendomi 
+     <choice>
+      <orig>in contro</orig>
+      <reg>incontro</reg>
+     </choice> 
+     <choice>
+      <orig>apocho</orig>
+      <reg>a poco</reg>
+     </choice>
+     <choice>
+      <orig>apocho</orig>
+      <reg>a poco</reg>
+     </choice>
+    </l>
+    <l rhyme="V" n="60">
+     <lb facs="#CB56_fol_002r_line_13" n="60" xml:id="lb_002r_line_13"/>
+     <choice>
+      <orig>mi<w>ripinge<c corresp="#v">u</c>a</w></orig>
+      <reg>Mi ripigneva</reg>
+     </choice>
+     <choice>
+      <orig>la</orig>
+      <reg>là</reg>
+     </choice>
+     <choice>
+      <orig><w>do<c corresp="#v">u</c>el</w></orig>
+      <reg>dove 'l</reg>
+     </choice>
+      sol 
+     <choice>
+      <orig>tacie</orig>
+      <reg>tace</reg>
+     </choice><reg>.</reg>
+    </l>
+    </lg>
+    
+    <lg type="terzina" n="21" xml:id="ter21">
+    <l rhyme="Z" n="61">
+     <lb facs="#CB56_fol_002r_line_14" n="61" xml:id="lb_002r_line_14"/>
+     <w>M<space extent="1"/>entre</w>
+     <choice>
+      <orig>chio</orig>
+      <reg>ch'io</reg>
+     </choice>
+     <choice>
+      <orig><w>ruina<c corresp="#v">u</c>a</w></orig>
+      <reg>rovinava</reg>
+     </choice>
+     in basso 
+     <choice>
+      <orig>locho</orig>
+      <reg>loco</reg>
+     </choice> 
+    </l>
+    <l rhyme="A" n="62">
+     <lb facs="#CB56_fol_002r_line_15" n="62" xml:id="lb_002r_line_15"/>
+     <choice>
+      <orig>dinanzi agliocchi</orig>
+      <reg>Dinanzi agli occhi</reg>
+     </choice> 
+     mi si fu offerto
+    </l>
+    <l rhyme="Z" n="63"> 
+     <lb facs="#CB56_fol_002r_line_16" n="63" xml:id="lb_002r_line_16"/>
+     <w>Ch<subst hand="author">
+      <del rend="overwrite">e</del>
+      <add>i</add>
+     </subst></w>
+     per lungo 
+     <choice>
+      <sic>silenzo</sic>
+      <corr resp="rrdt">silenzio</corr>
+     </choice>
+     parea 
+     <choice>
+      <orig>fiocho</orig>
+      <reg>fioco</reg>
+     </choice><reg>.</reg>
+    </l>
+    </lg>
+      
+    <lg type="terzina" n="22" xml:id="ter22">
+    <l rhyme="A" n="64">
+     <lb facs="#CB56_fol_002r_line_17" n="64" xml:id="lb_002r_line_17"/>
+     <w>Q<space extent="1"/>uando</w>
+     vidi costui nel gran diserto
+    </l>
+    <l rhyme="B" n="65">
+     <lb facs="#CB56_fol_002r_line_18" n="65" xml:id="lb_002r_line_18"/>
+     <reg>«</reg>
+     Miserere 
+     <choice>
+      <orig>dime</orig>
+      <reg>di me</reg>
+     </choice> 
+     <reg>»</reg>
+     gridai 
+     <choice>
+      <orig>allui</orig>
+      <reg>a lui</reg>
+     </choice> 
+    </l>
+    <l rhyme="A" n="66">
+     <lb facs="#CB56_fol_002r_line_19" n="66" xml:id="lb_002r_line_19"/>
+     <reg>«</reg>
+     Qual che tu sia 
+     <add place="above" rend="smaller" hand="scribe1">od</add>
+     ombra od 
+     <choice>
+      <orig>homo</orig>
+      <reg>omo</reg>
+     </choice> 
+     certo<reg>! »</reg>
+    </l>
+    </lg>
+      
+    <lg type="terzina" n="23" xml:id="ter23">
+    <l rhyme="B" n="67">
+     <lb facs="#CB56_fol_002r_line_20" n="67" xml:id="lb_002r_line_20"/>
+    <w>R<space extent="1"/>ispuosemi</w><reg>: «</reg>
+     <choice>
+      <orig>non homo</orig>
+      <reg>Non omo</reg>
+     </choice>
+     <choice>
+      <orig>homo</orig>
+      <reg>omo</reg>
+     </choice>
+     <choice>
+      <orig>gia</orig>
+      <reg>già</reg>
+     </choice>
+    fui
+    </l>
+    <l rhyme="C" n="68">
+     <lb facs="#CB56_fol_002r_line_21" n="68" xml:id="lb_002r_line_21"/>
+     <choice>
+      <orig>Elli</orig>
+      <reg>E li</reg>
+     </choice>
+    mie parenti furon lombardi
+    </l>
+    <l rhyme="B" n="69">
+     <lb facs="#CB56_fol_002r_line_22" n="69" xml:id="lb_002r_line_22"/>
+     <del rend="expunction" hand="scribe1"><choice>
+      <orig>Et</orig>
+      <reg>E</reg>
+     </choice></del>
+     mantoani per patria 
+     <choice>
+      <orig>ambidui</orig>
+      <reg>ambedui</reg>
+     </choice><reg>.</reg>
+     </l>
+    </lg>
+      
+    <lg type="terzina" n="24" xml:id="ter24">
+     <l rhyme="C" n="70"> 
+      <lb facs="#CB56_fol_002r_line_23" n="70" xml:id="lb_002r_line_23"/>
+      <w>N<space extent="1"/>acqui</w> 
+    <foreign xml:lang="lat" >
+     sub 
+     <persName ref="#augusto">Iulio</persName> 
+    </foreign>  
+      ancor che fosse tardi
+     </l>
+    <l rhyme="D" n="71">
+     <lb facs="#CB56_fol_002r_line_24" n="71" xml:id="lb_002r_line_24"/>
+     E vissi a 
+     <placeName ref="#roma">Roma</placeName>
+     <choice>
+      <orig>sottol</orig>
+      <reg>sotto 'l</reg>
+     </choice>
+     buono 
+     <persName ref="#augusto">Augusto</persName>
+    </l>
+    <l rhyme="C" n="72"> 
+     <lb facs="#CB56_fol_002r_line_25" n="72" xml:id="lb_002r_line_25"/>
+     <choice>
+      <orig>Altempo</orig>
+      <reg>Al tempo</reg>
+     </choice>
+    delli dei falsi 
+     <choice>
+      <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+      <reg><expan>e</expan></reg>
+     </choice> 
+    bugiardi<reg>.</reg>
+    </l>
+    </lg>
+      
+    <lg type="terzina" n="25" xml:id="ter25">
+    <l n="73" rhyme="D">
+     <lb facs="#CB56_fol_002r_line_26" n="73" xml:id="lb_002r_line_26"/>
+     <w>P<space extent="1"/>oeta</w> 
+     fui 
+     <choice>
+      <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+      <reg><expan>e</expan></reg>
+     </choice> 
+     Cantai di quel giusto
+    </l>
+    <l n="74" rhyme="E">
+     <lb facs="#CB56_fol_002r_line_27" n="74" xml:id="lb_002r_line_27"/>
+     <choice>
+      <orig>Figluol</orig>
+      <reg>Figliuol</reg>
+     </choice>
+     <choice>
+      <orig>d<persName>Anchise</persName></orig>
+      <reg>d'<persName ref="#anchise">Anchise</persName></reg>
+     </choice>
+      che venne
+     <choice>
+      <orig>di<placeName>troya</placeName></orig>
+      <reg>di <placeName ref="#troia">Troia</placeName></reg>
+     </choice>
+    </l>
+    <l n="75" rhyme="D">
+     <lb facs="#CB56_fol_002r_line_28" n="75" xml:id="lb_002r_line_28"/>
+     Poi 
+     <choice>
+      <orig>chel</orig>
+      <reg>che'l</reg>
+     </choice>
+     superbo 
+     <foreign xml:lang="gr">
+     <choice>
+      <orig><placeName>ylion</placeName></orig>
+      <reg><placeName ref="#troia">Ilïón</placeName></reg>
+     </choice>
+     </foreign>
+     fu 
+     <choice>
+      <orig>conbusto</orig>
+      <reg>combusto</reg>
+     </choice><reg>.</reg>
+    </l>
+    </lg>
+      
+    <lg type="terzina" n="26" xml:id="ter26">
+     <l rhyme="E" n="76">
+      <lb facs="#CB56_fol_002r_line_29" n="76" xml:id="lb_002r_line_29"/>
+      <choice>
+       <orig><w>M<space extent="1"/>a</w>tu</orig>
+       <reg>Ma tu</reg>
+      </choice>
+      <choice>
+       <orig>perche</orig>
+       <reg>perché</reg>
+      </choice>
+     ritorni 
+      <choice>
+       <orig>atanta</orig>
+       <reg>a tanta</reg>
+      </choice>
+      <choice>
+       <orig>noya</orig>
+       <reg>noia</reg><reg>?</reg>
+      </choice>
+     </l>
+    <l n="77" rhyme="F">
+     <lb facs="#CB56_fol_002r_line_30" n="77" xml:id="lb_002r_line_30"/>
+     <choice>
+      <orig>perche</orig>
+      <reg>Perché</reg>
+     </choice>
+     non sali il 
+     <choice>
+      <orig>dilletoso</orig>
+      <reg>dilettoso</reg>
+     </choice>
+     monte
+    </l>
+    <l n="78" rhyme="E">
+     <lb facs="#CB56_fol_002r_line_31" n="78" xml:id="lb_002r_line_31"/>
+     <choice>
+      <orig>Che</orig>
+      <reg>Ch'è</reg>
+     </choice>
+     principio
+     <choice>
+      <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+      <reg><expan>e</expan></reg>
+     </choice> 
+     cagion di tutta gioia<reg>? ».</reg>
+    </l>
+    </lg>
+      
+    <lg type="terzina" n="27" xml:id="ter27">
+     <l n="79" rhyme="F">
+      <lb facs="#CB56_fol_002r_line_32" n="79" xml:id="lb_002r_line_32"/>
+      <reg>«</reg>
+      <w>O<space extent="1"/>r</w>
+      <choice>
+       <orig>setu</orig>
+       <reg>se' tu</reg>
+      </choice>
+      <del rend="expunction">
+        <persName ref="#virgilio">Virgilio</persName>
+      </del>
+      quel 
+      <persName ref="#virgilio">Virgilio</persName>
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+      quella fonte
+     </l>
+    
+    <!-- #######################################  folio 2v  ####################################### -->
+    
+    <pb facs="#CB56_surf_002v" xml:id="CB56_fol_002v" n="2v"/>
+    
+     <l n="80" rhyme="G">
+     <lb facs="#CB56_fol_002v_line_1" n="80" xml:id="lb_002v_line_1"/>
+    Che spandi di parlar si largo fiume<reg>? »,</reg>
+     </l>
+     <l n="81" rhyme="F">
+      <lb facs="#CB56_fol_002v_line_2" n="81" xml:id="lb_002v_line_2"/>
+      <choice>
+       <orig>rispuosi</orig>
+       <reg>Rispuos'io</reg>
+      </choice>
+    lui con vergognosa fronte<reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="28" xml:id="ter28">
+     <l n="82" rhyme="G">
+      <lb facs="#CB56_fol_002v_line_3" n="82" xml:id="lb_002v_line_3"/>
+      <reg>«</reg>
+      O 
+      <choice>
+       <orig>deglialtri</orig>
+       <reg>degli altri</reg>
+      </choice>
+     poeti 
+      <choice>
+       <orig>honor</orig>
+       <reg>onor</reg>
+      </choice>
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+     lume
+     </l>
+     <l n="83" rhyme="H">
+      <lb facs="#CB56_fol_002v_line_4" n="83" xml:id="lb_002v_line_4"/>
+      Vagliami
+      <choice>
+       <orig>illungo</orig>
+       <reg>il lungo</reg>
+      </choice>
+      studio 
+      <choice>
+       <orig>el</orig>
+       <reg>e 'l</reg>
+      </choice>
+      grande amore
+     </l>
+     <l n="84" rhyme="G">
+      <lb facs="#CB56_fol_002v_line_5" n="84" xml:id="lb_002v_line_5"/>
+     Che 
+      <choice>
+       <orig>ma</orig>
+       <reg>m'ha</reg>
+      </choice>
+     fatto 
+      <choice>
+       <orig>cerchar</orig>
+       <reg>cercar</reg>
+      </choice>
+     lo tuo volume<reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="29" xml:id="ter29">
+     <l n="85" rhyme="H">
+      <lb facs="#CB56_fol_002v_line_6" n="85" xml:id="lb_002v_line_6"/>
+      <choice>
+       <orig><w>T<space extent="1"/>u</w>se</orig>
+       <reg>Tu se'</reg>
+      </choice>
+      <choice>
+       <orig>lomio</orig>
+       <reg>lo mio</reg>
+      </choice>
+    maestro 
+      <choice>
+       <orig>elmio</orig>
+       <reg>e 'l mio</reg>
+      </choice>
+    Autore
+     </l>
+     <l n="86" rhyme="I">
+      <lb facs="#CB56_fol_002v_line_7" n="86" xml:id="lb_002v_line_7"/>
+      <choice>
+       <orig>Tuse</orig>
+       <reg>Tu se'</reg>
+      </choice>
+     solo colui da 
+      <choice>
+       <orig>chui</orig>
+       <reg>cu'io</reg>
+      </choice>
+     tolsi
+     </l>
+     <l n="87" rhyme="H">
+      <lb facs="#CB56_fol_002v_line_8" n="87" xml:id="lb_002v_line_8"/>
+      <choice>
+       <orig>lo</orig>
+       <reg>Lo</reg>
+      </choice>
+     bello stile che 
+      <choice>
+       <orig>ma</orig>
+       <reg>m'ha</reg>
+      </choice>
+     fatto 
+      <choice>
+       <orig>honore</orig>
+       <reg>onore</reg>
+      </choice><reg>.</reg>
+     </l>
+     </lg>
+    
+    <lg type="terzina" n="30" xml:id="ter30">
+     <l n="88" rhyme="I">
+      <lb facs="#CB56_fol_002v_line_9" n="88" xml:id="lb_002v_line_9"/>
+      <w>V<space extent="1"/>edi</w>
+     la bestia per 
+      <choice>
+       <orig>chuio</orig>
+       <reg>cu'io</reg>
+      </choice>
+     mi 
+      <choice>
+       <orig><w><c corresp="#v">u</c>olsi</w></orig>
+       <reg>volsi</reg>
+      </choice>
+     </l>
+     <l n="89" rhyme="L">
+      <lb facs="#CB56_fol_002v_line_10" n="89" xml:id="lb_002v_line_10"/>
+     Aiutami 
+      <choice>
+       <orig>dallei</orig>
+       <reg>da lei</reg>
+      </choice>
+     famoso 
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+     saggio
+     </l>
+     <l n="90" rhyme="I">
+      <lb facs="#CB56_fol_002v_line_11" n="90" xml:id="lb_002v_line_11"/>
+      <choice>
+       <orig>Chella</orig>
+       <reg>Ch'ella</reg>
+      </choice>
+      mi fa tremar le 
+      <choice>
+       <orig><w><c corresp="#v">u</c>ene</w></orig>
+       <reg>vene</reg>
+      </choice>
+      e 
+      <supplied resp="rrdt">i</supplied>
+      polsi<reg>. »</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="31" xml:id="ter31" >
+     <l n="91" rhyme="L">
+      <lb facs="#CB56_fol_002v_line_12" n="91" xml:id="lb_002v_line_12"/>
+      <reg>«</reg>
+     A te 
+      <choice>
+       <orig><w>con<c corresp="#v">u</c>ien</w></orig>
+       <reg>convien</reg>
+      </choice>
+     tener altro 
+      <choice>
+       <orig><w><c corresp="#v">u</c>iaggio</w></orig>
+       <reg>viaggio</reg>
+      </choice>
+      <reg>»,</reg>
+     </l>
+     <l n="92" rhyme="M">
+      <lb facs="#CB56_fol_002v_line_13" n="92" xml:id="lb_002v_line_13"/>
+      <subst hand="scribe1">
+       <del rend="overwrite"/>
+       <add>Rispuose</add>
+       </subst>
+      poi che lagrimar mi 
+      <choice>
+       <orig><w><c corresp="#v">u</c>ide</w></orig>
+       <reg>vide</reg>
+      </choice>
+     </l>
+     <l n="93" rhyme="L">
+      <lb facs="#CB56_fol_002v_line_14" n="93" xml:id="lb_002v_line_14"/>
+      <reg>«</reg>
+     Se 
+      <choice>
+       <orig>vuo</orig>
+       <reg>vuo'</reg>
+      </choice>
+     campar 
+      <choice>
+       <orig>desto</orig>
+       <reg>d'esto</reg>
+      </choice>
+      loco 
+      <choice>
+       <orig><w>sel<c corresp="#v">u</c>aggio</w></orig>
+       <reg>selvaggio</reg><reg>;</reg>
+      </choice>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="32" xml:id="ter32">
+     <l n="94" rhyme="M">
+      <lb facs="#CB56_fol_002v_line_15" n="94" xml:id="lb_002v_line_15"/>
+      <w>C<space extent="1"/>he</w>
+      <subst hand="scribe1">
+       <del rend="overwrite">quella</del>
+       <add>questa</add>
+      </subst>
+     Bestia 
+      <choice>
+       <orig>perla</orig>
+       <reg>per la</reg>
+      </choice>
+     qual 
+      <choice>
+       <orig>tugride</orig>
+       <reg>tu gride</reg>
+      </choice>
+     </l>
+    <l n="95" rhyme="N">
+     <lb facs="#CB56_fol_002v_line_16" n="95" xml:id="lb_002v_line_16"/>
+     <choice>
+      <orig>non</orig>
+      <reg>Non</reg>
+     </choice>
+    lascia altrui passar per la sua 
+     <choice>
+      <orig><w><c corresp="#v">u</c>ia</w></orig>
+      <reg>via</reg>
+     </choice>
+    </l>
+    <l n="96" rhyme="M">
+     <lb facs="#CB56_fol_002v_line_17" n="96" xml:id="lb_002v_line_17"/>
+     <choice>
+      <orig>ma</orig>
+      <reg>Ma</reg>
+     </choice>
+    tanto 
+     <choice>
+      <orig>lompedisce</orig>
+      <reg>lo 'mpedisce</reg>
+     </choice>
+     <choice>
+      <orig>chellucide</orig>
+      <reg>che l'uccide</reg><reg>;</reg>
+     </choice>
+    </l>
+    </lg>
+    
+    <lg type="terzina" n="33" xml:id="ter33">
+     <l n="97" rhyme="N">
+      <lb facs="#CB56_fol_002v_line_18" n="97" xml:id="lb_002v_line_18"/>
+      <choice>
+       <orig><w>E<space extent="1"/>t</w></orig>
+       <reg>E</reg>
+      </choice>
+      <choice>
+       <orig>anatura</orig>
+       <reg>ha natura</reg>
+      </choice>
+    si
+      <choice>
+       <orig>maluagia</orig>
+       <reg>mal<c corresp="#v">u</c>agia</reg>
+      </choice>
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+    ria
+     </l>
+     <l n="98" rhyme="O">
+      <lb facs="#CB56_fol_002v_line_19" n="98" xml:id="lb_002v_line_19"/>
+      <choice>
+       <orig>Chemai</orig>
+       <reg>Che mai</reg>
+      </choice>
+     non empie la bramosa 
+      <choice>
+       <orig><w><c corresp="#v">u</c>oglia</w></orig>
+       <reg>voglia</reg>
+      </choice>
+     </l>
+     <l n="99" rhyme="N">
+      <lb facs="#CB56_fol_002v_line_20" n="99" xml:id="lb_002v_line_20"/>
+     E 
+      <choice>
+       <orig>doppol</orig>
+       <reg>dopo 'l</reg>
+      </choice>
+     pasto 
+      <choice>
+       <orig>apiu</orig>
+       <reg>ha più</reg>
+      </choice>
+     fame che pria<reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="34" xml:id="ter34">
+     <l n="100" rhyme="O">
+      <lb facs="#CB56_fol_002v_line_21" n="100" xml:id="lb_002v_line_21"/>
+      <w>M<space extent="1"/>olti</w>
+     son li animali 
+      <choice>
+       <orig>acui</orig>
+       <reg>a cui</reg>
+      </choice>
+      <choice>
+       <orig>samoglia</orig>
+       <reg>s'ammoglia</reg>
+      </choice>
+     </l>
+     <l n="101" rhyme="P">
+      <lb facs="#CB56_fol_002v_line_22" n="101" xml:id="lb_002v_line_22"/>
+      <choice>
+       <orig>Epiu</orig>
+       <reg>E più</reg>
+      </choice>
+      <choice>
+       <orig>sarranno</orig>
+       <reg>saranno</reg>
+      </choice>
+    ancora 
+      <choice>
+       <orig>In fin</orig>
+       <reg>infin</reg>
+      </choice>
+      <choice>
+       <orig>chel<w><c corresp="#v">u</c>eltro</w></orig>
+       <reg> che 'l veltro</reg>
+      </choice>
+     </l>
+     <l n="102" rhyme="O">
+      <lb facs="#CB56_fol_002v_line_23" n="102" xml:id="lb_002v_line_23"/>
+      <choice>
+       <orig>Verra</orig>
+       <reg>Verrà</reg>
+      </choice>
+      <choice>
+       <orig>chella</orig>
+       <reg>che la</reg>
+      </choice>
+      <choice>
+       <orig>farra</orig>
+       <reg>farà</reg>
+      </choice>
+     morir con doglia<reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="35" xml:id="ter35">
+     <l rhyme="P" n="103">
+      <lb facs="#CB56_fol_002v_line_24" n="103" xml:id="lb_002v_line_24"/>
+      <w>C<space extent="1"/>ostui</w>
+     non 
+      <choice>
+       <orig>cibera</orig>
+       <reg>ciberà</reg>
+      </choice>
+    terra 
+      <choice>
+       <orig>ne</orig>
+       <reg>né</reg>
+      </choice>
+     peltro
+     </l>
+     <l rhyme="Q" n="104">
+      <lb facs="#CB56_fol_002v_line_25" n="104" xml:id="lb_002v_line_25"/>
+      <choice>
+       <orig>ma</orig>
+       <reg>Ma</reg>
+      </choice>
+      sapienza 
+      <w>amor<add rend="inline" hand="scribe1">e</add></w>
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+     virtute
+     </l>
+     <l rhyme="P" n="105">
+      <lb facs="#CB56_fol_002v_line_26" n="105" xml:id="lb_002v_line_26"/>
+      <choice>
+       <orig>Et</orig>
+       <reg>E</reg>
+      </choice>
+     sua 
+      <choice>
+       <orig>Nation</orig>
+       <reg>Nazion</reg>
+      </choice>
+      <choice>
+       <orig>sarra</orig>
+       <reg>sarà</reg>
+      </choice>
+      tra Feltro
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice> 
+     Feltro<reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="36" xml:id="ter36">
+     <l n="106" rhyme="Q">
+      <lb facs="#CB56_fol_002v_line_27" n="106" xml:id="lb_002v_line_27"/>
+      <w>D<space extent="1"/>i</w>
+     quella 
+      <choice>
+       <orig>humile</orig>
+       <reg>umile</reg>
+      </choice>
+      <choice>
+       <orig><placeName>ytalia</placeName></orig>
+       <reg><placeName ref="#italia">Italia</placeName></reg>
+      </choice>
+      <choice>
+       <orig>fie</orig>
+       <reg>fia</reg>
+      </choice>
+     salute
+     </l>
+     <l n="107" rhyme="R">
+      <lb facs="#CB56_fol_002v_line_28" n="107" xml:id="lb_002v_line_28"/>
+     Per 
+      <choice>
+       <orig>chui</orig>
+       <reg>cui</reg>
+      </choice>
+      <choice>
+       <orig>mori</orig>
+       <reg>morì</reg>
+      </choice>
+      la Vergine 
+      <persName ref="#camilla">Camilla</persName>
+     </l>
+     <l n="108" rhyme="S">
+      <lb facs="#CB56_fol_002v_line_29" n="108" xml:id="lb_002v_line_29"/>
+      <persName ref="#eurialo">Eurialo</persName>
+      <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice>
+      <choice>
+       <orig><persName>turno</persName></orig>
+       <reg><persName ref="#turno">Turno</persName></reg>
+      </choice>
+       <choice>
+       <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+       <reg><expan>e</expan></reg>
+      </choice>
+      <choice>
+       <orig><persName>niso</persName></orig>
+       <reg><persName ref="#niso">Niso</persName></reg>
+      </choice>
+      di ferute<reg>.</reg>
+      </l>
+     </lg>
+    
+    <lg type="terzina" n="37" xml:id="ter37">
+     <l n="109" rhyme="R">
+      <lb facs="#CB56_fol_002v_line_30" n="109" xml:id="lb_002v_line_30"/>
+      <w>Q<space extent="1"/>uesti</w>
+     la 
+      <choice>
+       <orig>cacciera</orig>
+       <reg>caccerà</reg>
+      </choice>
+     per ogni villa
+     </l>
+     <l n="110" rhyme="S">
+      <lb facs="#CB56_fol_002v_line_31" n="110" xml:id="lb_002v_line_31"/>
+     Fin che 
+      <choice>
+       <orig>la<c corresp="#v">u</c>era</orig>
+       <reg>l'avrà</reg>
+      </choice>
+     rimessa 
+      <choice>
+       <orig>nellonferno</orig>
+       <reg>ne lo 'nferno</reg>
+      </choice>
+    </l>
+     <l n="111" rhyme="R">
+      <lb facs="#CB56_fol_002v_line_32" n="111" xml:id="lb_002v_line_32"/>
+      <choice>
+       <orig>la</orig>
+       <reg>Là</reg>
+      </choice>
+     onde Invidia prima dipartilla<reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="38" xml:id="ter38">
+      <l n="112" rhyme="S">
+       <lb facs="#CB56_fol_002v_line_33" n="112" xml:id="lb_002v_line_33"/>
+       <choice>
+        <orig><w>O<space extent="1"/>ndio</w></orig>
+        <reg>Ond'io</reg>
+       </choice>
+      per lo tuo 
+       <choice>
+        <orig><w>me<subst hand="scribe1">
+         <del rend="overwrite"/>
+         <add>i</add>
+        </subst></w></orig>
+        <reg>me'</reg>
+       </choice>
+      penso
+       <choice>
+        <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+        <reg><expan>e</expan></reg>
+       </choice> 
+      discerno
+      </l>
+     <l n="113" rhyme="T">
+      <lb facs="#CB56_fol_002v_line_34" n="113" xml:id="lb_002v_line_34"/>
+     Che tu mi 
+      <choice>
+       <orig>siegui</orig>
+       <reg>segui</reg>
+      </choice>
+      <choice>
+       <orig>et</orig>
+       <reg>e</reg>
+      </choice>
+     Io 
+      <choice>
+       <orig>sarro</orig>
+       <reg>sarò</reg>
+      </choice>
+      <choice>
+       <sic>toa</sic>
+       <corr resp="rrdt">tua</corr>
+      </choice>
+     guida
+     </l>
+    
+    
+    <!-- #######################################  folio 3r  ####################################### -->
+    
+    <pb facs="#CB56_surf_003r" xml:id="CB56_fol_003r" n="3r"/>
+    
+    <l n="114" rhyme="S">
+     <lb facs="#CB56_fol_003r_line_1" n="114" xml:id="lb_003r_line_1"/>
+     <choice>
+      <orig>Etrarotti</orig>
+      <reg>E trarrotti</reg>
+     </choice>
+     <choice>
+      <orig>diqui</orig>
+      <reg>di qui</reg>
+     </choice>
+     <choice>
+      <orig><abbr><g ref="#per"/></abbr></orig>
+      <reg><expan>per</expan></reg>
+     </choice> 
+   luogo eterno
+    </l>
+    </lg>
+    
+    <lg type="terzina" n="39" xml:id="ter39">
+     <l n="115" rhyme="T">
+      <lb facs="#CB56_fol_003r_line_2" n="115" xml:id="lb_003r_line_2"/>
+      <choice>
+       <orig><w>D<space extent="1"/>o<c corresp="#v">u</c>e</w></orig>
+       <reg>Dove</reg>
+      </choice>
+      <choice>
+       <orig><w><c corresp="#u">v</c>dirai</w></orig>
+       <reg>udirai</reg>
+      </choice> 
+      <choice>
+       <orig>ledespietate</orig>
+       <reg>le disperate</reg>
+      </choice>
+    strida
+     </l>
+     <l n="116" rhyme="U">
+      <lb facs="#CB56_fol_003r_line_3" n="116" xml:id="lb_003r_line_3"/>
+     Di quelli Antichi spiriti 
+      <choice>
+       <orig>dollenti</orig>
+       <reg>dolenti</reg>
+      </choice>
+     </l>
+     <l n="117" rhyme="T">
+      <lb facs="#CB56_fol_003r_line_4" n="117" xml:id="lb_003r_line_4"/>
+      <choice>
+       <orig>Chella</orig>
+       <reg>Che la</reg>
+      </choice>
+     seconda morte ciascun grida<reg>;</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="40" xml:id="ter40">
+     <l n="118" rhyme="U">
+      <lb facs="#CB56_fol_003r_line_5" n="118" xml:id="lb_003r_line_5"/>
+     E 
+      <choice>
+       <orig><w><c corresp="#v">u</c>edrai</w></orig>
+       <reg>vedrai</reg>
+      </choice>
+      <choice>
+       <orig>collor</orig>
+       <reg>color</reg>
+      </choice>
+     che son Contenti
+     </l>
+     <l n="119" rhyme="V">
+      <lb facs="#CB56_fol_003r_line_6" n="119" xml:id="lb_003r_line_6"/>
+     Nel foco 
+      <choice>
+       <orig>perche</orig>
+       <reg>perché</reg>
+      </choice>
+      speran di 
+      <choice>
+       <orig><w><c corresp="#v">u</c>enire</w></orig>
+       <reg>venire</reg>
+      </choice>
+      </l>
+     <l n="120" rhyme="U">
+      <lb facs="#CB56_fol_003r_line_7" n="120" xml:id="lb_003r_line_7"/>
+     Quando che sia alle beate genti<reg>.</reg>
+     </l>
+    </lg>
+    
+    <lg type="terzina" n="41" xml:id="ter41">
+     <l n="121" rhyme="V">
+      <lb facs="#CB56_fol_003r_line_8" n="121" xml:id="lb_003r_line_8"/>
+      <w>A<space extent="1"/>lle</w>
+      <choice>
+       <orig>qua</orig>
+       <reg>quai</reg>
+      </choice>
+     poi se tu 
+      <choice>
+       <orig>vorai</orig>
+       <reg>vorrai</reg>
+      </choice>
+     salire
+     </l>
+     <l n="122" rhyme="Z">
+      <lb facs="#CB56_fol_003r_line_9" n="122" xml:id="lb_003r_line_9"/>
+     Anima fia 
+      <choice>
+       <orig>accio</orig>
+       <reg>a ciò</reg>
+      </choice>
+      <choice> 
+       <orig><subst>
+       <del rend="inverted order">dime piu</del>
+       <add>piu di me</add>
+       </subst></orig>
+       <reg>più di me</reg>
+      </choice>
+     degna
+     </l>
+     <l n="123" rhyme="V">
+      <lb facs="#CB56_fol_003r_line_10" n="123" xml:id="lb_003r_line_10"/>
+      <choice>
+       <orig>Colley</orig>
+       <reg>Con lei</reg>
+      </choice>
+    ti 
+      <choice>
+       <orig>lasciero</orig>
+       <reg>lascerò</reg>
+      </choice>
+     nel mio partire
+     </l>
+     </lg>
+    
+    <lg type="terzina" n="42" xml:id="ter42">
+     <l n="124" rhyme="Z">
+      <lb facs="#CB56_fol_003r_line_11" n="124" xml:id="lb_003r_line_11"/>
+      <w>C<space extent="1"/>he</w>
+     quello Imperador 
+      <choice>
+       <orig>chella su</orig>
+       <reg>cha là sù</reg>
+      </choice>
+    regna
+     </l>
+     <l n="125" rhyme="A">
+      <lb facs="#CB56_fol_003r_line_12" n="125" xml:id="lb_003r_line_12"/>
+      <choice>
+       <orig>Perchio</orig>
+       <reg>Perch'io</reg>
+      </choice>
+    fui 
+      <choice>
+       <orig>rubellante</orig>
+       <reg>ribellante</reg>
+      </choice>
+    alla sua legge
+     </l>
+     <l n="126" rhyme="Z">
+      <lb facs="#CB56_fol_003r_line_13" n="126" xml:id="lb_003r_line_13"/>
+    Non vuol 
+      <choice>
+       <orig>chen</orig>
+       <reg>che 'n</reg>
+      </choice>
+    sua citta per me si vegna<reg>.</reg> 
+     </l>
+     </lg>
+    
+    <lg type="terzina" n="43" xml:id="ter43">
+     <l n="127" rhyme="A">
+     <lb facs="#CB56_fol_003r_line_14" n="127" xml:id="lb_003r_line_14"/>
+      <w>I<space extent="1"/>n</w> 
+      tutte 
+      <choice>
+       <orig>parte</orig>
+       <reg>parti</reg>
+      </choice>
+      Impera 
+      <choice>
+       <orig>equi</orig>
+       <reg>e qui</reg>
+      </choice>
+      <add place="above" rend="smaller" hand="author"><choice>
+       <orig><w><c corresp="#v">u</c>i</w></orig>
+       <reg>vi</reg>
+      </choice></add>
+       regge
+     </l>
+     <l n="128" rhyme="B">
+      <lb facs="#CB56_fol_003r_line_15" n="128" xml:id="lb_003r_line_15"/>
+     Qui 
+      <choice>
+       <orig>elasua</orig>
+       <reg>è la sua</reg>
+      </choice>
+      <choice>
+       <orig>vitoria</orig>
+       <reg>vittoria</reg>
+      </choice>
+      <choice>
+       <orig>elalto</orig>
+       <reg>e l'alto</reg>
+      </choice>
+     seggio
+     </l>
+     <l n="129" rhyme="A">
+      <lb facs="#CB56_fol_003r_line_16" n="129" xml:id="lb_003r_line_16"/>
+      <choice>
+       <orig>O</orig>
+       <reg>Oh</reg>
+      </choice>
+      <choice>
+       <orig>felicie</orig>
+       <reg>felice</reg>
+      </choice>
+     colui 
+      <choice>
+       <orig>chu i<c corresp="#v">u</c>i</orig>
+       <reg>cu'ivi</reg>
+      </choice>
+      <choice>
+       <orig>elleggie</orig>
+       <reg>elegge</reg>
+      </choice><reg>! »</reg>
+     </l>
+     </lg>
+    
+    <lg type="terzina" n="44" xml:id="ter44">
+     <l n="130" rhyme="B">
+      <lb facs="#CB56_fol_003r_line_17" n="130" xml:id="lb_003r_line_17"/>
+      <choice>
+       <orig><w>E<space extent="1"/>t</w></orig>
+       <reg>E</reg>
+      </choice>
+     Io 
+      <choice>
+       <orig>allui</orig>
+       <reg>a lui</reg>
+      </choice><reg>: «</reg>
+      <choice>
+       <orig>poeta</orig>
+       <reg>Poeta</reg>
+      </choice>
+     Io ti
+      <choice>
+       <orig>richieggo</orig>
+       <reg>richieggio</reg>
+      </choice>
+     </l>
+     <l n="131" rhyme="C">
+      <lb facs="#CB56_fol_003r_line_18" n="131" xml:id="lb_003r_line_18"/>
+     Per quello 
+      <choice>
+       <orig>dio</orig>
+       <reg>Dio</reg>
+      </choice>
+     che 
+      <choice>
+       <orig>tunon</orig>
+       <reg>tu non</reg>
+      </choice>
+     conoscesti
+     </l>
+   <l n="132" rhyme="B">
+      <lb facs="#CB56_fol_003r_line_19" n="132" xml:id="lb_003r_line_19"/>
+    <choice>
+     <orig>Accio</orig>
+     <reg>A ciò</reg>
+    </choice>
+    <choice>
+     <orig>chio</orig>
+     <reg>ch'io</reg>
+    </choice>
+    fugga questo mal 
+    <choice>
+     <orig>epeggio</orig>
+     <reg>e peggio</reg><reg>,</reg>
+    </choice>
+    </l>
+     </lg>
+   
+    <lg type="terzina" n="45" xml:id="ter45">
+    <l n="133" rhyme="C">
+     <lb facs="#CB56_fol_003r_line_20" n="133" xml:id="lb_003r_line_20"/>
+     <choice>
+      <orig><w>C<space extent="1"/>he</w>tu</orig>
+     <reg>Che tu</reg>
+     </choice> 
+     mi meni 
+     <choice>
+      <orig>la</orig>
+      <reg>là</reg>
+     </choice>
+     <choice>
+      <orig><w>do<c corresp="#v">u</c>e</w></orig>
+      <reg>dove</reg>
+     </choice>
+    or 
+     <choice>
+      <orig>diciesti</orig>
+      <reg>dicesti</reg>
+     </choice>
+    </l> 
+    <l n="134" rhyme="D">
+     <lb facs="#CB56_fol_003r_line_21" n="134" xml:id="lb_003r_line_21"/>
+     <choice>
+      <orig>Sichio</orig>
+      <reg>Si ch'io</reg>
+     </choice>
+     <choice>
+      <orig><w><c corresp="#v">u</c>eggia</w></orig>
+      <reg>veggia</reg>
+     </choice>
+     <choice>
+      <orig>laporta</orig>
+      <reg>la porta</reg>
+     </choice>
+  di 
+     <choice>
+      <orig><persName>san pietro</persName></orig>
+      <reg><persName ref="#pietro">San Pietro</persName></reg>
+     </choice>
+    </l>
+    <l n="135" rhyme="C">
+     <lb facs="#CB56_fol_003r_line_22" n="135" xml:id="lb_003r_line_22"/>
+     <choice>
+      <orig>Ecolor</orig>
+      <reg>E color</reg>
+     </choice>
+     <choice>
+      <orig>chui</orig>
+      <reg>cui</reg>
+     </choice>
+   tu 
+     <choice>
+      <orig><subst hand="scribe1">
+       <del rend="overwrite"/>
+       <add>foi</add>
+       </subst></orig>
+      <reg>fai</reg>
+     </choice>
+     tanto mesti
+     <reg>».</reg>
+    </l>
+   </lg>
+    
+    <l rhyme="D" n="136">
+     <lb facs="#CB56_fol_003r_line_23" n="136" xml:id="lb_003r_line_23"/>
+     <w>A<space extent="1"/>llor</w>
+     si mosse
+     <choice>
+      <orig><abbr type="brev"><g ref="#et"/></abbr></orig>
+      <reg><expan>e</expan></reg>
+     </choice> 
+    Io li tenni dietro<reg>.</reg>
+    </l>
+   
+   </div>
+  
+  </body>
+  
+  <back>
+   
+   <div type="hotspot">
+    
+    <div facs="#CB56_initial" xml:id="initial" >
+     <p>Lettera incipitaria su sei righe, con decorazione a tutta pagina con fiori rossi,
+      volute marroni e vignetta col mezzo busto del poeta, di tecnica icastica e compendiaria.</p>
+     <figure>
+      <graphic url="CB56_001.jpg"/>
+     </figure>
+    </div>
+    
+    <div facs="#CB56_page3" xml:id="page3" >
+     <p>Indicazione numero di pagina 3</p>
+     <figure>
+      <graphic url="CB56_fol_003.jpg"/>
+     </figure>
+    
+    </div>
+   
+   </div>
+   
+  </back>
+  
+ </text>
+ 
+</TEI>

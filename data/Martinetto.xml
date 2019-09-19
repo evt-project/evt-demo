@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Un Episodio di Prigionia. La morte del capitano Enea Guarneri, medaglia d'oro
+               alpina - Parte II</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università di Torino</publisher>
+            <date>04 - 09 - 2019</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title>Un Episodio di Prigionia. La morte del capitano Enea Guarneri, medaglia
+                  d'oro alpina</title>
+               <author>Piero Pieri</author><publisher>Associazione Nazionale
+                  Alpini</publisher><date>1924</date></bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter">
+            <head>VIII. - Prossimi alla meta.</head>
+
+            <p>Bene o male il fossato era superato; si credeva anzi di essere già all'altezza del
+               reticolato (mentre si vide poi che si era ancora <measure type="leinght"
+                  quantity="0.5" unit="metres">un mezzo metro</measure> di qua). Ancora pochi giorni
+               e saremmo stati davvero sulla via della libertà: <list>
+                  <head>tutto,</head>
+                  <item>viveri,</item>
+                  <item>carte,</item>
+                  <item>bussole</item>
+               </list> erano pronti, ben nascosti nei vani delle doppie pareti di legno delle
+               camere, che avevano salvato ogni cosa dalle visite e dalle perquisizioni mensili. Si
+               credeva d'essere meno bassi quasi di <measure type="depth" quantity="1" unit="metres"
+                  >un metro</measure> e più innanzi d'almeno <measure type="leinght" quantity="0.5"
+                  unit="metres">mezzo metro</measure>; ci ritenevamo perciò molto prossimi alla
+               fine. </p>
+            <p>Si lavorò adesso a fare un largo vano dove cominciare il pozzo in salita, anzi i
+               pozzi, perché si era deciso di fare un primo pozzo, poi un tratto trasversale di
+                  <measure type="leinght" quantity="1" unit="metres">un metro</measure> e infine
+               l'ultimo pozzo che avrebbe dovuto sboccare nel campo di segale a <measure
+                  type="distance" quantity="1" unit="metres">un metro</measure> almeno dal
+               reticolato: <emph>il pozzo liberatore!</emph></p>
+            <p>Il <name type="person">Guarneri</name> lavorava quasi con furore, non badando nè ad
+               economia di denaro, nè di forza, senza timore di far più degli altri e senza fisime
+               pel suo grado di Capitano. E in verità appena arrivato ad
+                  <placeName>Aschach</placeName>, nei dati della Cancelleria austriaca del Campo
+               aveva messo, lui, laureando in Agraria, <emph><q>«di professione
+                  contadino»</q>!</emph></p>
+            <p>Pareva ora al <name type="person">Guarneri</name> che il terreno diventasse migliore,
+               meno friabile, più sicuro. Eravamo ormai al <choice>
+                  <sic><date when="1918-06-22">22 giugno</date></sic>
+                  <corr><date when="1918-06-24">24 giugno</date></corr>
+               </choice>. Le notizie del grande insuccesso austriaco sul <geogName type="river"
+                  >Piave</geogName>, pure attraverso la stampa nemica, giungevano ad allietare il
+               cuore di quelli che anelavano di tornare a combattere, di riaffrontare i rischi e le
+               incognite della guerra; gli animi si riempivano di rinnovata speranza. Chi non ha
+               vissuto le ore di angosciosa tristezza della prigionia, difficilmente potrà
+               comprendere quanta poesia fosse in quella speranza; come l'animo vi si abbandonasse
+               volentieri riuscendone più forte, più temperato e deciso, come altri fantasmi di
+               gloria balenassero alla mente ansiosa di nuovi cimenti. Anche a distanza, non si
+               possono ricordare senza commozione certi momenti e se <choice>
+                  <sic>l'amarezzza</sic>
+                  <corr>l'amarezza</corr>
+               </choice> dell'insuccesso e il dolore dell'impreveduta sciagura poterono per un
+               istante far balenare un pensiero doloroso sulla inutilità e vacuità di certi sforzi,
+               subito dopo l'animo ne uscì sollevato e fiero; e anche ora, colla serenità di chi ha
+               coscienza di aver compiuto il proprio dovere, ricorda quell'impresa e crede che sia
+               valsa la pena <emph>d'aver tentato!</emph></p>
+            <p>Appunto la sera del <date when="1918-06-24">24 giugno</date>, quando il pozzo in
+               salita si era già scavato per più di <measure type="leinght" quantity="1"
+                  unit="metres">un metro</measure>, al <name type="person">Guarneri</name> che
+               lavorava in ginocchio, cadde una piccola frana sul capo. Sebbene <rs type="person"
+                  >egli</rs> dicesse che non era nulla, pure dovette, <rs type="person">lui</rs>
+               sempre attivo e instancabile, lasciare il lavoro per più di <measure quantity="1"
+                  unit="hours">un'ora</measure> gettandosi sul letto. La cosa fece una certa
+               impressione. Il <persName><roleName type="military">tenente</roleName>
+                  <surname>Gastaldi</surname>
+               </persName> propose che si costruisse una specie di staccio di legno a maglie
+               quadrate di <measure type="leinght" quantity="10" unit="centimetres">dieci
+                  centimetri</measure> di lato e si facesse lo scavo di sotto in su con quello
+               schermo, per impedire che cadesse una gran quantità di materiale tutta d'un colpo. Ma
+               si sarebbe perso tempo a costruire quell'arnese, il quale avrebbe poi reso più lento
+               lo scavo. Il <name type="person">Guarneri</name>, sprezzante del pericolo, disse che
+               non occorreva niente, che <rs type="person">lui</rs> si sarebbe subito procurato da
+               un compagno un elmetto di fanteria e che quel riparo bastava. <emph>Mancò il tempo di
+                  fare nuovi esperimenti!</emph></p>
+         </div>
+         <div type="chapter">
+            <head>IX. - L'improvvisa catastrofe: <foreign xml:lang="ger"><emph>Helden!
+                     Helden!</emph></foreign></head>
+
+            <p>Il <date when="1918-06-25">25 giugno</date> alle <time when="16:00:00">16</time>
+               ricominciava il turno del <name type="person">Guarneri</name>. Avendo i compagni che
+               lo precedevano voluto finire una certa quantità di lavoro, egli incominciò <measure
+                  quantity="30" unit="minutes">mezz'ora</measure> più tardi. Al <persName><roleName
+                     type="military">Tenente</roleName>
+                  <surname>Spagnolo</surname></persName> che lo aveva preceduto come
+                  <term>«perforatrice»</term> erano cadute addosso dalla volta <num value="2"
+                  >due</num> frane molto piccole, che <rs type="person">egli</rs> agilissimo e
+               snello aveva schivate tutte e <num value="2">due</num>. Quando il <name type="person"
+                  >Guarneri</name> gli dette il cambio, restava nel pozzo un po' di terra di scavo,
+               che per la deficienza del carrellino non si era potuta trasportare. Il <name
+                  type="person">Guarneri</name> avrebbe dovuto aspettare che quella sabbia fosse
+               portata via, perché d'ingombro nel già ristretto spazio. Fino allora si era fatto lo
+               scavo adagio adagio, in modo da poter sempre mandar via la sabbia che veniva
+               estratta. Ma questo sgombro rallentava il lavoro e il <name type="person"
+                  >Guarneri</name> si mise a scavare e continuò per un certo tempo dicendo che il
+               materiale si sarebbe mandato via tutto in una volta. Mostrava secondo il solito un
+               assoluto disprezzo del pericolo; anche prima, alle obiezioni del <persName><roleName
+                     type="military">Tenente</roleName>
+                  <surname>Gastaldi</surname></persName> aveva risposto dandogli del
+                     <emph><q>«cacadubbi»</q>!</emph></p>
+            <p>In questo modo s'era accumulata ai suoi piedi una certa quantità di terra. Per la
+               strettezza del pertugio e la grossezza e la robustezza del Capitano, che lo
+               traversava sempre con sforzo, questa terra formava una vera e propria chiusura. A un
+               tratto si ebbe un piccolo scivolamento di sabbia. Il <name type="person"
+                  >Guarneri</name> non se ne diede per inteso: continuava a grattare con la paletta
+               l'infida sabbia che pareva lo allettasse più e più per tendergli un agguato. Un
+               momento dopo una vera frana si staccava di sopra, investiva il povero <name
+                  type="person">Guarneri</name> e riempiva il fondo del pozzo giungendogli fin sopra
+               alla cintola. Il <persName><roleName type="military">Tenente</roleName>
+                  <surname>Vinci</surname></persName> che gli faceva da aiuto ed era con la testa e
+               le spalle nel pozzo, col resto del corpo nel cunicolo, potè appena evitare la
+               disgrazia. La frana fece anche spegnere la lampadina elettrica che era nel pozzo</p>
+            <p>La condizione del <persName><roleName type="military">capitano</roleName>
+                  <surname>Guarneri</surname></persName> divenne davvero terribile e angosciosa. Si
+               trovava tutto al buio, <measure type="depth" quantity="5" unit="metres">cinque
+                  metri</measure> sotto terra con un ammasso di ghiaia che poteva franargli addosso.
+               Liberarlo dalla ghiaia e al più presto, era cosa difficilissima dal cunicolo, perché
+               essendo ostruito il pozzo, non c'era libertà di movimento in quella strettoia, per
+               riempire il carrello di sabbia e mancava la luce. Portar via colle mani la sabbia
+               dovendo rifare all'indietro e all'insù la strada del pertugio, coll'ostacolo dei
+               telai, sarebbe stata cosa difficile e lentissima. La ghiaia che si poteva raccogliere
+               a bracciate rimaneva per metà sparsa lungo il cammino, rendendolo ancora più stretto
+               e obbligando a continue puliture del pavimento. A ciò si aggiunga la nervosità e
+               l'orgasmo da cui tutti più o meno furono presi.</p>
+            <p>L'unico che in quel tragico momento nulla perdè della sua calma, ma anzi mostrò un
+               dominio di sè e una serenità di spirito da sbalordire, fu il <name type="person"
+                  >Guarneri</name>, imprigionato in quell'antro che avrebbe dovuto fra breve
+               aprirgli la via alla luce e alla libertà e che ora poteva divenire da un momento
+               all'altro la sua tomba. Se fosse stato lì presso qualche suo compagno di
+               combattimento avrebbe di certo riveduto in lui l'intrepido Alpino del <geogName>Passo
+                  della Sentinella</geogName> in <geogName>Cadore</geogName>, preso con fulmineo
+               slancio al principio della guerra, di <geogName type="mount">Monte Rosso</geogName>,
+               dove in furioso corpo a corpo aveva ricacciato il nemico, penetrato nella trincea,
+               del <geogName type="mount">Rombon</geogName>, dove, nell'azione del <date
+                  when="1916-09">settembre 1916</date>, aveva continuato il fuoco delle sue
+               mitragliatrici anche quando l'acqua bolliva nei manicotti e le canne scoppiavano;
+               l'Alpino che all'<geogName type="mount">Ortigara</geogName> era stato mirabile
+               esempio di slancio e di ardire, e che infine, nella rotta dell'<date when="1917-10"
+                  >ottobre 1917</date> aveva guidato per <num value="3">tre</num> volte i suoi alla
+               riconquista del <geogName type="mount">Monte Cavallo</geogName>, ed era rimasto a
+               proteggere la ritirata del suo battaglione finché, perduti morti <choice>
+                  <sic>e</sic>
+                  <corr>o</corr>
+               </choice> feriti <num type="fraction" value="0.75">tre quarti</num> dei suoi,
+               interamente circondato e battuto da posizioni dominanti e come inchiodato al suolo
+               dall'incrudirsi di una storta ad un piede, <emph>aveva dovuto cedere all'avverso
+                  destino!</emph></p>
+            <p>Per prima cosa il <name type="person">Guarneri</name> raccomandò di aver calma: non
+               lo tirassero per i piedi, che soli sporgevano dalla sabbia; cercassero di levare la
+               ghiaia adagio adagio. Ma il <persName><roleName type="military">Tenente</roleName>
+                  <surname>Vinci</surname></persName> aveva subito compreso la gravità della cosa e
+               corse a chiedere aiuto. Il <persName><roleName type="military">Tenente</roleName>
+                  <surname>Spagnolo</surname></persName>, snello e abile, fece quanto potè, ma dopo
+                  <measure quantity="10" unit="minutes">dieci minuti</measure> di inutile fatica
+               tornò indietro; al <name type="person">Pieri</name> che gli domandava dei particolari
+               rispose: <q>«Ah! Povero Capitano, povero Capitano!»</q> e scoppiò in pianto.</p>
+            <p>Vennero subito avvisati tutti i compagni e i più abili si posero uno dopo l'altro al
+               lavoro. Si cercò di rimettere subito la luce, ma con quell'orgasmo, nè al
+                     <persName><roleName type="military"
+                     >Tenente</roleName><surname>Talmone</surname></persName> nè ad altri riuscì.
+               Parve tuttavia per un momento che si potesse estrarre il paziente. Si mandò a
+               prendere del mistrà, ma appena fu portato, apparve nella camera il <name
+                  type="person">Gastaldi</name> che disse: <q>«Bisogna assolutamente avvisare gli
+                  Austriaci e cercare di salvarlo dal di fuori»</q>. Poco dopo comparve il
+                     <persName><roleName type="military">Sottotenente</roleName>
+                  <surname>Osella</surname></persName> e confermò la cosa. Il <persName><roleName
+                     type="military">Sottotenente</roleName>
+                  <surname>Peronino</surname></persName> s'incaricò dell'ingrata missione.</p>
+            <p>Intanto il <name type="person">Guarneri</name>, con voce ferma e pacata che arrivava
+               in quell'oscuro cunicolo ove tanto eroismo appariva sempre più inutile e vano, aveva
+               ripetutamente raccomandato di non avvisare gli Austriaci, d'aver calma e pazienza: lo
+               lasciassero com'era e pensassero solo a levare con calma la sabbia. Ogni qualvolta
+               gli avevano detto che la cosa riusciva male e che bisognava avvisare gli Austriaci,
+               aveva sempre insistito perché si evitasse quell'estremo rimedio. La decisione
+               d'avvisare il nemico fu presa suo malgrado e gli fu comunicato quando gli Austriaci
+               erano già sopra di lui e si sperava di liberarlo al più presto.</p>
+            <p>I compagni avevano <num value="2">due</num> angosciosi timori: che il <name
+                  type="person">Guarneri</name> fosse investito da una nuova frana e che anche non
+               avverandosi questa paurosa ipotesi, potesse venirgli meno l'aria respirabile e
+               dovesse <emph>morire asfissiato!</emph> Il primo pericolo di certo fu presente al
+                  <name type="person">Guarneri</name>, perché quando fu levato dalla triste fossa
+               aveva ancora le braccia inarcate sopra la testa come a proteggersi e a impedire una
+               nuova caduta di materiale; <choice>
+                  <sic>pur</sic>
+                  <corr>pure</corr>
+               </choice>, non accennò a nessun pericolo, non mostrò nè fretta nè ansia, non
+               s'inquietò mai. <choice>
+                  <sic>La imperturbabilità</sic>
+                  <corr>L'imperturbabilità</corr>
+               </choice> e il dominio di sè, che gli antichi saggi dissero il segreto della felicità
+               umana e solo conseguibili con un'intera vita di esercizio e di meditazione, apparvero
+               come <emph>una dote innata</emph> in quell'eroico giovane!</p>
+            <p>Si deve tener presente che tutti i compagni, troppo poco esperti di quei lavori,
+               credevano d'essere colla galleria meno profondi di quel che erano in realtà e che si
+               sarebbe fatto presto a liberarlo dal di fuori. <choice>
+                  <sic>Siricordiinoltre chefin</sic>
+                  <corr>Si ricordi inoltre che fin</corr>
+               </choice> da principio c'era stata una deviazione a destra, che non era mai stata
+               corretta, ma anzi, lievemente accresciuta in qualche tratto. Ne venne che quando si
+               volle determinare il punto esterno corrispondente al posto dove si trovava il <name
+                  type="person">Guarneri</name>, nessuno fu in grado di indicarlo con
+               precisione.</p>
+            <p>Il sergente d'ispezione austriaco della Guardia del Campo col quale parlò il
+                     <persName><roleName type="military">Sottotenente</roleName>
+                  <surname>Peronino</surname></persName>, sulle prime restò stupito, poi mandò <num
+                  value="4">quattro</num> uomini con badili guidati da un caporale triestino (un
+               fior di rinnegato) a vedere di che si trattava. Quando <rs type="person">costui</rs>
+               vide che si doveva scavar presso al reticolato e che sarebbe stato anzi necessario
+               abbatterlo per un breve tratto, disse che non poteva assumersi quella responsabilità
+               e che ci voleva un Ufficiale. Gli dicemmo in tutti i toni che il tempo stringeva, che
+               c'era lì sotto uno che poteva morire da un momento all'altro e non bisognava perdere
+               un minuto; non ci fu verso. Se ne andò via coi suoi uomini e coi suoi badili e non
+               ritornò che <measure quantity="30" unit="min">mezz'ora</measure> dopo accompagnato da
+               un Ufficiale, un sergente e da <measure quantity="10" unit="count"
+                  commodity="soldiers">una decina di soldati</measure>. E intanto si dovè perdere
+               altro tempo a fissare il punto dove si doveva cominciare lo scavo.</p>
+            <p>A furia di colpi dati contro la volta del cunicolo si potè stabilire con una certa
+               precisione il punto cercato. Furono poste sentinelle nel tratto del reticolato che si
+               portava via (circa <measure type="leinght" quantity="4" unit="metres">quattro
+                  metri</measure>) e si cominciò il lavoro. Ma i soldati austriaci lavoravano
+               fiaccamente. Sul posto c'erano raccolti tutti gli Ufficiali del Campo, costernati per
+               la notizia. Sebbene, com'era inevitabile, qualche vago sentore del nostro lavoro si
+               fosse avuto nel Campo, tutti ad ogni modo ne ignoravano il posto e i particolari. La
+               cosa fece perció a tutti una grande impressione. A gara i più robusti chiesero i
+               badili e cominciarono a scavare. Ma dopo il primo metro d'argilla, ecco ricomparire
+               il terreno traditore. Le pareti della buca, franando, la riempivano. Era una fatica
+               da <name type="person">Sisifo</name>. Si cominciò allora ad allargare l'orlo della
+               buca.</p>
+            <p>Come avviene in simili casi, troppo era il chiasso, troppi i dispareri che si
+               incrociavano. Il solo che probabilmente avrebbe potuto dirigere, era un Ingegnere
+               siciliano, d'età sopra la trentina, piccolo, nell'aspetto dimesso, semplice Aspirante
+               di fanteria; ma restò quasi inascoltato. Il lavoro durava già da <measure
+                  quantity="1" unit="hours">un'ora</measure>, senza che quasi nulla si fosse
+               concluso. Gli Austriaci fecero venire dei prigionieri serbi molto robusti, perché
+               aiutassero, ma gli Ufficiali italiani volevano fare tutto da sè. Anche gli Austriaci
+               guardarono se c'era modo di estrarre il povero Capitano dal di sotto, ma subito si
+               convinsero dell'estrema difficoltà. A un loro Ufficiale che con aria un po' saccente
+               domandava come mai non si fosse pensato a tentare prima dal di sotto, il
+                     <persName><roleName type="military">Tenente</roleName>
+                  <surname>Vinci</surname></persName> rispose: <emph><q>«Grazie, se fosse stato
+                     possibile avremmo fatto a meno d'incomodarli»</q>!</emph></p>
+            <p>Il <persName><roleName>Tenente Colonnello</roleName> austriaco
+                     <surname>Salomon</surname></persName>, comandante del Campo e trasferito per
+               punizione in seguito all'accaduto, arrivò sul posto tutto in orgasmo. Era un vecchio
+               burocratico, un <distinct>buon diavolo</distinct> in fondo, che s'era spesso
+               meravigliato della docilità dei prigionieri italiani in confronto di quelli serbi e
+               non sospettava per nulla che si fosse fatto un lavoro simile. Quando fu sul posto e
+               vide di che si trattava e si rese conto della tragica condizione del Capitano
+               italiano, si chinò coll'orecchio a terra, come per sentire se dalla prigione
+               sotterranea venisse ancora una voce e si alzò poi dicendo colle lagrime agli occhi:
+                  <q>«Helden! Helden!»</q> (<emph>eroi! Eroi!</emph>).</p>
+         </div>
+         <div type="chapter">
+            <head>X. - Nel fondo del cunicolo.</head>
+
+            <p>Ma intanto una massa incomposta continuava a lavorare e a muoversi sopra il tragico <choice>
+                  <sic>posto.La</sic>
+                  <corr>posto. La</corr>
+               </choice> buca si formava troppo lentamente, fra il continuo smottare delle pareti;
+                  <emph>il pozzo non appariva mai!</emph> Erano le <time when="19:00:00"
+                  >sette</time>. Il <name type="person">Guarneri</name> si trovava da <num value="2"
+                  >due</num> ore in quella situazione tremenda e non si vedeva prossima la sua
+               liberazione. A un tratto venne un nuovo scorrimento sulle pareti, poi una frana che
+               parve riempire la buca, poi uno sprofondamento a forma di imbuto, <emph>poi più
+                  nulla!</emph> Tutti compresero la dolorosa realtà e si guardarono muti in viso, ma
+               nessuno osò esprimere con parole quello che ormai aveva in cuore.</p>
+            <p>Il <persName><roleName type="military">capitano</roleName>
+                  <surname>Guarneri</surname></persName> non aveva voluto che si chiamassero gli
+               Austriaci e nessuno sulle prime glielo volle dire. Quando però si fu cominciato a
+               lavorare di sopra e si credette di poterlo liberare da un momento all'altro,
+                     l'<persName><roleName type="military">Aspirante</roleName>
+                  <surname>Cornagliotti</surname></persName> gli disse tutto con acconcie parole:
+                  <q>«Be' ormai è fatto»</q> rispose con voce quasi rassegnata <add place="margin">e
+                  aggiunse <q>«Fate presto...»</q></add>. Alle domande se soffrisse, rispose di no,
+               che non temessero. Pure i minuti per il <name type="person">Guarneri</name> e per lo
+               stesso <name type="person">Cornagliotti</name>, che con trepida ansia aspettava la
+               luce dal di fuori, dovettero passare lunghissimi. Il <name type="person"
+                  >Guarneri</name> cercò <num value="3">tre</num> volte, come risultò poi, di
+               cambiar posizione, sia per liberarsi, sia per attendere in modo più comodo; ma i suoi
+               sforzi non gli permisero che movimenti appena percettibili. Non gli restava che
+               attendere. Pure la sua voce si udiva sempre al <name type="person"
+                  >Cornagliotti</name> che ogni tanto domandava come stesse, rispondeva sempre
+               rassicurando. Ma piccoli scivolamenti laterali sembrava che avvenissero all'interno e
+               che la sabbia salisse, salisse, tragica marea, fino a inghiottire <rs type="person"
+                  >il Capitano</rs>. Già <rs type="person">il suo compagno</rs> credeva di udire il
+               respiro divenuto affannoso; tentò allora di introdurre attraverso la sabbia una canna
+               di piombo vuota, ma non gli riuscì. Il <name type="person">Guarneri</name> parve
+               comprendere l'ansia dell'amico e disse: <q>«Non temete, posso resistere
+               ancora»</q>.</p>
+            <p>A un certo punto all'<rs type="person">Aspirante</rs> parve intendere una nuova
+               frana; sentì dei rantoli soffocati venire da quella muraglia di ghiaia, gli parve di
+               udirli indistintamente sempre più fiochi per <measure quantity="10" unit="minutes"
+                  >una decina di minuti</measure>, poi per quanto si distendesse in quel cunicolo
+               buio tendendo l'orecchio e chiamasse angosciosamente il <name type="person"
+                  >Guarneri</name>, non udì più nulla. Aspettò ancora; chiamò ancora; sempre
+               silenzio. I piedi però apparivano caldi. Chiamò altri; dalla fredda sabbia uscivano
+                  <num value="2">due</num> piedi nudi, che si sentivano al tatto in quel buio e che
+               si voleva credere non <choice>
+                  <sic>dinissero</sic>
+                  <corr>divenissero</corr>
+               </choice> freddi. Si capiva la triste realtà, pur non volendola confessare ancora; si
+               cercava d'illudersi pensando che la frana pur questa volta non lo avesse totalmente
+               investito, che fosse rimasto stordito, svenuto sì, ma non morto.</p>
+            <p>Intanto per la camera del <name type="person">Vinci</name> e del <name type="person"
+                  >Pieri</name> e per quella del <name type="person">Guarneri</name> era un viavai
+               continuo di Austriaci che visitavano tutto il nostro lavoro. Visi dell'espressione
+               diversa: di rabbia, d'orgoglio, di pietà, di ammirazione. I primi <num value="2"
+                  >due</num>
+               <choice>
+                  <sic>giorn</sic>
+                  <corr>giorni</corr>
+               </choice>
+               <graphic url="Sezione%20Galleria.tiff"/> però, nell'insieme, gli Austriaci si
+               mantennero rispettosi dinnanzi a quell'esempio di sfortunato valore.</p>
+            <p>Quasi non bastasse, proprio in quel mentre si veniva a sapere che il <name
+                  type="person">Gianferrari</name>, della cui fuga si era sperato così bene (sapeva
+               infatti il tedesco, era ottimo alpinista e molto intelligente e coraggioso) <emph>era
+                  stato ripreso al confine svizzero!</emph></p>
+            <p>Dopo l'ultima e più fatale frana, gli Austriaci compresero che per estrarre vivo o
+               morto il <name type="person">Guarneri</name> occorreva un lavoro sistematico, con
+               molti mezzi e con personale adatto. Scelsero fra i prigionieri serbi un buon numero
+               di falegnami e carpentieri e con <num value="4">quattro</num> lunghi e robusti pali
+               definirono l'entrata della buca da scavare, che era grandissima. I prigionieri serbi
+               lavorarono con grandissima lena e mostrarono simpatia verso gli alleati italiani
+               d'allora e rispetto e ammirazione. Quel lavoro, sebbene condotto con solerzia,
+               capacità e mezzi, fu lungo ed a noi parve interminabile. La notte passò senza che
+               agli amici ansiosi fosse dato al mattino del <date when="1918-06-26">26</date> di
+               vedere il povero <rs type="person">Capitano</rs>. A <time when="12:00:00"
+                  >mezzogiorno</time> si lavorava ancora senza sosta e non ne vedevamo la fine.
+               Soltanto verso le <time when="18:30:00">sei e mezzo di sera</time>, dopo essere
+               rimasti meravigliati della profondità a cui era dovuto giungere lo scavo, s'ebbe la
+               certezza che ormai non restava più molto da fare.</p>
+            <p>Nel cunicolo intanto non s'era più potuto ottenere una risposta dal <name
+                  type="person">Guarneri</name>: i piedi, non c'era più da illudersi, diventavano <choice>
+                  <sic>gelidi,</sic>
+                  <corr>gelidi.</corr>
+               </choice> Gli fecero una puntura di canfora, ma non s'avvertì alcun risultato. Nel
+               pomeriggio esaminandogli i piedi alla luce d'una lampadina elettrica, si constatò che
+               già cominciavano ad illividire. Gli si fecero a breve distanza <num value="2"
+                  >due</num> altre punture di canfora, ma nemmeno ora s'ebbe indizio d'una qualsiasi
+               reazione.</p>
+            <p>Ai più venne a mancare l'ultima speranza: quando alla fine i Serbi giunsero a
+               scoprirlo non rimase più dubbio. Il <rs type="person">Capitano</rs> stava in piedi,
+               colle ginocchia un po' piegate in avanti, con la testa un po' reclinata all'indietro,
+               l'occhio aperto ancora quasi del tutto, l'elmetto in testa, le braccia in arco sopra.
+               Al rumore della nuova frana egli si dovè volgere istintivamente col viso all'insù e
+               in questa posizione venne investito. Non v'erano tracce di contrazioni spasmodiche,
+               l'occhio era calmo; e la salma distesa sopra una barella pareva di una persona che
+               riposasse. Il dominio di sè, che aveva dato l'impronta a quel valoroso, si
+               manifestava in lui anche dopo la morte.</p>
+         </div>
+         <div type="chapter">
+            <head>XI. Le estreme onoranze.</head>
+
+            <p>Fu posato su di una barella e sopra fu messa una coperta, quindi fu portato su per le
+               pendici del piccolo cratere (che tale sembrava realmente la grossa buca) in mezzo
+               alla turba estatica degli Ufficiali italiani e di non pochi borghesi dei <num
+                  value="2">due</num> sessi, venuti da <placeName>Aschach</placeName> e rimasti per
+               delle ore, dietro le sentinelle e il reticolato, a vedere il lavoro di salvataggio.
+               La barella fu sollevata dai compagni e portata a spalle fino alla porta del Campo:
+               gli Ufficiali seguivano in ordine. Quando si fu al cancello, la guardia austriaca
+               tutta schierata presentò le armi, gli Ufficiali italiani si disposero a semicerchio.
+               Il <persName><roleName type="military">Colonnello</roleName>
+                  <surname>Taddeini</surname></persName> gridò: <q>«Ufficiali italiani, salutate
+                  l'Eroe che è morto per la libertà e la fede nella Patria lontana»</q>. Fu un
+               momento di commozione generale: non mai come allora s'era vista la grandezza e la
+               nobiltà del <emph>sacrificio</emph> e quanto <emph>il sacrificio</emph> possa elevare
+               e santificare! </p>
+            <p>La barella passò il cancello seguita solo dai compagni più fidi, perché il Comando
+               austriaco non concedeva che si uscisse in più d'<measure quantity="15" unit="count"
+                  >una quindicina</measure>. Accompagnando l'amico morto, tutti venivano in questo
+               modo a dichiararsi compagni suoi dell'impresa, ma a nessuno dei <num value="15"
+                  >quindici</num> passò mai per la mente di volere in qualche modo nascondere la
+               parte di responsabilità che gli spettava.</p>
+            <p>La salma fu portata, sempre a spalle, con buona scorta di soldati, in una camera
+               mortuaria dell'ospedale del Raggruppamento dei prigionieri dove si improvvisò una
+               camera ardente. V'erano già dei fiori ed il catafalco. Sopra fu esposto il povero
+               morto. Tolta la coperta esso apparve ancora molto ben conservato. Aveva addosso le
+               mutande e la maglia. Era tutto sporco di terra, ma il viso non era alterato. Le
+               membra apparivano ancora vigorosissime. Sembrava un <emph>sogno</emph>, un
+                  <emph>brutto sogno</emph> che tutto fosse finito a quel modo, che <num value="3"
+                  >tre</num> mesi di lavoro e di speranze e di ansie non avessero approdato ad
+               altro; che d'un tratto e proprio quando l'animo più si apriva alla speranza, il
+               nostro migliore compagno si trovasse <emph>esanime</emph> in quella tetra camera!</p>
+            <p>La salma fu ricomposta. Le si posero dei fiori d'intorno, fu ridistesa la coperta.
+               Poi gli amici si allinearono, il <persName><roleName type="military"
+                     >Capitano</roleName>
+                  <surname>Lamberti</surname></persName> comandò il saluto, il Tenente austriaco lì
+               presente salutò anch'egli e tutti uscirono. Il giorno dopo fu fatta dai medici
+               austriaci l'autopsia. Si riscontrò che era realmente morto per soffocazione: gli
+               trovarono sabbia nell'esofago e nei polmoni. <num value="2">Due</num> giorni dopo, il
+                     <persName><roleName type="military">Capitano</roleName> dei Bersaglieri
+                     <surname>Vescovo</surname></persName>, bergamasco, scultore (<rs type="person"
+                  >il quale</rs> dal <name type="person">Guarneri</name> un mese prima aveva avuto
+               la promessa che se si fosse trovato un mezzo di fuga egli pure ne sarebbe messo a
+               parte) ottenne di andare all'ospedale e rilevarne la maschera.</p>
+            <p>Intanto ci concessero di disporre la salma in una cassa di zinco che fu subito
+               acquistata per unanime volontà di tutto il Campo. In quel mentre gli Austriaci
+               cominciarono a distruggere ogni traccia del nostro lavoro; i poveri Alpini videro coi
+               propri occhi il saccheggio del loro arsenale, dei carrettini, delle seghe, di quelli
+               che avevano creduto fino a quel giorno i loro strumenti di salvezza. Nondimeno il
+                     <persName><roleName type="military">Sottotenente</roleName>
+                  <surname>Osella</surname></persName> riuscì con grande abilità a sottrarre
+                  <emph>quasi tutto il filo elettrico!</emph> Un Tenente Colonnello austriaco
+               dall'aspetto arcigno venne dal <name type="person">Pieri</name> e gli domandò con
+               tono irato e imperioso dove fosse andato il filo. Alla risposta data con aria da
+               stupido: <q>«Ich weiss nicht»</q> (non lo so) replicò rabbiosamente: <q>«Ich
+                  glaubs nicht»</q> (non lo credo) e poi si rivolse a <num value="4">quattro</num> o
+                  <num value="5">cinque</num> uomini che aveva seco e a quelli fece una grande
+               sfuriata.</p>
+            <p>Il <num type="ordinal" value="3">terzo</num> giorno ci furono i funerali. Il Comando
+               austriaco del Raggruppamento volle che non più di <num value="20">venti</num>
+               Ufficiali italiani vi partecipassero. Dei compagni mancavano il <persName><roleName
+                     type="military">Capitano</roleName>
+                  <surname>Marzoli</surname></persName> e il <persName><roleName type="military"
+                     >Sottotenente</roleName>
+                  <surname>Gianferrari</surname></persName>: gli altri <num value="15"
+                  >quindici</num> vollero essere tutti partecipi alla mesta cerimonia. Intervennero
+               anche il <persName><roleName type="military">Colonnello</roleName>
+                  <surname>Taddeini</surname></persName>, il <persName><roleName type="military"
+                     >Tenente Colonnello</roleName>
+                  <surname>Gherardi</surname></persName>, il <persName><roleName type="military"
+                     >Maggiore</roleName><surname>De Giorgis</surname></persName> dello stesso
+               reggimento dell'<rs type="person">Estinto</rs>, il <persName><roleName
+                     type="military">Capitano</roleName> d'artiglieria
+                  <surname>Piola</surname></persName> e il <persName><roleName type="military"
+                     >Capitano</roleName>
+                  <surname>Vescovo</surname></persName>. Il Comando austriaco aveva disposto che i
+               funerali riuscissero degni del morto. Un'intera compagnia era stata rimessa a nuovo
+               per rendere gli onori; erano presenti il <persName><roleName type="military"
+                     >Colonnello</roleName>
+                  <surname>Polak</surname></persName> comandante il Raggruppamento, il
+                     <persName><roleName type="military"><choice>
+                        <sic>Tenente-Colonnello</sic>
+                        <corr>Tenente Colonnello</corr>
+                     </choice></roleName>
+                  <surname>Salomon</surname></persName> del Campo e <measure quantity="10"
+                  unit="count" commodity="men">una decina di Ufficiali inferiori</measure>.
+               Officiavano in Cappellano austriaco ed un italiano. Il mesto corteo si mosse.
+               Procedeva, secondo l'uso austriaco, un Ufficiale italiano <add place="margin"
+                  >Capitano Piero Pieri</add> con un Crocifisso, seguivano i due Cappellani, poi la
+               bara con una grande corona di fiori freschi sopra, portata a spalla da <num value="6"
+                  >sei</num> Ufficiali a cui davano il cambio altri <num value="6">sei</num>;
+               seguivano gli altri Ufficiali italiani con corone, poi quelli austriaci e la
+               compagnia d'onore.</p>
+            <p>Al passare del corteo i prigionieri serbi, schierati in ordine, salutavano
+               rispettosamente; alcuni borghesi guardavano pure con curiosità di dietro i cancelli e
+               si scoprivano riverenti. Si rasentò un primo camposanto di Serbi, una serie di croci
+               fittissime allineate, di quasi <num value="5000">cinquemila</num> prigionieri morti
+               di stenti e in seguito a una epidemia. Si giunse dopo non molto al Camposanto nuovo,
+               in parte di Serbi e in parte di Italiani. Era un posto tranquillo, abbastanza
+               pittoresco, non lungi dal <geogName type="river">Danubio</geogName>, vicinissimo a un
+               bel bosco. Si vedevano nello sfondo le estreme propaggini delle
+                  <geogName>Alpi</geogName>, ai cui piedi <persName><forename>Enea</forename>
+                  <surname>Guarneri</surname></persName> era nato nell'altro versante e sotto altro
+               cielo: delle <geogName>Alpi</geogName> che <emph>amava</emph>, che <emph>aveva
+                  sfidato e aveva difeso</emph>, dove la balda giovinezza si era <emph>temprata alle
+                  fatiche e ai pericoli!</emph></p>
+            <p>Lì era già pronta la fossa. Venne calata giù la bara fra il pensoso silenzio di
+               tutti. All'improvviso rintronò una <emph>scarica di fucileria</emph>, poi
+                  <emph>un'altra</emph> e <emph>un'altra!</emph> I nemici rendevano gli onori di
+               guerra al nemico morto da eroe nella fossa sotterranea, mentre anelava di tornare a
+               combatterli a viso aperto. Salutava la sua dipartita da questa <distinct>aiuola
+                  insanguinata</distinct> il frastuono delle armi da guerra, la sola bella musica
+               che <rs type="person">Egli</rs> per <num value="3">tre</num> anni aveva voluto, di
+               cui s'era inebriato: <emph>il nemico rendeva ancora il dovuto onore al valore
+                  infelice!</emph></p>
+            <p>Appena il fumo delle scariche si fu dissipato, il Colonnello austriaco prese una pala
+               e versò sulla cassa la prima palata di terra; seguìrono il <persName><roleName
+                     type="military">Tenente <choice>
+                        <sic>Coonnello</sic>
+                        <corr>Colonnello</corr>
+                     </choice></roleName>
+                  <surname>Salomon</surname></persName> e gli altri ufficiali austriaci, poi il
+                     <persName><roleName type="military">Colonnello</roleName>
+                  <surname>Taddeini</surname></persName> e gli Ufficiali italiani. Allora il
+               Colonnello austriaco accennò che si poteva ritornare. Il <persName><roleName
+                     type="military">Colonnello</roleName>
+                  <surname>Taddeini</surname></persName> si volse un'ultima volta verso la bara e
+               disse: <q>«Addio valoroso compagno, addio Eroe d'Italia, riposa in pace»</q>.</p>
+            <p>Quindi il corteo riprese la via del ritorno; la compagnia degli onori aveva già
+               preceduto. Tutti erano tristi; eppure, in mezzo a tanta tristezza un qualche cosa era
+               negli animi che rendeva meno amaro il distacco: la profonda persuasione della virtù
+                  dell'<rs type="person">Estinto</rs>, ammirata anche dai nemici, di quella virtù
+               che lo avrebbe fatto presente ai nostri cuori sempre; che gli avrebbe impedito di
+               veramente morire. E si sarebbe detto che qualche cosa della sua calma e della sua
+               pace si diffondesse nei suoi amici.</p>
+            <p>All'uscita dell'ospedale il Colonnello austriaco si fermò e gli Ufficiali italiani
+               uscirono sotto buona scorta. Quel freddo ed impassibile militare, dal petto coperto
+               di decorazioni, stette a vederli uscire dal cancello fissandoli uno ad uno con
+               curiosità mista di rispetto, come se avesse voluto imprimersi nella memoria i loro
+               volti.</p>
+            <p>Gli altri Ufficiali del Campo in quella dolorosa circostanza mostrarono un
+               cameratismo e rispetto superiore ad ogni elogio. Mentre le fughe improvvise ed
+               intempestive trovavano numerosi i maldisposti e gli irritati, a cagione delle
+               restrizioni che ne venivano al Campo, non una voce si levò che biasimasse quel
+               tentativo. Tutti dimostrarono di ammirare la serietà dell'impresa, la compiutezza
+               dell'organizzazione, le difficoltà superate, la tenacia. Se l'impresa era finita con
+               una sciagura, ciò si doveva solo alla mancanza di direzione di un vero tecnico, alle
+               troppe difficoltà in mezzo alle quali ci eravamo dibattuti, e infine all'eccessivo
+               coraggio di chi n'era stato vittima. Tutti approvarono subito la spesa di <measure
+                  type="currency"><num value="500">cinquecento</num> corone</measure> per la cassa
+               di zinco e accolsero senza lamento l'addebito austriaco di <measure type="currency"
+                     ><num value="1600">milleseicento</num> corone</measure> a tutto quanto il
+               Campo, per danni alla baracca e per spese nel tentativo di salvataggio.</p>
+            <p>Ormai la vita del Campo di <placeName>Aschach</placeName> stava per aver termine. Le
+               perquisizioni piovvero; in una di queste gli Austriaci scopriorono bussole e carte di
+                  <num value="3">tre</num> Ufficiali riusciti a farsi trasferire all'ospedale come
+               malati, sperando di poter fuggire più facilmente di là. Una nuova accurata
+               perquisizione rivelò le tracce della galleria cominciata nell'altra baracca e poiché
+               avrebbe dovuto sboccare presso il trasformatore della luce elettrica, il Comando
+               austriaco suppose e ostinatamente ritenne che si trattasse di una trama per gettare
+               nell'oscurità il Campo al momento della fuga. Alla memoria del Colonnello austriaco
+               dovettero tornare i ricordi di certa letteratura romantica che rappresentava
+                  l'<country key="IT">Italia</country> come il paese dei <emph>tradimenti, del
+                  veleno, dei sotterranei, delle spie e dei consigli segreti!</emph> Fu preso da un
+               sacro terrore: mandò a <placeName>Linz</placeName> una relazione
+                  <emph>sbalorditiva!</emph> Dopo pochi giorni si seppe che il campo veniva
+               sciolto.</p>
+            <p>La balda e speranzosa comitiva degli Alpini era divisa e mandata in Campi diversi. Al
+                     <persName><roleName type="military">Capitano</roleName>
+                  <surname>Pieri</surname></persName> doveva essere riservato, fra non molto,
+               l'onore di occupare il posto che sarebbe stato del <persName><roleName
+                     type="military">Capitano</roleName>
+                  <surname>Guarneri</surname></persName> nel campo di punizione di
+                  <placeName>Komarom</placeName>; i <persName><roleName type="military"
+                     >Sottotenenti</roleName>
+                  <surname>Osella e Porto</surname></persName> erano pure mandati, più tardi, in un
+               altro Campo di punizione in <placeName>Boemia</placeName>.</p>
+         </div>
+         <div type="chapter">
+            <head>XII. Voto augurale.</head>
+
+            <p>Al <persName><roleName type="military">Capitano</roleName>
+                  <surname>Guarneri</surname></persName> era mancato nella carriera militare il
+               meritato serto d'alloro. Ferito e proposto per medaglia al valore parecchie volte,
+               aveva visto tanti altri onorati e decorati, mentre delle proposte per lui, sebbene
+               accompagnate da motivazioni superbe, non s'era saputo più nulla.</p>
+            <p>Proposto una prima volta a <geogName type="mount">Monte Rosso</geogName>, poi, per
+               medaglia d'<choice>
+                  <sic>argento.</sic>
+                  <corr>argento,</corr>
+               </choice> al <geogName type="mount">Rombon</geogName>, non essendo in quella
+               circostanza riuscita l'azione, aveva visto il tutto ridursi ad un encomio
+               solenne.</p>
+            <p>Un suo progetto di miglioramenti alla mitragliatrice <objectName>Maxim</objectName>,
+               frutto di genialità e di esperienza di guerra, aveva subito urtato in diffidenze e
+               gelosie. D'altra parte il suo carattere fiero e l'animo traboccante di giovanile
+               baldanza e anche un po' generosamente impulsivo, che talora gli impediva di velare
+               col manto della prudenza i propri pensieri, lo rendevano bensì stimato e desiderato
+               nei momenti difficili, ma non erano tali da spianargli la via degli onori.</p>
+            <p>All'<geogName type="mount">Ortigara</geogName>, ferito e proposto di nuovo per
+               medaglia d'argento si era poi sentito dire che la proposta era andata perduta.</p>
+            <p>Ma non per queste miserie gli era venuto meno l'entusiasmo e il sentimento del
+               dovere. <emph>Troppo nobilmente sdegnoso era il suo carattere!</emph></p>
+            <p>Il Maggiore del battaglione <name>Val Stura</name> aveva promesso di domandare per
+               lui, al ritorno in <country key="IT">Italia</country>, la medaglia d'argento per
+               l'azione di <geogName type="mount">Monte Cavallo</geogName>. Dopo la morte gloriosa,
+                  <num value="2">due</num> Ufficiali superiori e un Generale s'impegnarono a
+               designarlo, appena reduci in <country key="IT">Italia</country>, per un'onorificenza,
+               la più alta possibile. A quanto ci consta il solo <persName><roleName type="military"
+                     >Maggiore</roleName>
+                  <surname>De Giorgis</surname></persName> già del battaglione <name>Saluzzo</name>
+               (2º Alpini) ha mantenuto la promessa.</p>
+            <p>Confidiamo che alla memoria del valoroso Capitano sia resa compiuta giustizia, e che
+               anche in <country key="IT">Italia</country> si mostri di apprezzare nella sua
+               interezza e d'additare all'ammirazione qualsiasi forma di virtù e si renda il dovuto
+               omaggio a chi combattè da prode per <num value="3">tre</num> anni continui, ed anche
+               nella fortuna avversa mantenne animo invitto e fede immutata, sofferse, lottò, morì
+               eroicamente vittima del proprio coraggio e di quello che fin all'ultimo istante della
+               sua vita reputò il suo dovere, anelando nuove <distinct>pugne</distinct> e sospirando
+                  <emph>la Patria lontana!</emph></p>
+            <p>Così passò questo doloroso episodio della nostra giovinezza e della nostra prigionia.
+               Può darsi che in avvenire, stanco delle piccole lotte di ogni giorno, l'animo nostro
+               si volga ai fortunosi anni giovanili e ricordi l'entusiasmo e la fede e la amicizia
+               d'allora. Il passato forse apparirà irradiato di nuovi bagliori e alla memoria
+               tornerà il rimpianto del savio di <name type="person">Omero</name>: <quote>
+                  <l>«Ed io pur con Eroi son visso un tempo</l>
+                  <l>«Ned altri tali io vidi unqua, nè spero</l>
+                  <l>«Di riveder più mai....</l></quote></p>
+
+            <signed>Capitano PIERO PIERI</signed>
+
+            <dateline><name type="place">Belluno</name>, <date when="1919-07-25">25 luglio
+                  1919</date>, a <num value="13">tredici</num> mesi dalla sciagura</dateline>
+         </div>
+      </body>
+      <back>
+         <div>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author>Pieri, Piero</author>
+                     <title level="m">Un Episodio di Prigionia. La morte del Capitano Enea Guarneri, medaglia d'oro alpina.</title>
+                     <imprint>
+                        <pubPlace>Milano</pubPlace>
+                        <publisher>Associazione Nazionale Alpini</publisher>
+                        <date>1924</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <author>Rava, Maurizio</author>
+                     <author>Pieri, Piero</author>
+                     <title level="a">La morte del capitano Enea Guarneri Alpino</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j">La Rassegna Italiana</title>
+                     <imprint>
+                        <date>Agosto 1922</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </div>
+         <div>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Favria</settlement>
+                  <repository>Archivio privato della famiglia Pieri-Martinetto</repository>
+                  <msName>Un Episodio di Prigionia. La morte del Capitano Enea Guarneri, medaglia
+                     d'oro alpina.</msName>
+                  <msName>Copia personale di Silvio Pieri</msName>
+               </msIdentifier>
+            </msDesc>
+         </div>
+      </back>
+   </text>
+</TEI>

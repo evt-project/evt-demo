@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>F</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name xml:id="eugenio">Eugenio Burgio</name>
+               <name xml:id="samuela">Samuela Simion</name>
+            </respStmt>
+            <respStmt>
+               <resp>Text Encoding by</resp>
+               <name xml:id="chiara">Chiara Martignano</name>
+               <name xml:id="elisa">Elisa Cugliana</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="v_F_body" xml:lang="fr">
+         <div type="chapter" n="104" xml:id="c104_F104" corresp="#c104_tr104">
+            <p>CAPITOLO 104</p>
+         </div>
+         <div type="chapter" n="105" xml:id="c105_F105" corresp="#c105_tr105">
+            <p n="1" xml:id="c105_F105_par1">
+               <seg n="1" xml:id="c105_F105_p1">Ci devise de la grant cité de <placeName
+                     ref="#giugiu">Giugiu</placeName>.</seg></p>
+            <p><seg n="2" xml:id="c105_F105_p2">Et quant l’en s’en part de cest pont et il est alés
+                  trointe <term ref="#mil">miles</term> por <term>ponent</term> trouvant toutes
+                  foies bieles erberges et vignes et chans, adonc treuve une cité qui est apelés
+                     <placeName ref="#giugiu">Giogiu</placeName>, grant et biele.</seg>
+               <seg n="3" xml:id="c105_F105_p3">Hi a maintes abaïe de <term ref="#ydres"
+                     >ydres</term>; il vivent de merchandie et des ars; il hi se laborent
+                     <term>dras</term> de <term>soie</term> et doré et biaus <term>sendal</term>; et
+                  il hi a maintes herbergieries qe erbergient les viandanç.</seg></p>
+            <p n="2" xml:id="c105_F105_par2"><seg n="4" xml:id="c105_F105_p4">Et quant l’en est
+                  parti |48a| de ceste ville et alés un <term ref="#mil">mil</term>, adonc treuve
+                  l’en deus voies, que le une ala a <term>ponent</term> et le autre a
+                     <term>sciloc</term>.</seg>
+               <seg n="5" xml:id="c105_F105_p5">Celle dou <term>ponent</term> est dou
+                     <placeName>Catai</placeName> et celle do <term>siloc</term> vait ver la grant
+                  pro vence dou <placeName>Mangi</placeName>.</seg>
+               <seg n="6" xml:id="c105_F105_p6">Et sachiés tout voiremant qe l’en chevauche por
+                     <term>ponent</term> por la provence dou <placeName>Catai</placeName> bien .x.
+                  jornee, et toutes foies treuve l’en maintes belles cités et maint biaus chastiaus,
+                  de grant mercandies et de grant ars, et biaus chans et bielles vingnes et domesces
+                  jens.</seg>
+               <seg n="7" xml:id="c105_F105_p7">N’i a chouses qe a mentovoir face: por ce ne voç en
+                  diron rien.</seg></p>
+            <p n="3" xml:id="c105_F105_par3"><seg n="8" xml:id="c105_F105_p8">Et adonc laiseron de
+                  ceste maitiere et voç conteron de un roiame que <placeName ref="#taianfu"
+                     >Taianfu</placeName> est appellés.</seg></p>
+         </div>
+      </body>
+   </text>
+</TEI>

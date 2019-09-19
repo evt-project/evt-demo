@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Osservazioni sulla tortura</title>
+                <author> Pietro Verri </author>
+                <respStmt>
+                    <resp>Text Encoding by </resp>
+                    <name>Margherita De Blasi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Margherita De Blasi</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p> Il testo è tratto dalle <title>Osservazioni sulla tortura</title> pubblicato nel
+                    2018 (Antenore, Padova). </p>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>L'apparato mostra come il testo di Verri si è formato nel corso della
+                    composizione.</p>
+            </editorialDecl>
+            <variantEncoding location="internal" method="parallel-segmentation"/>
+        </encodingDesc>
+        <!--    <front>
+        <div>                  </div>
+    </front>-->
+    </teiHeader>
+    <text>
+        <body>
+
+            <div n="1" type="chapter">
+                <pb ed="#A" n="5r" facs="5r.png"/>
+                <pb ed="#B" n="5v" facs="5v.png"/>
+                <pb ed="#C" n="6r" facs="6r.png"/>
+                <pb ed="#D" n="6v" facs="6v.jpg"/>
+                <head>I</head>
+                <head>Introduzione</head>
+                <p> |5r| Fra i molti uomini d’ingegno e di cuore i quali hanno scritto contro la
+                    pratica criminale della tortura e contro l’insidioso raggiro de’ processi che
+                    secretamente si fanno nel carcere <app>
+                        <lem>non ve n’è alcuno</lem>
+                        <rdg type="precede"> sin ora pochi </rdg>
+                    </app>
+                    <note> sin ora pochi </note> il quale abbia fatto colpo sull’animo dei giudici,
+                    e quindi oserei dire che poco o nessuno effetto abbian essi <app>
+                        <lem> prodotto. </lem>
+                        <rdg type="segue"> in favore dell'umanità</rdg>
+                    </app>
+                    <note> in favore dell'umanità </note> Partono essi per lo più da sublimi
+                    principj di legislazione <app>
+                        <lem>riserbati alla cognizione di alcuni pochi pensatori profondi e
+                            ragionando sorpassano la comune capacità, </lem>
+                        <rdg type="soprascritto">sconosciuti affatto presso gli uomini comuni e
+                            ragionando trovansi sempre gettare i loro colpi più a un livello più
+                            alto e </rdg>
+                    </app>
+                    <note> sconosciuti affatto presso gli uomini comuni e ragionando trovansi sempre
+                        gettare i loro colpi più a un livello più alto e </note> quindi le menti <app>
+                        <lem> degli uomini </lem>
+                        <rdg type="soprascritto"> volgari </rdg>
+                    </app>
+                    <note> volgari </note> altro non ne concepiscono se non <app>
+                        <lem> se </lem>
+                        <rdg type="aggiunto"> se </rdg>
+                    </app>
+                    <note> se </note> mormorio confuso e se ne sdegnano e rimproverano il genio di
+                    novità, la ignoranza della pratica, la vanità di voler fare il bello spirito <app>
+                        <lem> onde </lem>
+                        <rdg type="soprascritto">e</rdg>
+                    </app>
+                    <note> e </note> rifugiandosi alla sempre venerata tradizione de’ secoli anche
+                    più fortemente si attaccano ed affezionano alla pratica tramandataci dai <app>
+                        <lem>secoli </lem>
+                        <rdg type="soprascritto"> maggiori </rdg>
+                    </app>
+                    <note> maggiori </note> . La verità si insinua più facilmente quando lo
+                    scrittore <app>
+                        <lem> postosi </lem>
+                        <rdg type="soprascritto"> si pone </rdg>
+                    </app>
+                    <note> si pone </note>
+                    <app>
+                        <lem> del pari </lem>
+                        <rdg type="segue"> dapprincipio </rdg>
+                        <note> dapprincipio </note>
+                    </app> col suo lettore <app>
+                        <lem> parte </lem>
+                        <rdg type="soprascritto"> e partendo </rdg>
+                    </app>
+                    <note> e partendo </note>
+                    <app>
+                        <lem> dalle idee comuni, e </lem>
+                        <rdg type="da"> dalle sue idee</rdg>
+                    </app>
+                    <note> dalle sue idee </note> gradatamente e senza scossa lo <app>
+                        <lem> fa </lem>
+                        <rdg type="precede"> si </rdg>
+                    </app>
+                    <note> si </note> camminare e innalzarsi a lei anzi che dall’alto annunziandola
+                    con <app>
+                        <lem> tuoni e lampi i quali sbigottiscono per un momento indi lasciano gli
+                            uomini perfettamente nello stato di prima </lem>
+                        <rdg type="da"> uno sbigottimento che la fa balenare tuonando e lascia gli
+                            uomini un momento dopo nello stato di prima</rdg>
+                    </app>
+                    <note>uno sbigottimento che la fa balenare tuonando e lascia gli uomini un
+                        momento dopo nello stato di prima</note> . </p>
+                <p>Sono già più anni dacchè il ribrezzo medesimo che ho per le procedure criminali
+                    mi portò a volere esaminare la materia ne’ suoi autori la crudeltà e assurdità
+                    de’ quali sempre più mi confermò nella opinione |5v| di risguardare come una
+                    tirannia superflua i tormenti che si danno nel carcere. Allora feci molte
+                    annotazioni sul proposito le quali rimasero oziose. Parimenti già da più anni
+                    riflettendo io al fatto che <app>
+                        <lem> fece diroccare la casa d’un <app>
+                                <lem> cittadino </lem>
+                                <rdg type="soprascritto"> infelice </rdg>
+                            </app>
+                            <note> infelice </note> e piantarvi per pubblico decreto </lem>
+                        <rdg type="da"> piantare</rdg>
+                    </app>
+                    <note> piantare </note> la Colonna infame dubitai dapprincipio <app>
+                        <lem> se </lem>
+                        <rdg type="soprascritto"> che </rdg>
+                    </app>
+                    <note> che </note> fosse <app>
+                        <lem> possibile </lem>
+                        <rdg type="da"> impossibile </rdg>
+                    </app>
+                    <note> impossibile </note> il delitto per cui vennero condannati <app>
+                        <lem> molti </lem>
+                        <rdg type="soprascritto"> quegl </rdg>
+                    </app>
+                    <note> quegl </note> infelici indi decisamente fui persuaso essere impossibile e
+                    in fisica e in morale che si diano unzioni artefatte maneggievoli impunemente
+                    dall’autore le quali al solo tatto esterno dopo essere state all’aria aperta <app>
+                        <lem> sulle pareti delle strade </lem>
+                        <rdg type="aggiunto"> sulle pareti delle strade</rdg>
+                    </app> cagionino la pestilenza e che possano più uomini collegarsi affine di
+                    dare la morte indistintamente a tutta la loro <app>
+                        <lem> città. </lem>
+                        <rdg type="segue"> senza </rdg>
+                    </app>
+                    <note> senza </note> Mi venne a caso fralle mani il voluminoso processo
+                    manoscritto che risguardava quel fatto e dalla attenta lettura mi trovo convinto
+                    sempre più nella mia opinione.</p>
+                <p>Cerco che il lettore imparziale giudichi se le mie opinioni sieno vere o no. Io
+                    mi asterrò dal declamare almeno me lo propongo, e se la natura mi farà sentir la
+                    sua voce talvolta e la riflessione mia non accorrerà sempre a soffocarla ne
+                    spero perdono, proccurerò di <app>
+                        <lem> reprimerla </lem>
+                        <rdg type="da"> farlo </rdg>
+                    </app>
+                    <note> farlo </note> il più che potrò, giacchè non cerco di sedurre nè me stesso
+                    nè il lettore cerco di camminare placidamente alla verità. Non aspetto gloria
+                    alcuna da quest’opera, ella verte sopra di un fatto ignoto al resto dell’Italia,
+                    vi dovrò riferire de’ pezzi di processo e saranno le parole di poveri sgraziati
+                    e incolti che non sapevano |6r| parlare che il lombardo plebeo, non vi sarà
+                    eloquenza o studio di scrivere; cerco unicamente di schiarire un argomento che è
+                    importante; se la ragione farà conoscere che è cosa ingiusta, pericolosissima, e
+                    crudele l’adoperar le torture il premio che otterrò mi sarà ben più caro che la
+                    gloria d’aver fatto un libro, avrò difesa la parte più debole e infelice degli
+                    uomini miei fratelli: se non mostrerò chiaramente la barbarie della tortura
+                    quale la sento io il mio libro sarà da collocarsi fra i moltissimi superflui. In
+                    ogni evento sebbene anche ottenga il mio fine, e che illuminatasi la opinione
+                    pubblica venga stabilito un metodo più ragionevole e meno feroce per
+                    rintracciare i delitti allora accaderà del mio libro come dei punti di legno che
+                    si atterrano innalzata che sia la fabbrica, e come avvenne al Sig.r March.
+                    Maffei che distruggendo la scienza cavalleresca e annientandone gli scrittori
+                    annientò pure il suo libro che ora nessuno più legge perchè non esiste l’oggetto
+                    per cui era scritto. </p>
+                <p>La maggior parte dei giudici gradatamente si è incallita agli spasimi delle
+                    torture per un principio rispettabile, cioè sacrificando <app>
+                        <lem>l'orrore</lem>
+                        <rdg type="da">il ribrezzo</rdg>
+                    </app>
+                    <note> il ribrezzo </note> dei mali di un uomo solo sospetto reo in vista del
+                    ben generale della intera società. Coloro che difendono la pratica criminale lo
+                    fanno credendola necessaria alla sicurezza pubblica e persuasi che qualora si
+                    abolisse la severità della tortura sarebbero impuniti i delitti e tolta la
+                    strada al giudice di rintracciarli. Io non condanno di vizio chi ragiona così,
+                    ma credo che sieno in un errore evidente e in un errore di cui le conseguenze
+                    sono |6v| crudeli. Anche i giudici che condannavano ai roghi le streghe e i
+                    Maghi nel secolo passato credevano di purgare la terra da più fieri nemici
+                    eppure immolavano delle vittime al fanatismo e alla pazzia. Furono alcuni
+                    benemeriti uomini i quali illuminarono i loro simili, e scoperta la fallacia che
+                    era invalsa ne’ secoli precedenti si astennero da quelle atrocità e un più umano
+                    e ragionevole sistema vi fu sostituito. Bramo che con tal esempio nasca almeno
+                    la pazienza di esaminar meco se la tortura sia utile e giusta, forse potrò
+                    dimostrare che è questa una opinione non più fondata di quello che lo fosse la
+                    stregheria sebbene al par di quella abbia per se la pratica de’ tribunali e la
+                    veneranda tradizione dell’antichità. </p>
+                <p> Comincierò dal fatto della Colonna infame, poscia passerò a trattare in massima
+                    la materia; ma prima convien dare una idea della pestilenza che rovinò Milano
+                    nel 1630.</p>
+            </div>
+            <div n="2" type="chapter">
+                <pb ed="#A" n="6v" facs="6v.jpg"/>
+                <pb ed="#B" n="7r" facs="7r.jpg"/>
+                <pb ed="#C" n="7v" facs="7v.jpg"/>
+                <pb ed="#D" n="8r" facs="8r.jpg"/>
+                <pb ed="#E" n="8v" facs="8v.jpg"/>
+                <pb ed="#F" n="9r" facs="9r.jpg"/>
+                <pb ed="#G" n="9v" facs="9v.jpg"/>
+                <pb ed="#H" n="10r" facs="10r.jpg"/>
+                <head>II</head>
+                <head>Idea della pestilenza che devastò Milano nel 1630</head>
+                <p> Il Ripamonti cattivo ragionatore, buon latinista cronista inesatto, ma sincero
+                    espositore delle cose de’ suoi tempi ha scritta la storia della pestilenza
+                    accaduta al tempo appunto in cui viveva e fa una vivissima compassione la sola
+                    idea dell’esterminio a cui sogiacque la nostra Patria in quel tempo. Si tratta
+                    niente meno che della distruzione di due terze parti dei cittadini. La
+                    crudelissima pestilenza fu delle più |7r| spietate che rammemori la storia. Alla
+                    distruzione fisica si accoppiarono tutti i più terribili disastri morali. </p>
+                <p>Ogni legame sociale si stracciò niente era piú in salvo nè le sostanze, nè la
+                    vita, né l’onestà delle mogli tutto era esposto alla inumanità e alla rapina di
+                    alcuni pessimi uomini i quali <app>
+                        <lem> tanto ferocemente </lem>
+                        <rdg type="soprascritto"> inumanamente</rdg>
+                    </app>
+                    <note> inumanamente </note> operavano nel seno della <app>
+                        <lem> misera </lem>
+                        <rdg type="aggiunto"> misera </rdg>
+                    </app>
+                    <note> misera</note> lor patria spirante come appena un popolo selvaggio farebbe
+                    nel paese nemico. I monati classe di uomini trascelta per assistere gli ammalati
+                    invadevano le case, trasportavano le robe che vi trovavano, violavano le figlie
+                    e le consorti impunemente sotto gli occhi dell’agonizante padre o marito,
+                    obbligavano a redimersi colla somma di denaro che lor piaceva i parenti colla
+                    minaccia di trasportare i figli o le spose, <app>
+                        <lem> benché </lem>
+                        <rdg type="aggiunto"> benché</rdg>
+                    </app>
+                    <note>benché</note> sani, al Lazaretto. I giudici tremanti per la propria vita
+                    ricusavano ogni ufficio. Varj ladroni fingendosi monati invadevano e
+                    saccheggiavano ogni casa: tale è lo spettacolo che ci viene descritto dal
+                    Ripamonti che pianse siccome egli attesta piú e piú volte in vista di sí orrende
+                    calamità. <app>
+                        <lem> Tali erano i costumi, tale era</lem>
+                        <rdg type="da"> tale era</rdg>
+                    </app>
+                    <note> tale era </note> lo spirito che agitò i nostri antenati in quel tempo che
+                    forse <app>
+                        <lem> troppo incautamente </lem>
+                        <rdg type="da"> incautamente troppo </rdg>
+                    </app>
+                    <note> incautamente troppo </note> taluni vorrebbero far ritornare co’ <app>
+                        <lem> loro voti</lem>
+                        <rdg type="segue"> Tale era la supposta bontà di que’ costumi vantata da chi
+                            dispettosamente riguarda i progressi della ragione e della umanità
+                            accaduti dappoi, e ben felici noi che ci lagniamo d’un conduttore
+                            elettrico e delle sperienze sull’aria fissa, o dell’osservatorio e
+                            scuole di belle arti nuovamente erette</rdg>
+                    </app>
+                    <note> Tale era la supposta bontà di que’ costumi vantata da chi dispettosamente
+                        riguarda i progressi della ragione e della umanità accaduti dappoi, e ben
+                        felici noi che ci lagniamo d’un conduttore elettrico e delle sperienze
+                        sull’aria fissa, o dell’osservatorio e scuole di belle arti nuovamente
+                        erette! </note>
+                </p>
+                <p> |7v|La storia di questa sciagura conviene cominciarla da un Dispaccio che dalla
+                    Corte di Madrid venne al Marchese Spinola allora Governatore. Il dispaccio era
+                    firmato dal Re <app>
+                        <lem> Filippo Quarto </lem>
+                        <rdg type="aggiunto"> Filippo Quarto </rdg>
+                    </app>
+                    <note> Filippo Quarto </note> Rara cosa assai era in que’ tempi la venuta di un
+                    Dispaccio, ed era questo un avenimento che occupava tutta la città, poichè non <app>
+                        <lem> si partiva </lem>
+                        <rdg type="aggiunto"> veniva</rdg>
+                    </app>
+                    <note> veniva </note> dalla Corte un Reale rescritto se non per gravissime
+                    cagioni. Il Dispaccio avvisava il Governatore essere stati osservati in Madrid
+                    quattro uomini che avevan portati degli unguenti per recare la pestilenza in
+                    quella Reale Città, essere costoro fuggiti, non sapersi in qual parte si fossero
+                    essi rivolti per recarvi le malefiche unzioni, quindi se ne avvisava il
+                    Governatore acciocchè attentamente vegliasse in difesa anche del Milanese. Hæ
+                    litteræ dice il Ripamonti pag. 112 quia Majestatis ipsius chirografo subsignatæ
+                    fuerunt, grande sane momentum inclinandis ad pessima quæque credenda animis
+                    facere potuerunt. In que’ tempi l’ignoranza delle cose fisiche era assai grande.
+                    Taluno <app>
+                        <lem> avrà </lem>
+                        <rdg type="precede"> avrebbe</rdg>
+                    </app>
+                    <note> avrebbe </note> pensato allora è egli possibile il formare una materia
+                    che toccandosi dia la pestilenza? Se anche sia possibile potrà un uomo portarla
+                    seco senza caderne <app>
+                        <lem> vittima ? </lem>
+                        <rdg type="segue">Ammesso anche ciò</rdg>
+                    </app>
+                    <note> Ammesso anche ciò</note> Quattro uomini collegansi per un tale viaggio e
+                    girano il mondo colla pestilenza nelle ampolle per divulgarla! A qual fine! Per
+                    quale utilità! Ma i pochi che |8r| avranno cosí pensato non avranno avuto ardire
+                    di palesarlo, l’autorità di un Dispaccio la opinione popolare erano terribili
+                    contrasti che esponevano a troppo grave pericolo l’uomo che avesse annunziata
+                    questa verità. Si sparse adunque l’opinione e il sospetto generalmente di queste
+                    malefiche unzioni. </p>
+                <p> Sappiamo dalla storia come fossero allora governati i popoli sotto Filippo IV.
+                    La pestilenza dalla Germania per la Valtellina liberamente entrò nel milanese
+                    poco dopo la vociferazione del Dispaccio. Ma la opinione comune del popolo volle
+                    ostinatamente piuttosto credere essere la vociferata pestilenza un artificiosa
+                    invenzione de’ medici per acquistar lucro anzi che esaminare e chiarire il
+                    fatto. Era forse una tal diffidenza l’effetto della lunga serie d’inganni
+                    sofferti dalla classe <app>
+                        <lem> superiore </lem>
+                        <rdg type="segue"> a lei </rdg>
+                    </app>
+                    <note> a lei</note>. Inutilmente i medici piú istrutti divolgavano le prove
+                    degli ammalati che avevano veduti morire di pestilenza che la plebe sempre li
+                    risguardava come autori d’una malignamente immaginata diceria. Celebre è il
+                    fatto accaduto al venerabile nostro Lodovico Settala uomo sommo per que’ tempi
+                    non tanto per l’erudizione, la coltura, la scienza medica e le cognizioni di
+                    storia naturale di cui il museo ebbe fra i contemporanei d’Europa il primato
+                    quanto per la nobiltà e virtú del suo animo che disinteressatamente e
+                    instancabilmente usò de’ talenti a beneficio del popolo. Questi mentre
+                    cavalcava, siccome allora era costume de’ medici venne attorniato
+                    tumultuosamente da una folla di uomini, donnicciuole, fanciulli ed ogni classe
+                    di plebaglia indi villanissimamente insultato qual principale autore della |8v|
+                    opinione che nelle città vi fosse la pestilenza che le turbe esclamavano essere
+                    unicamente ne’ peli della di lui barba Ita gravissimus optimusque senex et
+                    antistes sapientiæ Septalius qui innumeris pene mortalibus vitam excellentia
+                    artis, quique multis etiam liberalitate sua subsidia vitæ dederat ob petulantiam
+                    stoliditatemque multitudinis periculum adiit cosí il Ripamonti pag. 56. </p>
+                <p> Convenne finalmente col crescere della pestilenza e moltiplicarsi giornalmente
+                    il numero de’ morti disingannare il popolo e persuadergli che il malore pur
+                    troppo era nella città, e laddove i discorsi nessun effetto producevano si
+                    dovettero far <app>
+                        <lem> manifesti </lem>
+                        <rdg type="soprascritto"> allora legare </rdg>
+                    </app>
+                    <note> allora legare </note> sopra gran carri gli ammassi de’ cadaveri nudi
+                    aventi i buboni venefici e cosí per le strade della affollata città <app>
+                        <lem> girando </lem>
+                        <rdg type="aggiunto"> girando</rdg>
+                    </app>
+                    <note> girando</note> questo spettacolo portò infine la convinzione negli animi <app>
+                        <lem> e forse lo propago piú estesamente </lem>
+                        <rdg type="aggiunto"> e forse lo propago piú estesamente</rdg>
+                    </app>
+                    <note> e forse lo propago piú estesamente</note> . Allora fu che il popolo
+                    furiosamente si rivolse ad ogni eccesso di demenza. Ne’ disastri pubblici la
+                    umana debolezza inclina sempre a sospettarne <app>
+                        <lem> cagioni stravanganti </lem>
+                        <rdg type="segue"> Veggiamo i contadini attribuire le gragnuole non già alle
+                            leggi delle meteori</rdg>
+                    </app>
+                    <note> Veggiamo i contadini attribuire le gragnuole non già alle leggi delle
+                        meteori</note> anzi che crederle effetti del corso naturale delle leggi
+                    fisiche. Veggiamo i contadini attribuir la gragnuola non già alle leggi delle
+                    meteori ma piuttosto alle streghe. Veggiamo i saggi Romani istessi al tempo in
+                    cui erano rozzi cioè l’anno di Roma 423 sotto Claudio Marcello e Cajo Valerio
+                    attribuire la pestilenza che gli afflisse a veleni apprestati da una troppo
+                    inverosimile congiura di matrone Romane come Livio Lib. viii. Cap. xii. Dec. i.
+                    Proditum falso esse venenis absumptos quorum mors infamem annum pestilentia
+                    fecerit. |9r|Non è dunque da maravigliarsi se anco in Milano in mezzo a tanta e
+                    sí crudele sciagura sotto un cosí maligno flagello se ne sospettasse volgarmente
+                    la cagione <app>
+                        <lem> nella </lem>
+                        <rdg type="precede">la</rdg>
+                    </app>
+                    <note> la </note> malignità degli uomini e si credesse verificato il danno
+                    predetto dal Reale dispaccio e prodotto lo sterminio dalle malefiche unzioni.
+                    Simili opinioni quanto sono piú stravaganti tanto piú trovano credenza perchè
+                    appunto d’uno stravagante effetto se ne crede stravagante la cagione, e piú si
+                    gode nel trovarne l’origine nella malizia dell’uomo che si può contenere anzi
+                    che nella implacabile fisica che si sottrae alle umane instituzioni. In quel
+                    Secolo poi sappiamo quale fosse la coltura degli studj unicamente rivolti alle
+                    parole ed ai delirj della immaginazione. La opinione quindi delle unzioni
+                    malefiche divenne generalmente la trionfante ogni macchia che apparisse sulle
+                    pareti era un corpo di delitto ogni uomo che inavedutamente stendesse la mano a
+                    toccarle era a furore di popolo strascinato alle carceri, quando non <app>
+                        <lem> fosse massacrato </lem>
+                        <rdg type="da"> furono massacrate e uccise</rdg>
+                    </app>
+                    <note> furono massacrate e uccise </note> dalla stessa ferocia volgare. Il
+                    Ripamonti riferisce alle pag. 92 e 93 due fatti dei quali è stato testimonio
+                    occulare. Uno di tre Francesi viaggiatori i quali esaminando la facciata del
+                    duomo toccarono il marmo e furono percossi malamente e strascinati in carcere
+                    assai mal conci; l’altro d’un povero vecchio ottuagenario di civile condizione
+                    il quale prima di appoggiarsi alla panca nella chiesa di Sant Antonio levò col
+                    passarvi il mantello la polve, quell’atto credutosi una unzione inferocí il
+                    popolo nella casa stessa del Dio di <app>
+                        <lem> mansuetudine </lem>
+                        <rdg type="segue"> di quel Dio che il buon vecchio cercava di pregare</rdg>
+                    </app>
+                    <note> di quel Dio che il buon vecchio cercava di pregare </note> e presolo pe’
+                    pochi capelli e la barba a pugni e calci ed ogni genere di percosse non
+                    l’abbandonò se non poi chè <app>
+                        <lem> lo rese cadavero</lem>
+                        <rdg type="segue"> lo ridusse a morte</rdg>
+                    </app>
+                    <note> lo ridusse a morte</note>. Tale era <app>
+                        <lem> lo spirito </lem>
+                        <rdg type="soprascritto"> il fanatismo </rdg>
+                    </app>
+                    <note> il fanatismo </note> de' <app>
+                        <lem> tempi </lem>
+                        <rdg type="segue"> ; tali erano gli effetti della ignoranza</rdg>
+                    </app>
+                    <note> ; tali erano gli effetti della ignoranza </note>. La pestilenza andava
+                    sempre piú mietendo vittime|9v| umane e si andava disputando sulla origine di
+                    quella anzi che accorrervi al riparo. Gli uni la facevano discendere da una
+                    cometa che fu in quell’anno osservata nel mese di Giugno truci ultra solitum
+                    etiam facie come scrive il Ripamonti pag. 110. Altri ne davano l’origine agli
+                    spiriti infernali e v’era chi attestava d’avere <app>
+                        <lem> distintamente </lem>
+                        <rdg type="soprascritto"> propriamente</rdg>
+                    </app>
+                    <note> propriamente </note> veduto giugnere sulla piazza del Duomo un signore
+                    strascinato da sei cavalli bianchi in un superbo cocchio e attorniato da
+                    numeroso corteggio. Si osservò che il signore aveva <app>
+                        <lem> una fisionomia </lem>
+                        <rdg type="soprascritto"> un aria in volto </rdg>
+                    </app>
+                    <note> un aria in volto </note> fosca ed infuocata, occhi fiammeggianti, irsute
+                    chiome e il labbro superiore minaccioso. Entrato questi nella casa, ivi furono
+                    osservati tesori, larve demonj e seduzioni d’ogni sorta per addescare gli uomini
+                    a prendere il partito diabolico: di tali opinioni se ne può vedere piú a lungo
+                    la storia nel citato Ripamonti a pag. 77. Fra tai delirj si perdevano i
+                    cittadini anche piú distinti e gli stessi magistrati e in vece di tenere con
+                    esatti ordini segregati i cittadini gli uni dagli altri in vece di intimare a <app>
+                        <lem> ciascuno </lem>
+                        <rdg type="segue"> sotto gravissime pene</rdg>
+                    </app>
+                    <note> sotto gravissime pene</note> di restarsene in casa destinando uomini
+                    probi ai quartieri diversi per somministrare quanto occorreva a ciascuna
+                    famiglia rimedio il solo che possa impedire la comunicazione del malore, e
+                    rimedio che adoperato dapprincipio avrebbe forse con meno di cento uomini
+                    placata la pestilenza, in vece dico di tutto ciò si comandò con una assai mal
+                    intesa pietà una processione solenne nella quale si radunarono tutt’i ceti de’
+                    cittadini e trasportando il corpo di San Carlo per tutte le strade frequentate
+                    della Città, ed esponendolo sull’altar Maggiore del Duomo per più giorni alle
+                    preghiere dell’affollato popolo <app>
+                        <lem> pietà </lem>
+                        <rdg type="soprascritto"> divozione</rdg>
+                    </app>
+                    <note> divozione </note> una processione solenne nella quale si radunarono
+                    tutt’i ceti de’ cittadini e trasportando il corpo di San Carlo per tutte le
+                    strade frequentate della Città, ed esponendolo sull’altar Maggiore del Duomo per
+                    più giorni alle preghiere dell’affollato popolo prodigiosamente si comunicò la
+                    pestilenza alla città tutta ove da quel momento si cominciarono a contare |10r|
+                    sino novecento morti ogni giorno </p>
+            </div>
+            <div n="2" type="chapter">
+                <pb ed="#A" n="10r" facs="10r.jpg"/>
+                <pb ed="#B" n="10v" facs="10v.jpg"/>
+                <pb ed="#C" n="14r" facs="14r.jpg"/>
+                <pb ed="#D" n="14v" facs="14v.jpg"/>
+                <pb ed="#E" n="12r" facs="12r.jpg"/>
+                <pb ed="#F" n="12v" facs="12v.jpg"/>
+                <pb ed="#G" n="13r" facs="13r.jpg"/>
+                <head> III </head>
+                <head> Come sia nato il Processo contro Guglielmo Piazza commissario della Sanità </head>
+                <p> Mentre la pestilenza infieriva più che mai dopo la processione già detta la
+                    mattina del giorno 21 giugno 1630 una vedova per nome Catterina <app>
+                        <lem> Troccazzani </lem>
+                        <rdg type="soprascritto"> Trocazzani </rdg>
+                    </app>
+                    <note> Trocazzani </note> Rosa che alloggiava nel corritorea <app>
+                        <lem> che </lem>
+                        <rdg type="segue"> che </rdg>
+                    </app>
+                    <note> che</note> che attraversa la vedra de’ Cittadini vide dalla finestra <app>
+                        <lem> Guglielmo Piazza </lem>
+                        <rdg type="segue">Gian Giacomo Mora Barbiere e </rdg>
+                    </app>
+                    <note> Gian Giacomo Mora Barbiere e</note> che dal Carrobbio entrò nella
+                    contrada e accostato al muro dalla parte dritta entrando passò sotto il
+                    corritore indi giunto alla Casa di San Simone ossia al termine della Casa
+                    Crivelli che allora aveva una pianta grande di laurob ritornò indietro. Lo
+                    stesso fu osservato da altra donna per nome Ottavia Persici Boni. La prima di
+                    queste donne disse nell’esame che il Piazza a luogo a luogo tirava con le mani
+                    dietro al muro l’altra |10v| dice che alla muraglia del giardino Crivelli haveva
+                    una carta in mano sopra la quale mise la mano dritta che mi pareva che volesse
+                    scrivere, e poi vidi che levata la mano dalla carta la fregò sopra la
+                    muraglia</p>
+                <p> Attestano che ciò accadde alle ore otto, che era di giorno fatto, e che pioveva.
+                    Le due donne sparsero nel vicinato immediatamente il sussurro d’aver veduto chi
+                    faceva le unzioni malefiche le quali in processo poi la Troccazani Rosa disse
+                    aveva veduto colui a fare certi atti attorno alle muraglie che non mi piacciono
+                    niente. La vociferazione immediatamente si divulgò da una bocca all’altra come
+                    risulta dal processo, si ricercò se le muraglie fossero sporche e si osservò che
+                    all’altezza d’un braccio e mezzo da terra v’era del grasso giallo e ciò
+                    singolarmente sotto la porta del Tradatic e vicino all’uscio del Barbiere Mora.
+                    Si abrucciò paglia al luogo delle unzioni, si scrostò la muraglia fu tutto il
+                    quartiere in iscompiglio.</p>
+
+                <p>Prescindasi dalla impossibilità del delitto. Niente è più naturale che il
+                    passeggiare vicino al muro allorchè piove in una città come la nostra dove si
+                    resta al coperto dalla pioggia. Un delitto così atroce non si commette di chiaro
+                    giorno nel mentre che i vicini dalle finestre possono <app>
+                        <lem> osservare </lem>
+                        <rdg type="segue"> mentre</rdg>
+                    </app>
+                    <note> mentre</note> ; niente è più facile che lo sporcare quante muraglie piace
+                    col favore della notte. Su di questa vociferazione il giorno seguente si portò
+                    il Capitano di Giustizia sul luogo, esaminò le due nominate donne e quantunque
+                    nè esse dicessero di aver osservato che il muro sia rimaso sporco dove il Piazza
+                    pose le mani, nè i siti ne’ quali s’era osservato l’unto giallo corrispondessero
+                    ai luoghi toccati nondimeno si decretò la prigionia del Commissario della Sanità
+                    Guglielmo Piazza. </p>
+                <p> |14r| <app>
+                        <lem>Se lo sgraziato Guglielmo Piazza avesse commesso un delitto di tanta
+                            atrocità era ben naturale che attento all’effetto che ne poteva nascere
+                            e istrutto del rumore di tutto il vicinato del giorno precedente non
+                            meno che della solenne visita che il giorno 22 vi fece ai luoghi
+                            pubblici sulla strada il Capitano di Giustizia si sarebbe dato a una
+                            immediata fuga. Gli sgherri lo trovarono alla porta del Presidente della
+                            Sanità da cui dipendeva e lo fecero prigione. Visitossi immediatamente
+                            la casa del Commissario Piazza e dal processo risulta che non vi si
+                            trovarono nè ampolle nè vasi, nè unti, nè denaro, nè cosa alcuna che
+                            desse sospetto contro di lui. Appena condotto in carcere Guglielmo
+                            Piazza fu immediatamente interrogato dal Giudice, e dopo le prime
+                            interrogazioni venne a chiedergli se conosceva i Deputati della
+                            Parrocchia al che rispose</lem>
+                        <rdg type="aggiunto"> Se lo sgraziato Guglielmo Piazza avesse commesso un
+                            delitto di tanta atrocità era ben naturale che attento all’effetto che
+                            ne poteva nascere e istrutto del rumore di tutto il vicinato del giorno
+                            precedente non meno che della solenne visita che il giorno 22 vi fece ai
+                            luoghi pubblici sulla strada il Capitano di Giustizia si sarebbe dato a
+                            una immediata fuga. Gli sgherri lo trovarono alla porta del Presidente
+                            della Sanità da cui dipendeva e lo fecero prigione. Visitossi
+                            immediatamente la casa del Commissario Piazza e dal processo risulta che
+                            non vi si trovarono nè ampolle nè vasi, nè unti, nè denaro, nè cosa
+                            alcuna che desse sospetto contro di lui. Appena condotto in carcere
+                            Guglielmo Piazza fu immediatamente interrogato dal Giudice, e dopo le
+                            prime interrogazioni venne a chiedergli se conosceva i Deputati della
+                            Parrocchia al che rispose</rdg>
+                    </app>
+                    <note> Se lo sgraziato Guglielmo Piazza avesse commesso un delitto di tanta
+                        atrocità era ben naturale che attento all’effetto che ne poteva nascere e
+                        istrutto del rumore di tutto il vicinato del giorno precedente non meno che
+                        della solenne visita che il giorno 22 vi fece ai luoghi pubblici sulla
+                        strada il Capitano di Giustizia si sarebbe dato a una immediata fuga. Gli
+                        sgherri lo trovarono alla porta del Presidente della Sanità da cui dipendeva
+                        e lo fecero prigione. Visitossi immediatamente la casa del Commissario
+                        Piazza e dal processo risulta che non vi si trovarono nè ampolle nè vasi, nè
+                        unti, nè denaro, nè cosa alcuna che desse sospetto contro di lui. Appena
+                        condotto in carcere Guglielmo Piazza fu immediatamente interrogato dal
+                        Giudice, e dopo le prime interrogazioni venne a chiedergli se conosceva i
+                        Deputati della Parrocchia al che rispose</note> Interrogato se sapesse che
+                    sieno state unte le muraglie disse che non lo sapeva. Queste due risposte si
+                    giudicarono bugie e <app>
+                        <lem> inverosimiglianze </lem>
+                        <rdg type="segue"> Fa racapriccio questo processo ch’io fedelmente
+                            espongo.</rdg>
+                    </app>
+                    <note> Fa racapriccio questo processo ch’io fedelmente espongo.</note> Su queste
+                    bugie e inverosimiglianze <app>
+                        <lem> fu</lem>
+                        <rdg type="segue"> barbaramente </rdg>
+                    </app>
+                    <note> barbaramente </note> posto ai tormenti. L’infelice protestava d’aver
+                    detta la verità, invocava Dio, invocava San Carlo; esclamava, urlava dallo
+                    spasimo, chiedeva un sorso d’acqua per ristoro, finalmente per far cessare lo
+                    strazio disse Mi facci lasciar giù che dirò quello che so. Fu posto a terra e
+                    allora nuovamente |14v| interrogato rispose Io non so niente V. S. mi facci dare
+                    un poco d’acqua, su di che nuovamente fu alzato e tormentato e dopo una <app>
+                        <lem> lunghissima</lem>
+                        <rdg type="soprascritto"> enorme e lunga</rdg>
+                    </app>
+                    <note> enorme e lunga </note> tortura nella quale si voleva che nominasse i
+                    Deputati egli esclamando sempre Ah Signore ah San Carlo se lo sapessi lo direi,
+                    poi disperato dal martirio gridava ammazzatemi, ammazzatemi, e insistendo il
+                    giudice a chiedergli che si risolva ormai di dire la verità per qual causa neghi
+                    di conoscere i deputati della Parrocchia e di sapere che siano state unte le
+                    muraglie rispose quell’infelice La verita l’ho detta, io non so niente, se
+                    l’avessi saputo l’avria detto, se mi vogliono ammazzare che mi ammazzino, e
+                    gemendo e urlando da uomo posto <app>
+                        <lem> all'agonia </lem>
+                        <rdg type="da"> al supplizio</rdg>
+                    </app>
+                    <note> al supplizio</note> persistè sempre nello stesso detto sin che submissa
+                    voce ripeteva di aver detta la verità, e perdute le forze cessò di esclamare
+                    onde fu <app>
+                        <lem> calato</lem>
+                        <rdg type="da"> tolto</rdg>
+                    </app>
+                    <note> tolto</note> e riposto in carcere.</p>
+                <p> Qual inverosimiglianza vi era mai nelle risposte del disgraziato Guglielmo
+                    Piazza? Egli abitava nella Contrada di S. Bernardino e non alla Vedra poteva
+                    benissimo ignorare un fatto notorio a quel vicinato. Che <app>
+                        <lem> obbligo </lem>
+                        <rdg type="precede"> pericolo </rdg>
+                    </app>
+                    <note> pericolo</note> aveva quel povero uomo da saper chi fossero i deputati
+                    della Parrocchia? Che pericolo correva mai egli se gli <app>
+                        <lem> avesse conosciuti</lem>
+                        <rdg type="soprascritto"> conosceva a </rdg>
+                    </app>
+                    <note> conosceva a</note> nel dirlo? Che pericolo correva mai, se diceva pure di
+                    aver saputo che fossero state unte le muraglie alla <app>
+                        <lem> Vedra? </lem>
+                        <rdg type="segue"> Questa tortura non si darebbe oggigiorno certamente per
+                            un simile motivo: ma i tempi e le sciagure avevano inferociti gli animi.
+                            Persuasi i giudici della possibilità del delitto, persuasi che il Piazza
+                            fosse colpevole ed avesse tramato l’esterminio totale della Patria,
+                            l’eccessivo sdegno contro il delitto gli riscaldò d’un fanatico ardore e
+                            col zelo della salvezza pubblica immolarono un innocente</rdg>
+                    </app>
+                    <note> Questa tortura non si darebbe oggigiorno certamente per un simile motivo:
+                        ma i tempi e le sciagure avevano inferociti gli animi. Persuasi i giudici
+                        della possibilità del delitto, persuasi che il Piazza fosse colpevole ed
+                        avesse tramato l’esterminio totale della Patria, l’eccessivo sdegno contro
+                        il delitto gli riscaldò d’un fanatico ardore e col zelo della salvezza
+                        pubblica immolarono un innocente</note> |12r| <app>
+                        <lem> Venne riferito al Senato l’esame fatto </lem>
+                        <rdg type="da"> Proposto il caso al Senato </rdg>
+                    </app>
+                    <note> Proposto il caso al Senato </note> e il risultato dei tormenti dati a
+                    quell’infelice decretò il Senato che il Presidente della Sanità, e il Capitano
+                    di Giustizia assistendovi anche il Fiscale Tornielli dovessero nuovamente
+                    tormentare il Piazza acri tortura cum ligatura canubis et interpollatis vicibus
+                    arbitrio ec. ed è da notarsi che vi si aggiunge abraso prius dicto Gulielmo, et
+                    vestibus curiæ induto, propinata etiam si ita videbitur præfatis Præsidi et
+                    Capitaneo potione expurgante e ciò perchè in que’ tempi credevasi che o ne’
+                    capelli e peli ovvero nel vestito o persino negli intestini trangugiandolo
+                    potesse avere un amuleto o patto col demonio onde rasandolo, spogliandolo e
+                    purgandolo ne venisse disarmato. <app>
+                        <lem> Nel 1630 </lem>
+                        <rdg type="precede"> Ma </rdg>
+                    </app>
+                    <note> Ma </note> quasi tutta l’Europa era involta in queste tenebre
+                    superstiziose. Fa commovere tutta l’umanità la scena della seconda tortura col
+                    canape <app>
+                        <lem> che dislocando le mani le faceva ripiegare sul braccio mentre l’osso
+                            dell’omero si dislocava dalla sua cavità.</lem>
+                        <rdg type="da"> che la rendeva più crudele. </rdg>
+                    </app>
+                    <note> che la rendeva più crudele. </note> Guglielmo Piazza esclamava mentre
+                    s’apparecchiava <app>
+                        <lem> il </lem>
+                        <rdg type="soprascritto"> la</rdg>
+                    </app>
+                    <note> la</note> nuovo supplizio |12v| Mi ammazzino che l’avrò a caro perchè la
+                    verità l’ho detta poi mentre si cominciava il crudelissimo slogamento delle
+                    giunture diceva che mi ammazzino che son qui. Poi aummentandosi lo strazio
+                    gridava Oh Dio mi sono assassinato non so niente, e se sapessi qualche cosa non
+                    sarei stato sin adesso a dirlo. Continuava e cresceva per gradi il martirio
+                    sempre s’instava e dal Presidente della Sanità e dal Capitano di Giustizia
+                    perchè rispondesse su i deputati della Parrocchia e sulla scienza d’essere state
+                    unte le muraglie. Gridava lo sfortunato Guglielmo Non so niente; fatemi tagliar
+                    via la mano, ammazzatemi pure Oh Dio mi oh Dio mi! Sempre istavano i giudici
+                    sempre più incrudelivano ed egli rispondeva esclamando e gridando Ah Signore
+                    sono assassinato! Oh Dio mi son morto! Fa ribrezzo il seguire questa <app>
+                        <lem> atroce</lem>
+                        <rdg type="precede"> sangu... </rdg>
+                    </app><note> sangu...</note> scena! A replicate istanze replicava sempre lo
+                    stesso protestando di aver detta la verità e i giudici nuovamente volevano che
+                    dicesse la verità egli rispose che volete che dica? Se gli avessero suggerito
+                    una immaginaria accusa egli si sarebbe accusato; ma non poteva avere nemmeno la
+                    risorsa di inventare i nomi di persone che non conosceva. Esclamava oh che
+                    assassinamento! e finalmente dopo una tortura durante la quale si scrissero <app>
+                        <lem> sei facciate </lem>
+                        <rdg type="da"> 1quattro facciate 2quattro fogli</rdg>
+                    </app>
+                    <note> 1quattro facciate 2quattro fogli </note> di <app>
+                        <lem> processo </lem>
+                        <rdg type="segue">cioè dal foglio 42 al fogl. 44 Tergo</rdg>
+                    </app>
+                    <note> cioè dal foglio 42 al fogl. 44 Tergo</note> |13r| persistendo egli anche
+                    con voce debole e sommessa a dire non so niente, la verità l’ho già detta ah che
+                    non so niente! Dopo un lungo e crudelissimo martirio fu ricondotto in Carcere.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Digital Marco Polo: critical translation</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name xml:id="eugenio">Eugenio Burgio</name>
+               <name xml:id="samuela">Samuela Simion</name>
+            </respStmt>
+            <respStmt>
+               <resp>Text Encoding by</resp>
+               <name xml:id="elisa">Elisa Cugliana</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Original text</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="critical_translation_body" xml:lang="en">
+         <div type="chapter" n="105" xml:id="c105_tr105">
+            <p n="1" xml:id="c105_tr105_par1">
+               <seg n="1" xml:id="c105_tr105_p1">Here is told of the great city of <placeName
+                     ref="#giugiu">Juju</placeName>.</seg>
+            </p>
+            <p n="2" xml:id="c105_tr105_par2">
+               <seg n="2" xml:id="c105_tr105_p2">When one leaves this bridge and has gone thirty
+                     <term ref="#mil">miles</term> to the west, always finding fine hostelries and
+                  vineyards and fields, then one finds a great and beautiful city which is called
+                     <placeName ref="#giugiu">Juju</placeName>.</seg>
+               <seg n="3" xml:id="c105_tr105_p3">There are many abbeys of <term ref="#ydres">idolaters</term>.
+                  The people live by trade and manufactures. They make
+                     <term>cloths</term> of <term>silk</term> and <term>gold</term>, and very fine
+                     <term>"sendals"</term>. And there are many hostelries that offer accommodation
+                  to the travellers. </seg>
+               <seg n="4" xml:id="c105_tr105_p4">And when one has left this city and gone one
+                     <term>mile</term>, then one finds two roads: one of which goes to the
+                     <term>west</term>, and the other to <term>south-east</term>.</seg>
+               <seg n="5" xml:id="c105_tr105_p5">The westerly one is that of
+                     <placeName>Cathay</placeName> and the <term>south east</term> one goes towards
+                  the great province of <placeName xml:id="app2_start">Mangi</placeName>.</seg>
+               <seg n="6" xml:id="c105_tr105_p6">And you must know that, from the city of
+                  <placeName ref="#giugiu">Juju</placeName> to the realm of
+                  <placeName ref="#taianfu" xml:id="app2_end">Taianfu</placeName>, one rides through the province of
+                     <placeName>Cathay</placeName> for ten days, and one always finds many beautiful
+                  cities and boroughs, with much trade and industry, vineyards and fields. And from
+                  here the wine is carried into the province of <placeName>Cathay</placeName>,
+                  because wine is not produced there. And there are also many <term>mulberry
+                     trees</term>, from the leaves of which the inhabitants make much
+                     <term>silk</term>.</seg>
+               <seg n="7" xml:id="c105_tr105_p7">All these people are friendly, because of the great
+                  number of cities, which are not very far from one another: they are highly
+                  frequented because of the many merchandises which are continually carried from one
+                  city to the other; and in each of them fairs are held.</seg>
+               <seg n="8" xml:id="c105_tr105_p8">And at the end of a five-day journey of the
+                  foresaid ten, they say that there is a finer and larger city than the others,
+                  called <placeName ref="#achbaluch">Achbaluch</placeName>, where end, in this side,
+                  the <term>hunting preserves</term> of the Lord. Here no one dares go hunting
+                  except the <persName ref="#cublai" type="appellation">Lord</persName> with his
+                  family, and those who are in the roll of the Captain of the Falconers; but, beyond
+                  this limit everyone may go <term>hunting</term>, on condition that he is a
+                  nobleman.</seg>
+               <seg n="9" xml:id="c105_tr105_p9">The <persName ref="#cublai" type="appellation">Great Kaan</persName>,
+                  however hardly ever went <term>hunting</term> in those
+                  parts: and for this reason the wild animals increased and multiplied to such an
+                  extent, and especially the <term>hares</term>, that they destroyed the crops of
+                  the whole of the foresaid province. When the
+                  <persName ref="#cublai" type="appellation">Great Kaan</persName>
+                  was informed of this, he went there
+                  with all his court, and an incalculable number of animals were caught.</seg>
+               <seg n="10" xml:id="c105_tr105_p10">There is nothing else worth mentioning: so, we
+                  shall tell you nothing more, we shall leave this matter and tell you of a kingdom
+                  which is called <placeName ref="#taianfu">Taianfu</placeName>.</seg>
+            </p>
+         </div>
+         <div type="chapter" n="106" xml:id="c106_tr106">
+            <p>CAPITOLO 106</p>
+         </div>
+      </body>
+   </text>
+</TEI>
