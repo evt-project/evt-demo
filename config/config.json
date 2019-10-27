@@ -1,27 +1,26 @@
 {
-   "indexTitle": "",
-   "webSite": "",
+   "indexTitle": "The Dream of the Rood [Digital Vercelli Book]",
+   "webSite": "http://vbd.humnet.unipi.it/",
    "logoUrl": "",
 
-   "dataUrl": "../evt-demo/data/VercelliBook.xml",
+   "dataUrl": "data/VB-23-DOTR.xml",
    "sourcesUrl"       : "",
    "analoguesUrl"     : "",
    "sourcesTextsUrl" : "",
 
-   "singleImagesUrl": "../evt-demo/data/immagini/singole/",
+   "singleImagesUrl": "data/images/single/",
    "visCollTextUrl": "",
    "visCollStyleUrl": "",
-   "visCollSvg": "../evt-demo/data/visColl/SVG/",
-   "visCollImageList": "../evt-demo/data/viscoll/VB-imageList.xml",
-   "visCollDataModel": "../evt-demo/data/viscoll/VB-dataModel.xml",
-   
+   "visCollSvg": "data/viscoll/SVG/",
+   "visCollImageList": "data/viscoll/VB-imageList.xml",
+   "visCollDataModel": "data/viscoll/VB-dataModel.xml",
 
-   "defaultViewMode": "readingTxt",
+   "defaultViewMode": "imgTxt",
    "availableViewModes": [{
       "label"    : "READING_TEXT",
       "icon"     : "reading-txt",
       "viewMode" : "readingTxt",
-      "visible"  : true
+      "visible"  : false
    },
       {
          "label"    : "MULTIPLE_RECENSIONS",
@@ -73,13 +72,13 @@
       "visible": true
    }],
 
-   "enableXMLdownload" : true,
+   "enableXMLdownload" : false,
 
    "initNavBarOpened": true,
    "enableNavBar": true,
 
    "toolPinAppEntries": true,
-   "toolImageTextLinking": false,
+   "toolImageTextLinking": true,
    "namedEntitiesSelector": false,
 
    "namedEntitiesToHandle": [{
@@ -99,17 +98,17 @@
    "otherEntitiesToHandle": [{
       "tagName": "rolename",
       "label": "Role Name",
-      "available": false,
+      "available": true,
       "color": "#cfc"
    }, {
       "tagName": "measure",
       "label": "Measure",
-      "available": false,
+      "available": true,
       "color": "#ffecb3"
    }],
 
 
-   "toolHeatMap": true,
+   "toolHeatMap": false,
    "preferredWitness": "",
    "skipWitnesses": "",
 
@@ -174,17 +173,44 @@
       }
    },
 
-   "virtualKeyboardKeys": [],
+   "virtualKeyboardKeys": [
+      "Amacr",
+      "Ginsmacr",
+      "Hunc",
+      "aacute",
+      "aenl",
+      "amacr",
+      "colmidcomposit",
+      "edotbl",
+      "eenl",
+      "emacr",
+      "et",
+      "ginsmacr",
+      "hrdes",
+      "imacr",
+      "inodot",
+      "inodotenl",
+      "middot",
+      "middot",
+      "oacute",
+      "omacr",
+      "sins",
+      "slong",
+      "umacr",
+      "ydot",
+      "ymacr",
+      "yrgmainstrok"
+   ],
 
    "imageViewerOptions": {
-      "prefixUrl": "data/osd-images/",
+      "prefixUrl": "images/osd-images/",
       "showRotationControl": true,
       "showNavigator": true,
       "visibilityRatio": 1,
-      "defaultZoomLevel": 0.7,
+      "defaultZoomLevel": 0.55,
       "panHorizontal": true,
       "constrainDuringPan": true,
-      "minZoomLevel": 0.7,
+      "minZoomLevel": 0.55,
       "maxZoomLevel": 3.0,
       "wrapVertical": false
    },
