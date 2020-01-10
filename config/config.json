@@ -165,7 +165,7 @@
       },
       "APA": {
          "label": "APA",
-         "enabled": false
+         "enabled": true
       },
       "MLA": {
          "label": "MLA",
